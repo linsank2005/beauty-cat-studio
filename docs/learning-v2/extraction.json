@@ -1,0 +1,80 @@
+[
+  {
+    "id": "NAVEL",
+    "source": "study-video\\【花小烙】我们的肚脐眼儿到底连着哪里？ [BV19YohBnECC].mkv",
+    "start": 37.0,
+    "end": 44.5,
+    "fps": 4,
+    "frames": 30,
+    "source_sha256": "9480a012c9825e33a1f4095886f5d6f587e421a79e8ed2df5a365eaf971b79e2",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "SLEEP",
+    "source": "study-video\\【花小烙】睡觉时身体为什么总会不自觉地翻身？ [BV1sLPWzNEmy].mkv",
+    "start": 133.5,
+    "end": 138.5,
+    "fps": 4,
+    "frames": 20,
+    "source_sha256": "0743beced8ef1c5c510493ce79af7fc87ee85f22a881a94750b8027dfaaad931",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "SKIN",
+    "source": "study-video\\【花小烙】手上的汗疱疹是怎么冒出来的？ [BV1Yptj6zEEG].mkv",
+    "start": 198.5,
+    "end": 204.5,
+    "fps": 4,
+    "frames": 24,
+    "source_sha256": "fa08015c3c3545b3475613726c9e6894f95fa44c478b03321fc8be0715946c4c",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "MOSQUITO",
+    "source": "study-video\\【花小烙】我是蚊子，这期视频由我来给大家读评论哦！ [BV1mkg36zEfX].mkv",
+    "start": 15.0,
+    "end": 19.5,
+    "fps": 4,
+    "frames": 18,
+    "source_sha256": "765c9ca45f79c3fb5a6dddc617d18e9d6b9dec5def55b8d33b43d11426670169",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "FALCON_OPEN",
+    "source": "study-video\\【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+    "start": 0.0,
+    "end": 13.0,
+    "fps": 2,
+    "frames": 26,
+    "source_sha256": "796dfa0771115a956f2292b7091d51ac1ad89f03e06d57236842f13aa0d3f381",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "FALCON_COMPARE",
+    "source": "study-video\\【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+    "start": 74.5,
+    "end": 97.5,
+    "fps": 2,
+    "frames": 46,
+    "source_sha256": "796dfa0771115a956f2292b7091d51ac1ad89f03e06d57236842f13aa0d3f381",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  },
+  {
+    "id": "FALCON_OVERVIEW",
+    "source": "study-video\\【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+    "fps": 0.16666666666666666,
+    "frames": 76,
+    "coverage": "whole-video sampled visuals plus supplied AI subtitle text; not frame-by-frame or audio verification",
+    "timestamp_uncertainty": "overview sample is a window cue, do not use as exact animation boundary"
+  },
+  {
+    "id": "FALCON_DRAW",
+    "source": "study-video\\【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+    "start": 96.0,
+    "end": 103.0,
+    "fps": 4,
+    "frames": 28,
+    "source_sha256": "796dfa0771115a956f2292b7091d51ac1ad89f03e06d57236842f13aa0d3f381",
+    "time_note": "FFmpeg sample timestamps, dense samples give approx 1/fps boundary resolution"
+  }
+]

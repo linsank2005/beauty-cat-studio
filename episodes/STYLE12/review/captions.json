@@ -1,0 +1,23 @@
+[
+  {
+    "text": "我只是想收拾一下。",
+    "startMs": 0,
+    "endMs": 3200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "脑子里却开始施工了。",
+    "startMs": 3200,
+    "endMs": 8400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "算了，先梳头。",
+    "startMs": 8400,
+    "endMs": 12000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

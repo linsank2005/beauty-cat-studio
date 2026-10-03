@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>粉猫 · 12秒画风小样</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#17181c;color:#f4ead9;font:16px/1.6 "Microsoft YaHei",sans-serif}main{max-width:min(1280px,calc((100vh - 230px)*16/9));min-width:min(100%,540px);margin:22px auto;padding:0 20px}h1{font-size:25px;margin:0 0 4px;font-weight:600}p{color:#b9b5b3;margin:0 0 14px}video{width:100%;display:block;aspect-ratio:16/9;background:#0e0f11;border:1px solid #414047}.tools{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:14px 0}button,a{font:inherit;border:1px solid #6e6768;background:#25232a;color:#f4ead9;padding:7px 14px;border-radius:4px;cursor:pointer;text-decoration:none}button:hover,a:hover{border-color:#ff5c92}button.primary{background:#f15d89;color:#141418;border-color:#f15d89}output{color:#c4bbbc;margin-left:auto;white-space:nowrap}#status{margin-top:6px;font-size:14px;color:#a5a1a4}
+</style>
+<main>
+  <h1>粉猫 · 12 秒画风小样</h1>
+  <p>无声预览。猫猫绘出 → 脑内施工 → 近景收工。</p>
+  <video id="sample" controls playsinline preload="auto" poster="qa/decoded-03.png" src="STYLE12_无声_无字幕.mp4"></video>
+  <div class="tools">
+    <button class="primary" id="play">播放</button>
+    <button id="restart">从头播放</button>
+    <button data-time="0">猫猫绘出</button>
+    <button data-time="3.2">脑内施工</button>
+    <button data-time="8.4">近景收工</button>
+    <a href="STYLE12_无声_无字幕.mp4" download>下载 MP4</a>
+    <output id="time">0.00 / 12.00 秒</output>
+  </div>
+  <div id="status" role="status">正在载入视频</div>
+</main>
+<script>
+  const video=document.getElementById('sample');
+  const play=document.getElementById('play');
+  const status=document.getElementById('status');
+  const format=()=>document.getElementById('time').textContent=`${video.currentTime.toFixed(2)} / ${(video.duration||12).toFixed(2)} 秒`;
+  play.addEventListener('click',()=>video.paused?video.play():video.pause());
+  document.getElementById('restart').addEventListener('click',()=>{video.currentTime=0;video.play()});
+  document.querySelectorAll('[data-time]').forEach(button=>button.addEventListener('click',()=>{video.pause();video.currentTime=Number(button.dataset.time)}));
+  video.addEventListener('loadedmetadata',()=>{status.textContent='视频已就绪 · 无声';format()});
+  video.addEventListener('timeupdate',format);
+  video.addEventListener('play',()=>{play.textContent='暂停';status.textContent='正在播放 · 无声'});
+  video.addEventListener('pause',()=>{play.textContent='播放';status.textContent=video.ended?'播放完成 · 无声':'已暂停 · 无声'});
+  video.addEventListener('ended',()=>{play.textContent='播放';status.textContent='播放完成 · 无声'});
+  video.addEventListener('error',()=>{status.textContent='视频载入失败，请使用下载文件查看'});
+</script>
+</html>

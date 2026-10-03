@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>粉猫 · 表情与扭胯出门 · 2K 样片</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#1e242c;color:#f4ead9;font:16px/1.6 "Microsoft YaHei",sans-serif}
+main{max-width:1450px;margin:auto;padding:20px 24px 26px}h1{font-size:25px;line-height:1.25;margin:0 0 5px}
+p{margin:0 0 13px;color:#c6c3bd}video{width:min(100%,calc((100vh - 180px) * 1.777778));height:auto;aspect-ratio:16/9;display:block;margin:0 auto;background:#111;object-fit:contain;border:1px solid #536171}
+nav{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:13px}button,a{color:#f4ead9;background:#343e4b;border:1px solid #657184;border-radius:5px;padding:6px 13px;font:inherit;text-decoration:none;cursor:pointer}
+button:hover,a:hover{background:#516276}output{color:#b7bec7;margin-left:auto;font-size:14px}
+@media(max-width:700px){main{padding:14px}h1{font-size:21px}video{max-height:none}output{width:100%;margin-left:0}}
+</style>
+<main><h1>出门前，脑子里开了八个项目</h1><p>16:9 · 2K · 表情与扭胯出门修订 · 你的原声 · 约 25 秒</p>
+<video controls playsinline preload="metadata" poster="expression-inspection/frame-0674.png" src="DEMO_V3_2K_表情扭胯版.mp4"></video>
+<nav><button data-time="0">从头播放</button><button data-time="4.5">惊讶反应</button><button data-time="10.9">挑眉叫停</button><button data-time="16.45">整理好了</button><button data-time="21.9">扭胯出门</button><a href="DEMO_V3_2K_表情扭胯版.mp4" download>下载视频</a><a href="DEMO_V3_2K.srt" download>下载字幕</a><output aria-live="polite">载入中</output></nav>
+</main><script>
+const video=document.querySelector('video'),info=document.querySelector('output');
+document.querySelectorAll('button[data-time]').forEach(b=>b.addEventListener('click',()=>{video.currentTime=Number(b.dataset.time);video.play();}));
+function update(){info.textContent=video.error?'播放失败':`${video.videoWidth} × ${video.videoHeight} · ${video.currentTime.toFixed(1)} / ${video.duration.toFixed(2)} 秒`;}
+['loadedmetadata','timeupdate','ended','error'].forEach(name=>video.addEventListener(name,update));
+</script></html>
+

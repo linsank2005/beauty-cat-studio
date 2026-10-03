@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-02",
+  "kind": "still SVG composition screenshots only; not video or continuous motion",
+  "episodeSha256": "8d94cefe44c77ad058e8dcdb69e0f5d0fad2d7d47db0056d92b121339cb977b9",
+  "artHashes": {
+    "shot01.png": "1cc721f74aac2be56d387ccfa2510f66bc0a911736d26de62015afa88f154924",
+    "shot02.png": "ed6c434afb99bb3e413753432de4fe5f2300a3b57efb7a45ebd41bf83ebcfb53",
+    "shot03.png": "fe26e83ef888f19ecf9f2e1daa8f44173f6fd68366f20a76a63a1aa3bd7c903e",
+    "shot04.png": "06d6bf8d86213374f8f950621431c31baec64d4b8c2d8bdfeb0c8c4ba08fa4fa",
+    "shot05.png": "feaae2e45da303119efd04db24044cc3fc6f565c6f3e6cebf30cb597efbf5fb0",
+    "shot06.png": "9ef352c61aeda45ae5f71da4c5e6db3b69147069456826b5ba830f28375de6b9",
+    "shot07.png": "49160fe5372bc998ae0a33e050c2355218b9b88e990801f240f8c7738492a5af",
+    "shot08.png": "edc1d0e24fd29e73e6247a68a576ad16925e968b7970dcc1dd11266a843d60ae"
+  },
+  "states": [
+    {
+      "event": "E01",
+      "at": 0,
+      "narration": "N01",
+      "scene": "S01",
+      "phase": "ink",
+      "file": "states/E01.png",
+      "sha256": "38736c9bc20b3f6cf8ec9b7f76f8ae218172bbf36b8444383f3bc7ce819164b1"
+    },
+    {
+      "event": "E02",
+      "at": 0.9,
+      "narration": "N01",
+      "scene": "S01",
+      "phase": "partial",
+      "file": "states/E02.png",
+      "sha256": "946db2a3774ca90c53a75c8bf4384ab81b8ad194a2dd733cbeea2a739a0a1cfc"
+    },
+    {
+      "event": "E03",
+      "at": 2.3,
+      "narration": "N01",
+      "scene": "S01",
+      "phase": "catColor",
+      "file": "states/E03.png",
+      "sha256": "89c95217972467ff1667b079c2c762ae991d58f9ff5224437285ef06ffb0af2c"
+    },
+    {
+      "event": "E04",
+      "at": 3.6,
+      "narration": "N01",
+      "scene": "S01",
+      "phase": "full",
+      "file": "states/E04.png",
+      "sha256": "9d8fbd052a18724d3184e35385ca841a7c6038081dad8dfcdac4355eb61083d3"
+    },
+    {
+      "event": "E05",
+      "at": 4.8,
+      "narration": "N02",
+      "scene": "S02",
+      "phase": "ink",
+      "file": "states/E05.png",
+      "sha256": "cf15b457ee3c1bc868f3008caaeae8aea46ac2f3e5be2f8807421c34caebde32"
+    },
+    {
+      "event": "E06",
+      "at": 6,
+      "narration": "N02",
+      "scene": "S02",
+      "phase": "partial",
+      "file": "states/E06.png",
+      "sha256": "a8cb095dd33a1206059eb46cb3cd826b191073472b652c928a49ec9f596ac738"
+    },
+    {
+      "event": "E07",
+      "at": 7.1,
+      "narration": "N02",
+      "scene": "S02",
+      "phase": "catColor",
+      "file": "states/E07.png",
+      "sha256": "9434ad511cfa087124880a84730f7b8aa6a2f748807579496ee81305724bd87d"
+    },
+    {
+      "event": "E08",
+      "at": 8.2,
+      "narration": "N02",
+      "scene": "S02",
+      "phase": "full",
+      "file": "states/E08.png",
+      "sha256": "e60bdb39ae3f264e96cf3b756b8139b4dfbba39ac29d9cc4026c5e768b6dd957"
+    },
+    {
+      "event": "E09",
+      "at": 9.4,
+      "narration": "N02",
+      "scene": "S02",
+      "phase": "full",
+      "file": "states/E09.png",
+      "sha256": "eef377ab76877c2725e459072ff145cc2ff036354dfca29ec7aaf9188cca4090"
+    },
+    {
+      "event": "E10",
+      "at": 10.2,
+      "narration": "N03",
+      "scene": "S03",
+      "phase": "ink",
+      "file": "states/E10.png",
+      "sha256": "c85fdc09bf8e0a8ce37caa7f92f41a86df612b78bf7e49848d48bef622f3f2c8"
+    },
+    {
+      "event": "E11",
+      "at": 11.2,
+      "narration": "N03",
+      "scene": "S03",
+      "phase": "catColor",
+      "file": "states/E11.png",
+      "sha256": "b553f022155808ad84c3e56b042a330025515007a74d6f096a709c33d064f2df"
+    },
+    {
+      "event": "E12",
+      "at": 12.3,
+      "narration": "N03",
+      "scene": "S03",
+      "phase": "full",
+      "file": "states/E12.png",
+      "sha256": "22ef02e45c8cb8569f20ededfceb72746cbdae36076aebfb4cf5b7b13e4292f4"
+    },
+    {
+      "event": "E13",
+      "at": 13.6,
+      "narration": "N04",
+      "scene": "S04",
+      "phase": "ink",
+      "file": "states/E13.png",
+      "sha256": "9dc202a8046fb3bfb73d4b4f399f3962c606724bd7737df583aee0630cdf951f"
+    },
+    {
+      "event": "E14",
+      "at": 14.4,
+      "narration": "N04",
+      "scene": "S04",
+      "phase": "catColor",
+      "file": "states/E14.png",
+      "sha256": "21d859b9e2a23bfb41d447a6dbb77252ec6be83403fcd490fa3920581765109d"
+    },
+    {
+      "event": "E15",
+      "at": 15.5,
+      "narration": "N04",
+      "scene": "S04",
+      "phase": "full",
+      "file": "states/E15.png",
+      "sha256": "d1fe9d9564001e90c476656409c74ee38eb9a25a2a9d62d35c95b6451b0946be"
+    },
+    {
+      "event": "E16",
+      "at": 16.5,
+      "narration": "N04",
+      "scene": "S04",
+      "phase": "full",
+      "file": "states/E16.png",
+      "sha256": "78259fd93739394c8d32e35c63a6734bcb78f2d19bad5598ebc31c48e05314dc"
+    },
+    {
+      "event": "E17",
+      "at": 17.5,
+      "narration": "N05",
+      "scene": "S05",
+      "phase": "ink",
+      "file": "states/E17.png",
+      "sha256": "3a2d85c7adc4de6be09720ae480ef5560f8892f7efcd08bd129fae42d2f4dd33"
+    },
+    {
+      "event": "E18",
+      "at": 18.6,
+      "narration": "N05",
+      "scene": "S05",
+      "phase": "partial",
+      "file": "states/E18.png",
+      "sha256": "fed2b51f72ba365c4088878249dc44899aebe734179470e57cf92566cb6442c9"
+    },
+    {
+      "event": "E19",
+      "at": 20,
+      "narration": "N05",
+      "scene": "S05",
+      "phase": "catColor",
+      "file": "states/E19.png",
+      "sha256": "8105717903e258b540a8f509bf24cb09e1ef92ca51c87aae833bb483451a2cc9"
+    },
+    {
+      "event": "E20",
+      "at": 21,
+      "narration": "N06",
+      "scene": "S05",
+      "phase": "full",
+      "file": "states/E20.png",
+      "sha256": "7b2af1adc79287316ee2326bae82f89bd016a2b3768a96188b31e263703a0dd0"
+    },
+    {
+      "event": "E21",
+      "at": 22.3,
+      "narration": "N06",
+      "scene": "S05",
+      "phase": "full",
+      "file": "states/E21.png",
+      "sha256": "8069502dcf2ab508ff9efcacbbf1c173f17eaf92cf8e54377d89c4e2a1de1a69"
+    },
+    {
+      "event": "E22",
+      "at": 23,
+      "narration": "N07",
+      "scene": "S05",
+      "phase": "full",
+      "file": "states/E22.png",
+      "sha256": "b3ed5c4b6c82083ff4dc677768157a18a6d61c2925e1ac60feb0c7c476582723"
+    },
+    {
+      "event": "E23",
+      "at": 25,
+      "narration": "N07",
+      "scene": "S05",
+      "phase": "full",
+      "file": "states/E23.png",
+      "sha256": "c4b10e92449f1ef4cddb8671a806d590aa5bde9e7d0203fa9d8ba2c56db1a455"
+    },
+    {
+      "event": "E24",
+      "at": 27,
+      "narration": "N07",
+      "scene": "S05",
+      "phase": "full",
+      "file": "states/E24.png",
+      "sha256": "05ddd51b21b30afbc1c1b800346cdc0c507c27a609d57f2a074fdfe3604f4552"
+    },
+    {
+      "event": "E25",
+      "at": 28.9,
+      "narration": "N08",
+      "scene": "S06",
+      "phase": "full",
+      "file": "states/E25.png",
+      "sha256": "75f3a2d80dfd8fffd71a19ee2f874606da246747f221902fc1a2e2f093d50ab0"
+    },
+    {
+      "event": "E26",
+      "at": 30.5,
+      "narration": "N08",
+      "scene": "S06",
+      "phase": "full",
+      "file": "states/E26.png",
+      "sha256": "5d9f7e5f5b1ddeb2e14acb5c94b91c7d5790cb11bc2227a38a58dd279865391c"
+    },
+    {
+      "event": "E27",
+      "at": 33,
+      "narration": "N09",
+      "scene": "S06",
+      "phase": "full",
+      "file": "states/E27.png",
+      "sha256": "4cd508f5c90c5c486bcd5cfdb43b3e8e5f972588605e06d514aa8859e0fd32b7"
+    },
+    {
+      "event": "E28",
+      "at": 34.4,
+      "narration": "N09",
+      "scene": "S06",
+      "phase": "full",
+      "file": "states/E28.png",
+      "sha256": "47f8d0ceb0a17cd9292dfd665683d439251b80a580732b4de96d5881fcb5664e"
+    },
+    {
+      "event": "E29",
+      "at": 35.8,
+      "narration": "N09",
+      "scene": "S06",
+      "phase": "full",
+      "file": "states/E29.png",
+      "sha256": "f6c0d349677ba1d60b339127f0a388349ace18607708bc32f22dd14229978bd4"
+    },
+    {
+      "event": "E30",
+      "at": 37.2,
+      "narration": "N10",
+      "scene": "S07",
+      "phase": "ink",
+      "file": "states/E30.png",
+      "sha256": "7d5493471da280131898bc8e21a86af4cb956a821bd35fa2e328d4fe3d8d8422"
+    },
+    {
+      "event": "E31",
+      "at": 38.4,
+      "narration": "N10",
+      "scene": "S07",
+      "phase": "catColor",
+      "file": "states/E31.png",
+      "sha256": "51ff86bf3a270e4f1251cb1aa9f8a81b35aea4ba01b4ab5711049c1f20e63d87"
+    },
+    {
+      "event": "E32",
+      "at": 40,
+      "narration": "N10",
+      "scene": "S07",
+      "phase": "full",
+      "file": "states/E32.png",
+      "sha256": "7d83e4bcef33ca048f2a959745a3e66594a8d532c67e98fc670c7a4ad46d3685"
+    },
+    {
+      "event": "E33",
+      "at": 41.2,
+      "narration": "N11",
+      "scene": "S07",
+      "phase": "full",
+      "file": "states/E33.png",
+      "sha256": "5a35b6c791f3967454c61c7aac06ec9f2470b2cca7ac67ce1be64c62b50320a3"
+    },
+    {
+      "event": "E34",
+      "at": 43.2,
+      "narration": "N11",
+      "scene": "S07",
+      "phase": "full",
+      "file": "states/E34.png",
+      "sha256": "5a0ae209c3a8845700c75b9264e30c0b2aebe8a377e2a2d380b826696263867e"
+    },
+    {
+      "event": "E35",
+      "at": 45.5,
+      "narration": "N12",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E35.png",
+      "sha256": "d0fdae155548d2fb6046d3f903aefe18f17f6063926f3a7e46353edbd2f172c8"
+    },
+    {
+      "event": "E36",
+      "at": 47,
+      "narration": "N12",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E36.png",
+      "sha256": "7c925ffc34f09b36f60b49ebd1ad9b5945c5f9086d5363920486a367616c945f"
+    },
+    {
+      "event": "E37",
+      "at": 48.2,
+      "narration": "N13",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E37.png",
+      "sha256": "4b83809fd3d40328948d75f9affc24f410c7702636eea65e836899218329a43c"
+    },
+    {
+      "event": "E38",
+      "at": 49.8,
+      "narration": "N13",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E38.png",
+      "sha256": "24cc60512827879484271b5c626cccbec054a9422c9f7f5d0c13ae5e196d7f99"
+    },
+    {
+      "event": "E39",
+      "at": 51.5,
+      "narration": "N14",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E39.png",
+      "sha256": "7de85e97a1f56cc32f1728e02e7144f1ae45b289df8edf9d65384fc669712014"
+    },
+    {
+      "event": "E40",
+      "at": 52.8,
+      "narration": "N14",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E40.png",
+      "sha256": "f254f36d2095228bc97bf0dc9abbb74328209443dd92716a34ca281e62b0b7c7"
+    },
+    {
+      "event": "E41",
+      "at": 53.8,
+      "narration": "N15",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E41.png",
+      "sha256": "4f45237dbf5a1e0a08df42ede2756ab1c4f3fad676b820395537e4e0260b8ce5"
+    },
+    {
+      "event": "E42",
+      "at": 54.7,
+      "narration": "N15",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E42.png",
+      "sha256": "d5361d452f08b522616f86c28ea3b64c6627f5ff0bfa7026660f4a998210ce33"
+    },
+    {
+      "event": "E43",
+      "at": 55.7,
+      "narration": "N15",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E43.png",
+      "sha256": "feab40e61541f3adf507c0f9cf514a1106b40cced380565573dacd73af03429d"
+    },
+    {
+      "event": "E44",
+      "at": 56.8,
+      "narration": "N16",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E44.png",
+      "sha256": "64d09fa1bd442eae00b453b4d5be92bf7985bfa60a8a61fe1fb14d290f4664e0"
+    },
+    {
+      "event": "E45",
+      "at": 58.3,
+      "narration": "N16",
+      "scene": "S08",
+      "phase": "full",
+      "file": "states/E45.png",
+      "sha256": "7d7faf41da5b950c7a3e60623d09cb538fc1fbf45824b5d81c931cd62a734a83"
+    }
+  ]
+}

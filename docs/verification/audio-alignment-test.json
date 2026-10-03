@@ -1,0 +1,184 @@
+{
+  "test": "real supplied reference audio; timing pipeline, not new episode audio",
+  "source": "study-video\\【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+  "clip": [
+    0,
+    13
+  ],
+  "similarity": 0.9268,
+  "recognized_text": "这就是你搭的屋也太了草了吧已经好几根树枝了你还要怎样而且又不是不能用你看怎么放都没有问题的哦怪不得现在全网都在耻笑我们就你这不",
+  "comparison": [
+    {
+      "id": "QN1",
+      "estimated": {
+        "start": 0,
+        "end": 5
+      },
+      "actual": {
+        "start": 0,
+        "end": 2.9
+      },
+      "reference_ai_subtitle": {
+        "start": 0.14,
+        "end": 2.989
+      },
+      "difference_from_reference_start": -0.14,
+      "difference_from_reference_end": -0.089
+    },
+    {
+      "id": "QN2",
+      "estimated": {
+        "start": 5,
+        "end": 7.5
+      },
+      "actual": {
+        "start": 3.06,
+        "end": 4.62
+      },
+      "reference_ai_subtitle": {
+        "start": 2.989,
+        "end": 4.669
+      },
+      "difference_from_reference_start": 0.071,
+      "difference_from_reference_end": -0.049
+    },
+    {
+      "id": "QN3",
+      "estimated": {
+        "start": 7.5,
+        "end": 9.5
+      },
+      "actual": {
+        "start": 4.62,
+        "end": 5.68
+      },
+      "reference_ai_subtitle": {
+        "start": 4.669,
+        "end": 5.709
+      },
+      "difference_from_reference_start": -0.049,
+      "difference_from_reference_end": -0.029
+    },
+    {
+      "id": "QN4",
+      "estimated": {
+        "start": 9.5,
+        "end": 12
+      },
+      "actual": {
+        "start": 5.8,
+        "end": 6.76
+      },
+      "reference_ai_subtitle": {
+        "start": 5.709,
+        "end": 6.849
+      },
+      "difference_from_reference_start": 0.091,
+      "difference_from_reference_end": -0.089
+    },
+    {
+      "id": "QN5",
+      "estimated": {
+        "start": 12,
+        "end": 15
+      },
+      "actual": {
+        "start": 6.94,
+        "end": 8.94
+      },
+      "reference_ai_subtitle": {
+        "start": 6.849,
+        "end": 9.009
+      },
+      "difference_from_reference_start": 0.091,
+      "difference_from_reference_end": -0.069
+    },
+    {
+      "id": "QN6",
+      "estimated": {
+        "start": 15,
+        "end": 18
+      },
+      "actual": {
+        "start": 10.0,
+        "end": 12.32
+      },
+      "reference_ai_subtitle": {
+        "start": 9.009,
+        "end": 12.42
+      },
+      "difference_from_reference_start": 0.991,
+      "difference_from_reference_end": -0.1
+    }
+  ],
+  "missing_sentence_test": "PASS: exit 2 and no trustworthy time assignment",
+  "limits": "Reference AI subtitles are an independent rough comparison, not phoneme-level truth. Audio word timestamps need human playback review. Original estimated fields preserved.",
+  "actual_beats": [
+    {
+      "id": "QE1",
+      "narrationId": "QN1",
+      "at": 0,
+      "anchor": "这就是你",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 0,
+      "actualMethod": "keyword-word-timestamp"
+    },
+    {
+      "id": "QE2",
+      "narrationId": "QN2",
+      "at": 5,
+      "anchor": "已经好几",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 3.06,
+      "actualMethod": "keyword-word-timestamp"
+    },
+    {
+      "id": "QE3",
+      "narrationId": "QN3",
+      "at": 7.5,
+      "anchor": "你还要怎",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 4.62,
+      "actualMethod": "keyword-word-timestamp"
+    },
+    {
+      "id": "QE4",
+      "narrationId": "QN4",
+      "at": 9.5,
+      "anchor": "而且又不",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 5.8,
+      "actualMethod": "keyword-word-timestamp"
+    },
+    {
+      "id": "QE5",
+      "narrationId": "QN5",
+      "at": 12,
+      "anchor": "你看怎么",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 6.94,
+      "actualMethod": "keyword-word-timestamp"
+    },
+    {
+      "id": "QE6",
+      "narrationId": "QN6",
+      "at": 15,
+      "anchor": "啊怪不得",
+      "action": "验证按句段移动画面事件",
+      "meaning": "内部技术测试，非生产创意",
+      "method": "direct",
+      "actualAt": 10.0,
+      "actualMethod": "estimated-within-utterance"
+    }
+  ]
+}

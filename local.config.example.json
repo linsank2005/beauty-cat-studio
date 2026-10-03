@@ -1,0 +1,8 @@
+{
+  "node": "node",
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "whisperModel": ".cache/models/faster-whisper-small",
+  "chrome": "",
+  "pythonBootstrap": "python"
+}

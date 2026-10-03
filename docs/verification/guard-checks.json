@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "duplicate narration id",
+      "status": "PASS"
+    },
+    {
+      "name": "scene coverage gap",
+      "status": "PASS"
+    },
+    {
+      "name": "missing material",
+      "status": "PASS"
+    },
+    {
+      "name": "duration exceeds three minutes",
+      "status": "PASS"
+    },
+    {
+      "name": "unsafe image path",
+      "status": "PASS"
+    },
+    {
+      "name": "stale script blocks actual render",
+      "status": "PASS"
+    },
+    {
+      "name": "changed audio blocks actual render",
+      "status": "PASS"
+    },
+    {
+      "name": "latest failed alignment blocks old actual render",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "source": "props/style-v3/prop-atlas.png",
+  "mode": "RGBA",
+  "size": [
+    1254,
+    1254
+  ],
+  "transparentFraction": 0.7557977152537717,
+  "items": {
+    "crane": {
+      "x": 140,
+      "y": 19,
+      "width": 404,
+      "height": 500,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "hanging": {
+      "x": 893,
+      "y": 32,
+      "width": 156,
+      "height": 495,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "openPlan": {
+      "x": 36,
+      "y": 601,
+      "width": 633,
+      "height": 334,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "closedPlan": {
+      "x": 720,
+      "y": 659,
+      "width": 502,
+      "height": 263,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "comb": {
+      "x": 151,
+      "y": 1040,
+      "width": 406,
+      "height": 133,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "roller": {
+      "x": 835,
+      "y": 1011,
+      "width": 248,
+      "height": 190,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    }
+  }
+}

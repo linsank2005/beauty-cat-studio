@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "file": "exports/粉猫_可生产交付_V3.zip",
+  "files_including_manifest": 141,
+  "bytes": 86860124,
+  "sha256": "0a15f9884065fa51ced71bd4fc4b0b0f230bee1697e1afceead2892e4b296338",
+  "crc_and_content_hashes": "PASS",
+  "excluded": [
+    "installed runtimes/dependencies",
+    "shared model",
+    "original reference videos",
+    "internal reference-audio tests",
+    "temporary analysis files"
+  ]
+}

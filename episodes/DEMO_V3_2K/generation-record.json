@@ -1,0 +1,72 @@
+{
+  "episode": "DEMO_V3_2K",
+  "created": "2026-10-02",
+  "styleReference": "docs/style-v3/approved/01-mirror.png",
+  "preservedExistingAssets": [
+    "studio/public/ip/cat-sit-neutral.png",
+    "studio/public/ip/cat-groom.png",
+    "studio/public/props/style-v3/bathroom-clean.png",
+    "studio/public/props/style-v3/prop-atlas.png"
+  ],
+  "requests": [
+    {
+      "key": "entry",
+      "args": {
+        "prompt": "Use case: illustration-story.\nAsset type: empty home-entry background plate for the next shot of the SAME owned adult-women cat comic.\nInput Image 1 is a STYLE REFERENCE ONLY: match its confident near-black imperfect ink contours, economical cream wall planes, ink-blue accents, ochre hardware, minimal cel shadows and lightly marked surfaces. This is adult daily-life dry comedy, not a soft children's storybook.\nScene: a simple home entrance seen from waist-high across a diagonal tiled floor. A tall slightly open front door fills the RIGHT third, its visible door leaf ink blue with an ochre handle and a clean cream/ochre lit opening. Its rectangular doorway echoes the bathroom mirror's strong framing. The floor starts near the lower third and extends to the bottom, with just a few perspective joints and one compact dark doormat beside the door. LEFT and CENTER are uncluttered cream wall and clear floor, intentionally reserved for a large foreground cream cat added later. A short wall hook rail at far-left with one blue scarf is enough context. No furniture in the center.\nFull bleed 16:9 horizontal, clean graphic staged composition. Keep the same ink weight and detail density as Image 1; sharp purposeful silhouette, simple flat color, sparse shadow. No cat, animals, people, face, words, title, subtitle, labels, logo, watermark, border, transparency, gradients or paper-card layout. Do not put any objects in the reserved center-left character space. This is a real room continuation, not a poster.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/docs/style-v3/approved/01-mirror.png"
+        ],
+        "transparent_background": false
+      },
+      "output": "studio/public/props/style-v3/demo-entry.png",
+      "originalGeneratedSource": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-660410aa-5b4a-4782-b83e-09894eea1399.png"
+    },
+    {
+      "key": "extra-props",
+      "args": {
+        "prompt": "Use case: compositing.\nAsset type: transparent three-prop horizontal sprite atlas for the SAME adult daily-life cat comic.\nInput Image 1 is style and palette reference. Match the strong near-black imperfect ink contours, economical flat cream/ink-blue/ochre/salmon colors and sparse cel shadow. The props should look like they belong with the bathroom and roller cat, not generic clip art.\nONE square RGBA PNG, three clearly separated cells left-to-right across the middle, generous transparent space between and around the groups. Exactly THREE independent prop groups:\nLEFT: one simple circular handheld magnifying glass, cream/salmon handle and thick dark frame; lens is truly transparent with a single small pale highlight. Seen flat/front, no face, no paw or scenery in its lens.\nCENTER: an adult woman's ink-blue short blazer hanging on one simple ochre clothes hanger, confident broad lapels and just two pockets/buttons, angled slightly as if hung beside the mirror. No torso, head, body or arms inside it. Complete jacket sleeves and clear silhouette; understated smart everyday garment.\nRIGHT: one compact ochre and dark mechanical rubber stamp with a thick simple handle and horizontal rectangular base, front three-quarter view, no writing. No ink puddle or surface shadow.\nPreserve three isolated complete shapes, no surrounding environment, cats, extra garments, grid lines, cell boxes, labels, words, letters, numbers, checkerboard pattern, watermark or decorative doodles. True transparent alpha outside all objects AND through the clear glass lens. Handmade graphic ink, no photorealism, 3D polish, soft pastel nursery illustration, gradients or excessive hatching.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/docs/style-v3/approved/01-mirror.png"
+        ],
+        "transparent_background": true
+      },
+      "output": "studio/public/props/style-v3/demo-extra-atlas.png",
+      "originalGeneratedSource": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-daace977-fda0-460e-9251-6b0c12b7b897.png"
+    }
+  ],
+  "sourceRects": {
+    "magnifier": {
+      "x": 27,
+      "y": 391,
+      "width": 345,
+      "height": 562,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "jacket": {
+      "x": 348,
+      "y": 299,
+      "width": 562,
+      "height": 659,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    },
+    "stamp": {
+      "x": 938,
+      "y": 554,
+      "width": 292,
+      "height": 405,
+      "sourceWidth": 1254,
+      "sourceHeight": 1254
+    }
+  },
+  "inspection": {
+    "extraAtlas": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaZeroFraction": 0.769311
+    },
+    "observed": "门口构图留出猫的空间；新道具与已审浴室的墨线/蓝黄配色相配。图集边缘以合成遮罩隔离邻道具。"
+  }
+}

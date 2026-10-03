@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-02",
+  "status": "static_style_candidates_pending_user_review",
+  "audience": "成年女性",
+  "tool": "built-in image_gen.imagegen",
+  "master": "studio/public/ip/cat-sit-neutral.png",
+  "originalMasterAndProductionFilesModified": false,
+  "videoProduced": false,
+  "references": [
+    {
+      "source": "study-video/【花小烙】游隼：地球上俯冲速度最快的“鸟中战斗机”是如何炼成的？ [BV1UFge6qEty].mkv",
+      "timeSeconds": 66,
+      "file": "references/reference-foreground.png"
+    },
+    {
+      "source": "study-video/【花小烙】我是蚊子，这期视频由我来给大家读评论哦！ [BV1mkg36zEfX].mkv",
+      "timeSeconds": 16,
+      "file": "references/reference-attitude.png"
+    },
+    {
+      "source": "study-video/【花小烙】睡觉时身体为什么总会不自觉地翻身？ [BV1sLPWzNEmy].mkv",
+      "timeSeconds": 134.75,
+      "file": "references/reference-flat-color.png"
+    }
+  ],
+  "samples": [
+    {
+      "id": "镜前挑剔",
+      "file": "01-mirror.png",
+      "sourceOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-718f02f6-507a-49ba-8a18-f67963133975.png",
+      "prompt": "Use case: compositing.\nAsset type: ONE finished 16:9 landscape storyboard style-test frame for a Chinese narrated comic aimed at adult women.\nInput images: Image 1 is the exact owned cat identity and edit/compositing target. Image 2 and Image 3 are ONLY examples of readable ink contours, bold flat color, foreground/background hierarchy and deadpan comic staging. Do not reproduce their birds, mosquito, human, wording, watermark or exact layouts.\n\nPrimary request: Insert the SAME cat from Image 1 into a new original bathroom moment, \"I only wanted to get ready to go out\". Keep the original cat's visible anatomy and design essentially unchanged: cream plump body, huge irregular black curled hair mass, EXACTLY SIX hot-pink hollow hair rollers in their original arrangement, tiny black nose/mouth, slanted half-lidded unimpressed eyes, pink cheek marks, thick imperfect black ink. Do not redesign as a kitten, human woman, glamorous model, generic kawaii cat, or thin cat. The bored personality matters.\n\nScene and composition: an intimate asymmetric medium-close shot, a very large cat in the foreground at left/center, head and hair fully readable, lower body naturally obscured by the edge of a washbasin counter. The cat leans its familiar tilted head toward a tall simple rectangular bathroom mirror at right, giving the mirror an unimpressed sideways look. Show only a restrained pale-blue mirror plane with two reflection strokes, no second reflected cat. Sink rim cuts across the foreground on a diagonal; the counter, faucet and mirror visibly belong to the same bathroom, with a few ink tile joints as background space cues. Three functional small props only: a used comb, a spare roller and one pump bottle, slightly casually misplaced. No isolated catalog objects side by side.\n\nVisual direction: crisp handmade adult daily-life gag comic, confident irregular near-black contours, graphic flat fills with tiny rough brush edges, minimal two-tone cel shadows. Make the surrounding ink weight visually coherent with the supplied cat; retain the cat's existing sketch texture, while props use large economical shapes. Strong clear hierarchy and intentionally imperfect perspective, witty and observant rather than cute or soothing. The bathroom has warm chalk/off-white wall tiles, a restrained desaturated ink-blue counter block and a small ochre faucet accent. The cat's existing hot pink is the signature punch of color. One broad decisive shadow/plane, no diffuse lighting wash. Spacious but composed, readable at phone size.\n\nOutput: single horizontal 16:9 scene filling the canvas, no montage, no title, no captions, no dialogue balloon, no numbers, no logos, no watermark. No enclosing cute paper frame, decorative scribbles, clouds, pastel sticker cards, checked boxes, flowers, blush arches, soft watercolor washes, detailed pencil woodgrain, cozy children's storybook atmosphere, 3D, photorealism or glamour advertising. This is a candidate static frame; do not create any video.",
+      "referenced_image_paths": [
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-neutral.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/references/reference-foreground.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/references/reference-attitude.png"
+      ],
+      "transparent_background": false,
+      "inspection": {
+        "originalGeneratedPixelsPreserved": true,
+        "sixInstalledPinkRollersVisuallyChecked": true,
+        "blackCurledHairAndHalfLiddedEyesVisuallyChecked": true,
+        "noCaptionOrWatermarkVisuallyChecked": true
+      },
+      "note": "整体静态构图范例；正式拆层与动画尚待画面确认"
+    },
+    {
+      "id": "脑内开工",
+      "file": "02-construction.png",
+      "sourceOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-417d1da1-c0fd-4681-9b49-8618aa3723e2.png",
+      "prompt": "Use case: compositing.\nAsset type: ONE finished 16:9 landscape static storyboard frame, second scene in a coherent adult-women daily-life comic style test.\nInputs: Image 1 is the exact owned cat identity/master. Image 2 is the already generated bathroom frame and the PRIMARY reference for ink quality, rendering, bathroom design and cat identity. Image 3 is only a supporting owned paw-raised pose; preserve Image 1's identity if using that gesture.\n\nPrimary request: make an original humorous \"my brain has turned grooming into a construction project\" moment in the SAME visual family as Image 2. This is an absurd pressure metaphor, played with deadpan attitude. The SAME cream plump cat with irregular black curled hair and EXACTLY SIX installed hot-pink hollow hair rollers sits medium-large behind the ink-blue washstand. All six installed rollers, the tiny black nose/mouth, slanted half-lidded eyes, cheek marks, proportions and strong handmade ink remain recognizably those of Image 1/2. A restrained paw-up gesture as in Image 3 is allowed; no clothing, hardhat, human body, new haircut, extra ears or kitten redesign. The cat looks at the absurd operation with weary disbelief, not wide-eyed amazement.\n\nScene: the normal mirror, tap and sink establish the bathroom, but a large drawn construction jib leans over the mirror at upper right. Its hook suspends ONE additional spare hot-pink hair roller just above an installed roller, as if grooming needs heavy engineering. The hook, cable and hanging roller must visibly connect and hang plausibly. The cat's installed hair is complete and unchanged. On the foreground counter, one oversized curled technical drawing unrolls diagonally, taking too much space; a few simple unlabeled hair/roller outline diagrams, measurement marks and a measuring tape indicate overplanning. This is ONE inhabited scene with a physical relationship, not an arrangement of separate object icons. No other people, animals, toy workers or cartoon faces on tools. Keep the number of tools economical, not a messy collage.\n\nComposition: asymmetric medium shot, cat lower center/left with its face kept clear; crane/cable and oversized plan crowd into the cat's formerly quiet bathroom space. Hair/head takes a strong 35-45% of the frame, crane supplies a competing absurd diagonal. The front counter naturally clips the cat's lower body. Clear 3-level hierarchy: cat reaction, impossible roller installation, enormous plan. Leave readable breathing room between elements; a few strong lines convey tension.\n\nStyle: exactly match Image 2's confident imperfect black ink and broad graphic fills; the cat retains its sketch texture, props have economical shapes and only one simple shadow tone. Warm chalk/off-white tile areas and ink-blue counter recur; introduce one decisive ochre/orange background plane to intensify the imagined pressure. Hot pink remains the cat/roller signature accent. Slight dry ink edges and sparse print grain; no elaborate material rendering or soft airbrush. Adult everyday absurdity and self-irony, no childish toy construction scene and no instructional poster.\n\nOutput ONE horizontal 16:9 complete frame, full bleed. No text, labels, title, numbers, arrows, cards, caption bars, speech balloons, checkmarks/crosses, logos, watermarks or montage. No cute paper frame, scrapbook folds, flowers, pastel cloud shapes, kawaii emoji, soft storybook watercolor, 3D or realism. No video.",
+      "referenced_image_paths": [
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-neutral.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/01-mirror.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-groom.png"
+      ],
+      "transparent_background": false,
+      "inspection": {
+        "originalGeneratedPixelsPreserved": true,
+        "sixInstalledPinkRollersVisuallyChecked": true,
+        "blackCurledHairAndHalfLiddedEyesVisuallyChecked": true,
+        "noCaptionOrWatermarkVisuallyChecked": true
+      },
+      "note": "整体静态构图范例；正式拆层与动画尚待画面确认"
+    },
+    {
+      "id": "无语收工",
+      "file": "03-reaction.png",
+      "sourceOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-da5e8e15-2fcc-40ab-b5ba-d2aa152e8f05.png",
+      "prompt": "Use case: compositing.\nAsset type: ONE 16:9 landscape static storyboard frame, third image in the same adult daily-life comic style test.\nInputs: Image 1 is the owned paw-raised cat pose and exact identity source. Image 2 is the neutral identity master. Image 3 is the first bathroom style frame. Image 4 is the second \"engineering the hair roller\" frame. Match their shared art language and recognizable bathroom, while making a clearly DIFFERENT camera composition.\n\nPrimary request: original \"enough overplanning, I will just comb my hair\" deadpan reaction close-up. The same familiar cream plump cat, huge irregular black curls, EXACTLY SIX installed hot-pink hollow hair rollers, tiny black nose/mouth, cheek marks and slanted half-lidded eyes must remain intact. Preserve the hair/roller arrangement and facial proportions of Images 1/2. Use Image 1's familiar paw-up gesture, with the paw naturally holding ONE small ordinary comb near its cheek, ready for a modest real action; its paw is a rounded cat paw, not a human hand with fingers. The small comb must visibly contact the paw. Expression: one subtly raised brow and a very slight wry flat mouth, composed and unimpressed, as if privately saying \"why am I doing all this\". No big grin, celebratory happiness, round surprised eyes, heart eyes, or cute sparkle.\n\nComposition: close-up that puts the very large cat head and cheek/paw on the RIGHT two-thirds of the image, with lower body intentionally cropped by the frame. Keep all six installed rollers readable and leave a little air above the hair. Foreground LEFT: the oversized engineering blueprint from Image 4 has now been firmly rolled shut, its drawing hidden. A loose measuring tape rests uselessly next to it. The rolled plan is large enough to make the contrast with the little comb clear, but secondary to the face. At far left background the crane's inactive hook is parked high away from the cat; it is only a small simple edge detail, not a second major subject. The normal rectangular blue mirror and a few irregular bathroom tile joints are quiet background fragments, viewed from a changed angle. The ink-blue counter is a shallow bottom strip, not another wide full washstand scene. No extra animals or people. The visible relationships should read instantly: ambitious plan closed, machinery paused, small real action chosen.\n\nStyle: coherent with Images 3/4, confident irregular near-black handmade contours, graphic flat color with only one cel-shadow tone, sparse rough ink texture, the original cat's sketchy curls. Environment has chalk/off-white, ink blue and a restrained ochre accent, with the existing hot pink rollers providing the signature vivid contrast. Strong editorial comic framing, selective detail, quiet dry humor for adult women. Slightly imperfect contours and lived-in perspective, clear intentional negative space. Mood is self-aware and relieved but not sugar-sweet or instructional.\n\nOutput: one full-bleed horizontal 16:9 image, no collage, captions, titles, typography, symbols, arrows, checks/crosses, dialogue balloons, number labels, logos or watermarks. No flowers, decorative corner swirls, torn paper frames, pastel bubbles, scrapbook cards, kawaii emoji, infantile toy aesthetics, soft storybook watercolor, elaborate material texture, 3D or realism. Do not change the cat into a human, glamour model or different cat. Static image only, no video.",
+      "referenced_image_paths": [
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-groom.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-neutral.png",
+        "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/01-mirror.png",
+        "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-417d1da1-c0fd-4681-9b49-8618aa3723e2.png"
+      ],
+      "transparent_background": false,
+      "inspection": {
+        "originalGeneratedPixelsPreserved": true,
+        "sixInstalledPinkRollersVisuallyChecked": true,
+        "blackCurledHairAndHalfLiddedEyesVisuallyChecked": true,
+        "noCaptionOrWatermarkVisuallyChecked": true
+      },
+      "note": "整体静态构图范例；正式拆层与动画尚待画面确认"
+    }
+  ]
+}

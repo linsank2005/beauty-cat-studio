@@ -1,0 +1,26 @@
+{
+  "episode": "DEMO_V3_2K",
+  "visualVersion": "3.3-expressions-walk",
+  "created": "2026-10-02",
+  "poseInspiration": "IP参考/cat_ip_09.png",
+  "args": {
+    "prompt": "Use case: consistent cartoon character animation asset.\nEdit the supplied canonical cream-white Beauty-Cat into one new standing pose for a funny waddling exit. Keep the SAME large head, black curls with exactly SIX bright pink rollers, half-lidded eyes, tiny black nose, restrained confident smile, thick imperfect dark ink outlines and light sparse shading. The cat faces RIGHT, viewed obliquely from behind, with its head looking back over its left shoulder at the viewer. A compact very round pear-shaped cat torso and two distinct short thick rear legs with broad rounded cat paws, placed apart on the SAME horizontal baseline. Small front paws held close to the chest, empty paws. No clothing, no bag, no props and no long tail. Entire cat visible, animation-friendly silhouette with a clear transparent gap between its two rear feet and ample overlapping upper leg area under the torso for moving the feet independently. Cat anatomy and proportions consistent with the reference. Keep the original character's confident everyday-comic personality and rough ink rendering.\nONE isolated character on a square 1254x1254 TRUE transparent RGBA canvas. Full head and all six curlers at the upper half, round body in the middle, two short separate legs and paws at the bottom, no cropped extremities. Character occupies roughly x160..1120,y140..1150. No backdrop, text, sparkle, shadow, floor, room, labels, watermark, outline frame, movement marks or checkerboard.",
+    "referenced_image_paths": [
+      "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-neutral.png"
+    ],
+    "transparent_background": true
+  },
+  "output": "studio/public/ip/cat-walk-back.png",
+  "originalGeneratedSource": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-2c18ead1-77e8-4167-acf4-16afa114c583.png",
+  "animation": "One same pose PNG; smooth independent foot deformation fields, alternating lifts, body roll and perspective route. Entry plate reused as foreground door-leaf occlusion.",
+  "scope": "Only facial acting and the final exit action are revised. Original IP references, narration, user audio, captions and actual timings retained.",
+  "inspection": {
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaZeroFraction": 0.604089,
+    "observed": "Rear-looking cat retains cream body, rough dark hair and six pink curlers. Full paws visible. Final composited gait frames inspected for intact contours and door-leaf occlusion."
+  }
+}

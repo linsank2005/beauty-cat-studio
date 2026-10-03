@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-02",
+  "scope": "reference learning and project-document/skill updates only",
+  "temporaryStudyCleanup": {
+    "previewTabClosed": true,
+    "ownedPreviewServerStopped": true,
+    "temporaryStudyFilesRemoved": false,
+    "retainedDirectory": "tmp/sweat-study-20261002",
+    "reason": "Directory deletion was rejected by automatic approval policy; no more specific reason was provided, and deletion was not retried."
+  },
+  "sourceHashesVerified": true,
+  "sampledFrames": 599,
+  "overviewFrames": 205,
+  "detailFrames": 394,
+  "detailWindows": 11,
+  "sheets": 56,
+  "playback": {
+    "sourceDuration": 204.906,
+    "fromHeadToEndUI": true,
+    "endedAt": 204.906,
+    "mediaError": null,
+    "initialPlaybackMuteState": false,
+    "detailReplayMuteState": true,
+    "evidenceLimit": "player completion and sampled visual observations; not continuous human frame-by-frame watching or detailed audio listening"
+  },
+  "runtimeAndOriginalsUnchanged": true,
+  "preservedFiles": {
+    "studio/src/ArtDirection.tsx": "14dd3c40c90e2ca7a7b4dd07bb64967ba5befbf318c4b3ee2511a604fcce9068",
+    "studio/src/cat-geometry.json": "a12525b461c37f784ffc564793b8a64b2c35d67e140e7d5f76c5244d3ac0e9e2",
+    "studio/src/Cat.tsx": "006680089746057d7721acd64d84e7e3ffbc00298adc5dec3198862c42a745a4",
+    "studio/src/Episode.tsx": "df5b762a35a253bb1fe3c2cb8d37e4917b5cc4cf3307519718e2193ff979c591",
+    "studio/src/EpisodeLoader.tsx": "878737fda468056ec66f4c1604096e127a7dd882ca970963dfc2cb9ce6f530aa",
+    "studio/src/index.ts": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+    "studio/src/Root.tsx": "6a55be57203d867b9d981d865842786767bd6e9812c32727b209b01712867711",
+    "studio/src/Templates.tsx": "df6f819b2c922b7a92916da9f97d5cf1c9bb9464fd07f66c2be4217fa274d382",
+    "studio/src/types.ts": "c142aa074b3d73769fc317adfbebd3200543ae2990f77035d38e3ef78363ebae",
+    "studio/src/WalkingCat.tsx": "aa602a18256d63ab61e16242a10f42c5a16bbd04cab54b73d425910a73c05383",
+    "studio/scripts/episode.mjs": "691e44ebb554a4ed76b8b94339df10f2f17d7c23ec699621eed39ed419b6d934",
+    "studio/scripts/mux-voice.mjs": "d684ae28b9b8917063b25001f4b2d08fb945bf300a44f5d6fce8f48c468b2c08",
+    "studio/scripts/preview-export.mjs": "6d31409e200ddb5f137086c4305369434121133f843cce323ba6dc59867b8cbc",
+    "studio/scripts/render.mjs": "966c5931cf20dbc529f897e787178a0cf1adcd67360e576d757fddc9e775a687",
+    "studio/scripts/verify-guards.mjs": "23487cd9df7d95e85162c7f75ad4f3e76adbddcb2efbe7a4b9921f5102808960",
+    "episodes/DEMO_V3_2K/episode.json": "fc083e508ce6723ebd5a4b3b68df16dd688344681ae7a1ccd633ce68e8661c2b",
+    "episodes/DEMO_V3_2K/episode.aligned.json": "469ab3c1154fcfbcbf8ef3d92cf61dbcd8e7306172796fc97f1cf88553fd61d2",
+    "exports/DEMO_V3_2K/DEMO_V3_2K_表情扭胯版.mp4": "c5b1435a18df3dc3461cae736c7de5a5bb25ed6122de0bd66019afa019d40819",
+    "exports/DEMO_V3_2K/DEMO_V3_2K_带口播.mp4": "c5b1435a18df3dc3461cae736c7de5a5bb25ed6122de0bd66019afa019d40819",
+    "studio/public/ip/cat-front-neutral.png": "9ea77261367296ea595bc152d2df4581b5c51a9c9cca3b1006e1ef6bb3b99372",
+    "studio/public/ip/cat-groom-proud.png": "e5becc4f15eb83b912a3b357c5d166727ac5fd3eb1b44c94269795fa58045c7d",
+    "studio/public/ip/cat-groom-surprised.png": "0a0fa501999c18afbaa19ce1bdb4b185141f381c3faf604b8b12e34192ea04b1",
+    "studio/public/ip/cat-groom.png": "8b5a09b829f99ab6bf06dc19b3aeb2e9f72c08c5626738a35bd622de50784be9",
+    "studio/public/ip/cat-sit-neutral.png": "040fb18c2036e402bbf6f790ee29fabebc12d7c8709d828af81c32a2e6623496",
+    "studio/public/ip/cat-sit-proud.png": "4628d7f32a38252e5eaef29934c08c86a1133ad082d20417cb6a35128d3cf0d0",
+    "studio/public/ip/cat-sit-surprised.png": "c952f145973b00ec3db5ee499f3bfd2fc862724c17e44a8764bb334a740d950b",
+    "studio/public/ip/cat-walk-back.png": "9665eae4af83c72c294b01fd876443b42d3271abd919bb4f82a493334cb34073",
+    "docs/style-v3/approved/01-mirror.png": "8e0abac1a0bcf8c6290dbc1121869d2c7a7f3a7bbe7c78f6b84ea98a9e0a7925",
+    "docs/style-v3/approved/02-construction.png": "51af8bda8eaf869b576e13da10cd37c87175fa85c8d3633a58623577378ed914",
+    "docs/style-v3/approved/03-reaction.png": "41acee5352a4879906dbaf65d0f2a31b83c42afac55271b4ae40280edf52b9e0",
+    "IP参考/cat_ip_01.png": "b3c1c0d2a440c4b89cb755e23ec2f06eb41c051ddf074c0e59d8728adbc35f60",
+    "IP参考/cat_ip_02.png": "bdeba5d41967158960443dddd5b3557a9a31823bbcd736d703f19ca26c97eba2",
+    "IP参考/cat_ip_03.png": "8b31a64ad27bfa2065a59635df689bd743221d63cda29c054a2d534782a06ef8",
+    "IP参考/cat_ip_04.png": "e1218a31f9fb6722740c594c1237c2789c21e8b2481927c8c065c6725475328b",
+    "IP参考/cat_ip_05.png": "24fa8c79968bcfc7b3ac12c2d367d94e6029e3a62ac87eed71067c136377a522",
+    "IP参考/cat_ip_06.png": "194e5d3cbba05bafc33a18b9fa2c59469aff7ce107fc3ca77f0901e9b90410b0",
+    "IP参考/cat_ip_07.png": "e7fff2b44233aed5faa218c9fef78ff7aa3033391c13e993a888f651e374e671",
+    "IP参考/cat_ip_08.png": "789239900ab907b589a60d709c9e3a402fddaa3ab4cead845d36062435574752",
+    "IP参考/cat_ip_09.png": "2489c7fff4d5178515cbc01857c371774f622281f81b23a011cc724f378a961a",
+    "IP参考/中秋懒猫与月饼派对.png": "8f7b6bcc1d7406ce581113d5c8043173a4a7503e475f43b08ee87c33110a5fb4",
+    "IP参考/卷发器里的疲惫猫咪.png": "8a08f7abecad7a3b8919686dc44d502f46cba2b3f5b70bc0b25bf6e9e3d56bda",
+    "IP参考/深夜刷手机的慵懒猫咪.png": "c1f8b80f7ce977923efde0634d338967c3635ac9329208daab7dfc06dc0f8bb3",
+    "study-video/运动到全身流汗代表脂肪在燃烧吗？ [BV1k44y1y7Bs].ai-zh.srt": "76765cffe14a53f8b2beda3eb332ce49463945e525117669ca98bfb6bad0fc9c",
+    "study-video/运动到全身流汗代表脂肪在燃烧吗？ [BV1k44y1y7Bs].mkv": "c07d86cd5c3a6c3ec6ee120f1fb589017f295b674f94c4929cdc30ed6a8362f1"
+  },
+  "documentsUpdated": {
+    "AGENTS.md": {
+      "beforeSha256": "f11477edf055a8222a6fa8fcb4b67cb65f915e1d758e7780c7585e7a0107d145",
+      "afterSha256": "c9a5df935f56b44d94d50b6157e92b2f55b1bb87d5c1aa6282c5545606469429"
+    },
+    "README.md": {
+      "beforeSha256": "19f7fc02990eb62ecbc1a259f8c83d894bca4a10d45e4e7ec102085fad7ba057",
+      "afterSha256": "e79b0a65fde8c227887a25448e3d1a77a1efd374fb85c616120eba6974cc4ef9"
+    },
+    "docs/IP与风格规范.md": {
+      "beforeSha256": "f90d6e53fba74f1df18400cb7f360a67f960bb9ed05fc4ed6b2b81c23291c4a7",
+      "afterSha256": "b2a3ccf36a54263e77ea6f56b8ef643e5d420b4807cd82e86d8bd16c78648d10"
+    },
+    "docs/操作与主表.md": {
+      "beforeSha256": "2e32120b74939bbd2abfd10fbb556de08dcb1d42e4e7dc0e92d9568c6c5388a1",
+      "afterSha256": "246eb1fad1073c9d655d167f999f123ee929a01671db2a01bb1e9a101aa644f5"
+    },
+    "docs/素材登记与提示词.md": {
+      "beforeSha256": "e9a5acf4c2d63fe03f35997b104e80198c9bfb0b55af37556b742341ce51259c",
+      "afterSha256": "255ff564cf87e89c87e10bb66e0aa315990674a33ab49c86940f912d576caf20"
+    },
+    "docs/learning-v2/参考机制复学.md": {
+      "beforeSha256": "e429fbbc6bb42fcf90a8fa2204385f48d276330a97f18f61a05b68f0dea4af4d",
+      "afterSha256": "7cf36b2b8259fb0365e0daab0977c53a8e51197cee714a5fb8c23723a1427b4a"
+    },
+    ".agents/skills/beauty-cat-script/SKILL.md": {
+      "beforeSha256": "88100c5f3560f1436f84df5d0ccecd21206d33952cb233a5e80eafbd74a89f9a",
+      "afterSha256": "07fe0c7c1e8ba26bda44bd045306e75440e62242f101a25b96f986175a0b59b2"
+    },
+    ".agents/skills/beauty-cat-storyboard/SKILL.md": {
+      "beforeSha256": "0ffdfac64d27875b607f893181703ad54715aadc8349ee2006892eac24e033f5",
+      "afterSha256": "5c96cb11d63fa6dd0edb71e9e3ac59ef77e6960854f129d30301ccfaa71c5dcf"
+    },
+    ".agents/skills/beauty-cat-production/SKILL.md": {
+      "beforeSha256": "3f66a824987f559d1e105a7d1a3721c33eac6c15b399e9a137250d4624d6ed5b",
+      "afterSha256": "1ca7539de09ffc64135548286be2c092442bef42da1d400f437670a04371e0be"
+    }
+  },
+  "skillValidation": {
+    "beauty-cat-script": "passed",
+    "beauty-cat-storyboard": "passed",
+    "beauty-cat-production": "passed"
+  },
+  "newEpisodeCreated": false,
+  "newSampleProduced": false,
+  "gitCommitOrPushPerformed": false,
+  "contactSheetReproduction": "extract.py overview also recreates IP-POSES.jpg and ip-inventory.json",
+  "internalLinks": "all resolved in 10 updated/new Markdown files"
+}

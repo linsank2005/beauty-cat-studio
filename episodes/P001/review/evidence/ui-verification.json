@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "url": "http://127.0.0.1:3348/review/index.html",
+  "browser": "Codex In-app Browser",
+  "pageOpened": true,
+  "checks": {
+    "next_E01_to_E02": true,
+    "scene_jump_S08_to_E35": true,
+    "slider_End_to_E45": true,
+    "previous_E45_to_E44": true,
+    "next_E44_to_E45": true,
+    "E02_image_loaded_2560x1440": true,
+    "E45_image_loaded_2560x1440": true,
+    "E45_next_disabled": true,
+    "no_audio_or_video_elements": true
+  },
+  "evidence": "review-ui.jpg",
+  "limits": "Observed page navigation and loaded still images only. No continuous animation, voice playback or AV synchronization was tested.",
+  "deliveryTabMarked": true
+}

@@ -1,0 +1,1598 @@
+{
+  "date": "2026-10-03",
+  "kind": "public runnable source and authored assets",
+  "hashScope": "source bytes before Git text newline normalization; authored episode tables and the P001 source script preserve exact bytes",
+  "fileCount": 316,
+  "bytes": 312996038,
+  "uniqueBlobBytes": 195233142,
+  "credentialsDetected": false,
+  "excluded": [
+    "machine settings and secrets",
+    "installed dependencies and model caches",
+    "third-party source media and extracted screenshots",
+    "raw narration recordings except the published demo track",
+    "temporary analyses and redundant large exports"
+  ],
+  "files": [
+    {
+      "file": ".agents/skills/beauty-cat-production/SKILL.md",
+      "bytes": 5597,
+      "sha256": "1ca7539de09ffc64135548286be2c092442bef42da1d400f437670a04371e0be"
+    },
+    {
+      "file": ".agents/skills/beauty-cat-script/SKILL.md",
+      "bytes": 2747,
+      "sha256": "07fe0c7c1e8ba26bda44bd045306e75440e62242f101a25b96f986175a0b59b2"
+    },
+    {
+      "file": ".agents/skills/beauty-cat-storyboard/SKILL.md",
+      "bytes": 5272,
+      "sha256": "5c96cb11d63fa6dd0edb71e9e3ac59ef77e6960854f129d30301ccfaa71c5dcf"
+    },
+    {
+      "file": ".gitattributes",
+      "bytes": 420,
+      "sha256": "04783fe9e58da37cb792c3a72936bab0219df0f04fa0aa1d1a6bbb2711a83e2f"
+    },
+    {
+      "file": ".github/workflows/check.yml",
+      "bytes": 1249,
+      "sha256": "d5e87f7e93c283efb3c1cc5cc79e61ef9f82de47b51c56b6dd85415035778ac6"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 1384,
+      "sha256": "33f336ff23ae223feb23f771dd4248e69b9334d9991deea42628f116214e08eb"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 2512,
+      "sha256": "c9a5df935f56b44d94d50b6157e92b2f55b1bb87d5c1aa6282c5545606469429"
+    },
+    {
+      "file": "IP参考/cat_ip_01.png",
+      "bytes": 634677,
+      "sha256": "b3c1c0d2a440c4b89cb755e23ec2f06eb41c051ddf074c0e59d8728adbc35f60"
+    },
+    {
+      "file": "IP参考/cat_ip_02.png",
+      "bytes": 680806,
+      "sha256": "bdeba5d41967158960443dddd5b3557a9a31823bbcd736d703f19ca26c97eba2"
+    },
+    {
+      "file": "IP参考/cat_ip_03.png",
+      "bytes": 709771,
+      "sha256": "8b31a64ad27bfa2065a59635df689bd743221d63cda29c054a2d534782a06ef8"
+    },
+    {
+      "file": "IP参考/cat_ip_04.png",
+      "bytes": 703821,
+      "sha256": "e1218a31f9fb6722740c594c1237c2789c21e8b2481927c8c065c6725475328b"
+    },
+    {
+      "file": "IP参考/cat_ip_05.png",
+      "bytes": 787860,
+      "sha256": "24fa8c79968bcfc7b3ac12c2d367d94e6029e3a62ac87eed71067c136377a522"
+    },
+    {
+      "file": "IP参考/cat_ip_06.png",
+      "bytes": 839819,
+      "sha256": "194e5d3cbba05bafc33a18b9fa2c59469aff7ce107fc3ca77f0901e9b90410b0"
+    },
+    {
+      "file": "IP参考/cat_ip_07.png",
+      "bytes": 688922,
+      "sha256": "e7fff2b44233aed5faa218c9fef78ff7aa3033391c13e993a888f651e374e671"
+    },
+    {
+      "file": "IP参考/cat_ip_08.png",
+      "bytes": 668534,
+      "sha256": "789239900ab907b589a60d709c9e3a402fddaa3ab4cead845d36062435574752"
+    },
+    {
+      "file": "IP参考/cat_ip_09.png",
+      "bytes": 647566,
+      "sha256": "2489c7fff4d5178515cbc01857c371774f622281f81b23a011cc724f378a961a"
+    },
+    {
+      "file": "IP参考/中秋懒猫与月饼派对.png",
+      "bytes": 1617927,
+      "sha256": "8f7b6bcc1d7406ce581113d5c8043173a4a7503e475f43b08ee87c33110a5fb4"
+    },
+    {
+      "file": "IP参考/卷发器里的疲惫猫咪.png",
+      "bytes": 1407745,
+      "sha256": "8a08f7abecad7a3b8919686dc44d502f46cba2b3f5b70bc0b25bf6e9e3d56bda"
+    },
+    {
+      "file": "IP参考/深夜刷手机的慵懒猫咪.png",
+      "bytes": 1759770,
+      "sha256": "c1f8b80f7ce977923efde0634d338967c3635ac9329208daab7dfc06dc0f8bb3"
+    },
+    {
+      "file": "P001/口播稿.txt",
+      "bytes": 3428,
+      "sha256": "7968e67b09cc2806e3987d18f5ae22e29773034920538ddf5b2ef4baf4d5ee07"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6086,
+      "sha256": "c964e295c4281d6349c1123fb3c0aab5ca83f68da8eb52eb1bb0e369d19b4461"
+    },
+    {
+      "file": "Start-Cat.ps1",
+      "bytes": 6135,
+      "sha256": "1c005252103eaa865ed7b6ebc2582fad1fc1d9867b36185444669e9841f4faf7"
+    },
+    {
+      "file": "docs/IP与风格规范.md",
+      "bytes": 6643,
+      "sha256": "b2a3ccf36a54263e77ea6f56b8ef643e5d420b4807cd82e86d8bd16c78648d10"
+    },
+    {
+      "file": "docs/learning-v2/extraction.json",
+      "bytes": 3432,
+      "sha256": "c166194b211ffcb0d21d23e15666ab8e8f96017af7b045fe9cbe64d945484dc5"
+    },
+    {
+      "file": "docs/learning-v2/sweat-study/IP-POSES.jpg",
+      "bytes": 590568,
+      "sha256": "2a175798c7a21fcc7ab35f13aa6d1d94da2fcbf81c8887d37f7d963fa52afbcc"
+    },
+    {
+      "file": "docs/learning-v2/sweat-study/extract.py",
+      "bytes": 5856,
+      "sha256": "d4b174864ab343300015a86f0a40a7fa5d077a078c75fee24191d4f573577048"
+    },
+    {
+      "file": "docs/learning-v2/sweat-study/extraction.json",
+      "bytes": 17164,
+      "sha256": "06d32eba94a86db246796720afbf243b1c6529f8b16593bea3b37b8e074909f5"
+    },
+    {
+      "file": "docs/learning-v2/sweat-study/ip-inventory.json",
+      "bytes": 2010,
+      "sha256": "875dec21a78dfef446189482dc298049a6e418faa081b6d2aa9eafacaa696728"
+    },
+    {
+      "file": "docs/learning-v2/sweat-study/update-verification.json",
+      "bytes": 8349,
+      "sha256": "c57bc5909b8f4c4445b7223efc3d6197e79d517211bfd10206e2257bee31ddf3"
+    },
+    {
+      "file": "docs/learning-v2/参考机制复学.md",
+      "bytes": 6814,
+      "sha256": "af28a6082fa2d23a034baa247049e2c9b1c23cdcedc13e9cf73a599b190c9a29"
+    },
+    {
+      "file": "docs/learning-v2/汗液视频复学与应用.md",
+      "bytes": 14156,
+      "sha256": "237b95adb40b6e6759df20e183e4c2a94e03d202cde30f9a37ba0010da5e53c0"
+    },
+    {
+      "file": "docs/style-v2/complete-imagegen-prompts.json",
+      "bytes": 5886,
+      "sha256": "e1a2c30d302722083c121df478168bcb19122825a36ad9b9d0d8e332dadd57ec"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0015.png",
+      "bytes": 106009,
+      "sha256": "2cc1cdef18bd24afea1d33634d441913942587f1898e7b5f9352275e91e82e4b"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0045.png",
+      "bytes": 347537,
+      "sha256": "8a19abb2bc1d3d504a40639489b6adbfd1aa9946776d544c1cbfd8277c75cd23"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0060.png",
+      "bytes": 396090,
+      "sha256": "9a4df8802088dc47254787a5574c1797a2472ae71afa025a0530fffb1ac497c2"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0078.png",
+      "bytes": 554685,
+      "sha256": "8b6481c85eb640b0bc36005ac655b65de07bc1f8008700340f3b7f4f48110583"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0096.png",
+      "bytes": 1088879,
+      "sha256": "0201e358c45755ab47df676e7c05e8100cd2dda7b7fd33878dc267d2afa849cc"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0360.png",
+      "bytes": 728733,
+      "sha256": "fa6eed286df1540ca0130762f6aeb14edf49aabd72492c6bd0a5ad3028bd9216"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0390.png",
+      "bytes": 759302,
+      "sha256": "c782c581dd9c22b5b5e81dc2d6e22c1feb2894803bdbda8355af80b13f294f66"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0555.png",
+      "bytes": 667591,
+      "sha256": "4de95e119555ef0e022c089af1293e5468d213c6f21af78cf01d8ff1a29f8042"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0660.png",
+      "bytes": 672452,
+      "sha256": "5bb7562e083e5ffdd4d111938319e08c1c2ca9ce36d17c0dcfe1491de2edc8af"
+    },
+    {
+      "file": "docs/style-v2/intro-after/frame-0945.png",
+      "bytes": 1047858,
+      "sha256": "0d7352f7b4d9de0269c1cd4c74decf1dfc1a45c6b9330ac1a83a601aa6e01c17"
+    },
+    {
+      "file": "docs/style-v2/intro-before/frame-0015.png",
+      "bytes": 106009,
+      "sha256": "2cc1cdef18bd24afea1d33634d441913942587f1898e7b5f9352275e91e82e4b"
+    },
+    {
+      "file": "docs/style-v2/intro-before/frame-0045.png",
+      "bytes": 347537,
+      "sha256": "8a19abb2bc1d3d504a40639489b6adbfd1aa9946776d544c1cbfd8277c75cd23"
+    },
+    {
+      "file": "docs/style-v2/intro-before/frame-0060.png",
+      "bytes": 396090,
+      "sha256": "9a4df8802088dc47254787a5574c1797a2472ae71afa025a0530fffb1ac497c2"
+    },
+    {
+      "file": "docs/style-v2/playback.json",
+      "bytes": 879,
+      "sha256": "9f5d752e7b7ed60cba85a3fb2d5bad23105dc7367416b9d653722a3db71569af"
+    },
+    {
+      "file": "docs/style-v2/verification.json",
+      "bytes": 2806,
+      "sha256": "ceef0b339b981806c5cb3912477ab73d0421701eac079453341598a831f16f36"
+    },
+    {
+      "file": "docs/style-v2/风格修订.md",
+      "bytes": 3139,
+      "sha256": "d44e7e63b6144d3ed8098d7b5577e685e6934ef6eb7d9c2c1f87a191c95ebaab"
+    },
+    {
+      "file": "docs/style-v3/approved/01-mirror.png",
+      "bytes": 1679664,
+      "sha256": "8e0abac1a0bcf8c6290dbc1121869d2c7a7f3a7bbe7c78f6b84ea98a9e0a7925"
+    },
+    {
+      "file": "docs/style-v3/approved/02-construction.png",
+      "bytes": 2016457,
+      "sha256": "51af8bda8eaf869b576e13da10cd37c87175fa85c8d3633a58623577378ed914"
+    },
+    {
+      "file": "docs/style-v3/approved/03-reaction.png",
+      "bytes": 1877608,
+      "sha256": "41acee5352a4879906dbaf65d0f2a31b83c42afac55271b4ae40280edf52b9e0"
+    },
+    {
+      "file": "docs/style-v3/approved/generation-record.json",
+      "bytes": 13878,
+      "sha256": "61e5a023c7fddeb140f426c7ccc1fa85fb2cdc6e27448785c2995b897cda0cd4"
+    },
+    {
+      "file": "docs/style-v3/atlas.json",
+      "bytes": 1124,
+      "sha256": "bf331c9a7577e1c4a7bc6b1af24811a31a73eb93bd6475692234d5df4763da01"
+    },
+    {
+      "file": "docs/style-v3/generation-record.json",
+      "bytes": 6194,
+      "sha256": "7d1ff808cfadea9448cb7f1d2add8d05e6cb2a19ddcdfea7fba23538bdf5d93e"
+    },
+    {
+      "file": "docs/style-v3/画风确认与小样.md",
+      "bytes": 2820,
+      "sha256": "031cf2eac0542ebbdcba1d90b93288276056110d3ff871936b71a4a484a46662"
+    },
+    {
+      "file": "docs/verification/audio-alignment-test.json",
+      "bytes": 4989,
+      "sha256": "278bbc677d086d02725accd69baf380afffd43c97c95b17317939c0b4ac8898d"
+    },
+    {
+      "file": "docs/verification/delivery-package.json",
+      "bytes": 435,
+      "sha256": "a4f4e434f7c95b7c6da559f8de7f173bb56954fd684e63def8ea74a04724f2ab"
+    },
+    {
+      "file": "docs/verification/environment-check.json",
+      "bytes": 919,
+      "sha256": "32085dabb7610cc951311a7e710e392349fdcacdf24ccdb68fe4082a08a2e8ca"
+    },
+    {
+      "file": "docs/verification/guard-checks.json",
+      "bytes": 684,
+      "sha256": "1b2ca126c8368c16021d01fe1c9df514332523508522a225842eaef2e41ddab7"
+    },
+    {
+      "file": "docs/verification/media-verification.json",
+      "bytes": 9895,
+      "sha256": "95c9dd3177d7eaaca0f51a2e2becc537c9470c63ea2a45a735a39f1da19ddc97"
+    },
+    {
+      "file": "docs/verification/migration-20261003.md",
+      "bytes": 1710,
+      "sha256": "5d710ea66e49511df868f705f67a21d55ea03e7fe4b6a67290ec1bdc14c589fb"
+    },
+    {
+      "file": "docs/verification/交付验证.md",
+      "bytes": 5106,
+      "sha256": "569c9af0477c83008dde1a132f03b8a089d0adf0a08305af6c8da305f7e370d8"
+    },
+    {
+      "file": "docs/操作与主表.md",
+      "bytes": 6784,
+      "sha256": "246eb1fad1073c9d655d167f999f123ee929a01671db2a01bb1e9a101aa644f5"
+    },
+    {
+      "file": "docs/素材登记与提示词.md",
+      "bytes": 5853,
+      "sha256": "255ff564cf87e89c87e10bb66e0aa315990674a33ab49c86940f912d576caf20"
+    },
+    {
+      "file": "episodes/DEMO/episode.json",
+      "bytes": 25621,
+      "sha256": "82af6172f8df23968fa4ea2e05349a025c9805f8a7c93801a1490f54bbb07cd1"
+    },
+    {
+      "file": "episodes/DEMO/review/S01.png",
+      "bytes": 1092264,
+      "sha256": "d76fc365e2fae509a38289ce704bbc4d0c55420d7957616d8db2e14876283a28"
+    },
+    {
+      "file": "episodes/DEMO/review/S02.png",
+      "bytes": 759302,
+      "sha256": "c782c581dd9c22b5b5e81dc2d6e22c1feb2894803bdbda8355af80b13f294f66"
+    },
+    {
+      "file": "episodes/DEMO/review/S03.png",
+      "bytes": 1085189,
+      "sha256": "755a993a398f987bc4d4f737038f69624685601a027a1e2b4d361cd825a2b3e8"
+    },
+    {
+      "file": "episodes/DEMO/review/S04.png",
+      "bytes": 704708,
+      "sha256": "f9042748708e14a24db02e3ea08cfa9655c95c23af65758a5727780ea8d288b2"
+    },
+    {
+      "file": "episodes/DEMO/review/S05.png",
+      "bytes": 1047858,
+      "sha256": "0d7352f7b4d9de0269c1cd4c74decf1dfc1a45c6b9330ac1a83a601aa6e01c17"
+    },
+    {
+      "file": "episodes/DEMO/review/captions.json",
+      "bytes": 1241,
+      "sha256": "392a9b09f645290c62c8e1b9cb3fcc27ca6d7cea521502146c6b2e9202cf81af"
+    },
+    {
+      "file": "episodes/DEMO/review/estimated.srt",
+      "bytes": 598,
+      "sha256": "1bb4b10d13fa574743fbcbba03f35d1a2050656fa42d80d90640b1dd1423a12d"
+    },
+    {
+      "file": "episodes/DEMO/review/review.html",
+      "bytes": 7374,
+      "sha256": "df92605cd6f4a548a4142f87daa0be0dfce264676ca2d838b7e9193e8155fcd1"
+    },
+    {
+      "file": "episodes/DEMO/review/review.md",
+      "bytes": 5812,
+      "sha256": "246b77ab76b6714fd5fdba8be2ff04497f01f5a67af218db6fac8e512b9f621e"
+    },
+    {
+      "file": "episodes/DEMO/review/script.txt",
+      "bytes": 342,
+      "sha256": "e05bee5b42dfac312230163cfabc3b5ccd0a01309964fedf1f06aecae30201c4"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/episode.json",
+      "bytes": 12311,
+      "sha256": "e36ab675f342a87189dde6e87684bda5ab6502c3d0a0441cbc1eed0c2670f65d"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/S01.png",
+      "bytes": 484002,
+      "sha256": "bb342b3a0c2bdb4b4af24cac2ba2aea9f16d5d0ac21525797fa9943510b944e8"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/S02.png",
+      "bytes": 499603,
+      "sha256": "e33112253e1e8c91ed81169b87d8e8393ffd5bb72a4a9de5ca5de8b1ac7a4284"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/S03.png",
+      "bytes": 433408,
+      "sha256": "89ae4fec09cb240108825b11246a61cadf865adfdb6c43e2b421d3eb006c6ab4"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/S04.png",
+      "bytes": 535737,
+      "sha256": "264192322154a2089dba892b51d1f3bbfa4d90a379b418e09a2a3cf5e4626ba9"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/S05.png",
+      "bytes": 468627,
+      "sha256": "e9506b143cffc367d3bca1ddef5917e766612d64b2e8c23651c4817f5b776961"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/captions.json",
+      "bytes": 1241,
+      "sha256": "392a9b09f645290c62c8e1b9cb3fcc27ca6d7cea521502146c6b2e9202cf81af"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/estimated.srt",
+      "bytes": 598,
+      "sha256": "1bb4b10d13fa574743fbcbba03f35d1a2050656fa42d80d90640b1dd1423a12d"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/review.html",
+      "bytes": 6906,
+      "sha256": "5ca29f4616b26dc60f6501a97bcf104a6d79ac2510076f36ebad8cbbcca442a3"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/review.md",
+      "bytes": 5344,
+      "sha256": "98bbee8b15d000b5eedb63ec230ddfb21b4f4c88fc019aa5f8fba5e7915061b4"
+    },
+    {
+      "file": "episodes/DEMO/revisions/style-v1/review/script.txt",
+      "bytes": 342,
+      "sha256": "e05bee5b42dfac312230163cfabc3b5ccd0a01309964fedf1f06aecae30201c4"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/episode.aligned.json",
+      "bytes": 30190,
+      "sha256": "469ab3c1154fcfbcbf8ef3d92cf61dbcd8e7306172796fc97f1cf88553fd61d2"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/episode.json",
+      "bytes": 26171,
+      "sha256": "fc083e508ce6723ebd5a4b3b68df16dd688344681ae7a1ccd633ce68e8661c2b"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/expression-generation-record.json",
+      "bytes": 3506,
+      "sha256": "b83f5eaded4346cc6ee66fb76a368158b9382697255366361e91fb9bcd61f332"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/generation-record.json",
+      "bytes": 5307,
+      "sha256": "eb6476c089248a6d0714723e6260cd1c23adcccd5b85654a33378956c6160c7c"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/S01.png",
+      "bytes": 3356866,
+      "sha256": "aea2b6c4bbaf05a5eed4fb2d4e0b68e25f1ac5d39dfac6ea5d3f7e29a1164f26"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/S02.png",
+      "bytes": 2468417,
+      "sha256": "f516fbcfc413e24fb68cabce6ba64da4645d3001de7efe8f6c587f8421a75ae8"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/actual.srt",
+      "bytes": 598,
+      "sha256": "ea15bdbf3a618321b1a33ea75b8c90918de64d6aca33baaea5f989f76377bf77"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/captions.json",
+      "bytes": 1243,
+      "sha256": "8a18f6c9b7340c8e08e60e19075581ddf4bb8b2af32540f7ea197d1dd81465d6"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/review.html",
+      "bytes": 8832,
+      "sha256": "063721533f0cdb28bbb370351e8d3cdfb7bee4e21f33312236b0dc766fe85ad2"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/review.md",
+      "bytes": 7549,
+      "sha256": "984256bbf023fd04b4fdc67b7b1214d26be7a859eb670509948a6295a2adc1f0"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/review/script.txt",
+      "bytes": 342,
+      "sha256": "a8a0d01fec2125236424b0357877ee342f3601d27fae7b4de3a5933b22b837f5"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/walk-generation-record.json",
+      "bytes": 2695,
+      "sha256": "b0e443fbdfd4782ce99dc423b035a614291235e1ebe94e135a0a56bac904cac4"
+    },
+    {
+      "file": "episodes/DEMO_V3_2K/制作说明.md",
+      "bytes": 3154,
+      "sha256": "d196c53084ad97d069d5fd47c62a2569f5ac4b9fa6f58102742a121d181813ff"
+    },
+    {
+      "file": "episodes/P001/README.md",
+      "bytes": 1193,
+      "sha256": "b4ed20d15c3f1a100429b1e324415f43986424b2da384fa517497126f56901e6"
+    },
+    {
+      "file": "episodes/P001/build-review.mjs",
+      "bytes": 22079,
+      "sha256": "3eb04c2581fb81e13806946a3252f14d449cc9fdf34a0a7f22fa4c0ed3ebb41c"
+    },
+    {
+      "file": "episodes/P001/episode.json",
+      "bytes": 50492,
+      "sha256": "8d94cefe44c77ad058e8dcdb69e0f5d0fad2d7d47db0056d92b121339cb977b9"
+    },
+    {
+      "file": "episodes/P001/review/art/shot01.png",
+      "bytes": 1724687,
+      "sha256": "1cc721f74aac2be56d387ccfa2510f66bc0a911736d26de62015afa88f154924"
+    },
+    {
+      "file": "episodes/P001/review/art/shot02.png",
+      "bytes": 1591931,
+      "sha256": "ed6c434afb99bb3e413753432de4fe5f2300a3b57efb7a45ebd41bf83ebcfb53"
+    },
+    {
+      "file": "episodes/P001/review/art/shot03.png",
+      "bytes": 1696546,
+      "sha256": "fe26e83ef888f19ecf9f2e1daa8f44173f6fd68366f20a76a63a1aa3bd7c903e"
+    },
+    {
+      "file": "episodes/P001/review/art/shot04.png",
+      "bytes": 1644708,
+      "sha256": "06d6bf8d86213374f8f950621431c31baec64d4b8c2d8bdfeb0c8c4ba08fa4fa"
+    },
+    {
+      "file": "episodes/P001/review/art/shot05.png",
+      "bytes": 1732502,
+      "sha256": "feaae2e45da303119efd04db24044cc3fc6f565c6f3e6cebf30cb597efbf5fb0"
+    },
+    {
+      "file": "episodes/P001/review/art/shot06.png",
+      "bytes": 1624467,
+      "sha256": "9ef352c61aeda45ae5f71da4c5e6db3b69147069456826b5ba830f28375de6b9"
+    },
+    {
+      "file": "episodes/P001/review/art/shot07.png",
+      "bytes": 1673704,
+      "sha256": "49160fe5372bc998ae0a33e050c2355218b9b88e990801f240f8c7738492a5af"
+    },
+    {
+      "file": "episodes/P001/review/art/shot08.png",
+      "bytes": 1696426,
+      "sha256": "edc1d0e24fd29e73e6247a68a576ad16925e968b7970dcc1dd11266a843d60ae"
+    },
+    {
+      "file": "episodes/P001/review/captions.json",
+      "bytes": 2481,
+      "sha256": "34e36ef4f2aaeed680aa54f33084e0de4ff9b8841d07a254cab1c37648b0378b"
+    },
+    {
+      "file": "episodes/P001/review/estimated.srt",
+      "bytes": 1195,
+      "sha256": "8bfd90177b5e407cea24ccf0a80ac28d27b84f425e06738d18ef74bb2e00f9f2"
+    },
+    {
+      "file": "episodes/P001/review/evidence/generation-record.json",
+      "bytes": 21215,
+      "sha256": "cf052a7ac8b6f8f12f76f8f0df33a8249a089d42583a98cd4fa21505f7308a56"
+    },
+    {
+      "file": "episodes/P001/review/evidence/review-ui.jpg",
+      "bytes": 113531,
+      "sha256": "3f23685d0382189c72673d223314b589d8cd768c4e52a49c2b28f3a51ddec796"
+    },
+    {
+      "file": "episodes/P001/review/evidence/state-manifest.json",
+      "bytes": 11677,
+      "sha256": "861a6480a9fa628a1350777cc7b05395eeec02070821a2a5056fcdcab46412fb"
+    },
+    {
+      "file": "episodes/P001/review/evidence/states-contact-01.jpg",
+      "bytes": 665707,
+      "sha256": "000bdd9c0bce922fda5b78d0b75a6d2d7ace76eee17aacc9006b99b18fc8d492"
+    },
+    {
+      "file": "episodes/P001/review/evidence/states-contact-02.jpg",
+      "bytes": 685645,
+      "sha256": "5c495a7894c07e5ad50d685a5bd1072437f89ce0c88550f52e7efc84ee669c3c"
+    },
+    {
+      "file": "episodes/P001/review/evidence/states-contact-03.jpg",
+      "bytes": 824623,
+      "sha256": "21224848c0f3354cf47a31916829b5ad7e823693154296c4065bd083b4f3a4a8"
+    },
+    {
+      "file": "episodes/P001/review/evidence/ui-verification.json",
+      "bytes": 668,
+      "sha256": "1bd03f32ebb2a4702c7532d00348059a5ff0913f205de3b7f50ae04118c3a049"
+    },
+    {
+      "file": "episodes/P001/review/evidence/verification.json",
+      "bytes": 15984,
+      "sha256": "8ef2c9b6af04a9ab1b0906b9d5ba0c56df108ec58ec24288da14041fbd7ea5ba"
+    },
+    {
+      "file": "episodes/P001/review/index.html",
+      "bytes": 55779,
+      "sha256": "bd6b8127cffbb599c7c6c16f5d8d772a65611ed1fe51660c8e5175fd31f08e22"
+    },
+    {
+      "file": "episodes/P001/review/overview.png",
+      "bytes": 1844391,
+      "sha256": "9ca6f4ef49f8508ff27a0f087ae402df03a4ce02c84731fb58cb3ea0f661bb35"
+    },
+    {
+      "file": "episodes/P001/review/review.html",
+      "bytes": 55779,
+      "sha256": "bd6b8127cffbb599c7c6c16f5d8d772a65611ed1fe51660c8e5175fd31f08e22"
+    },
+    {
+      "file": "episodes/P001/review/review.md",
+      "bytes": 14226,
+      "sha256": "2e38a6899ee9affd56c256e8fa90c8047f3cd79d7725b6ddecd051229a518e86"
+    },
+    {
+      "file": "episodes/P001/review/script.txt",
+      "bytes": 676,
+      "sha256": "8e8cd8fdc467817198f6068e448b1e2a1112272e20ff8eb79bee3d6a95f9953e"
+    },
+    {
+      "file": "episodes/P001/review/states/E01.png",
+      "bytes": 1645280,
+      "sha256": "38736c9bc20b3f6cf8ec9b7f76f8ae218172bbf36b8444383f3bc7ce819164b1"
+    },
+    {
+      "file": "episodes/P001/review/states/E02.png",
+      "bytes": 1662114,
+      "sha256": "946db2a3774ca90c53a75c8bf4384ab81b8ad194a2dd733cbeea2a739a0a1cfc"
+    },
+    {
+      "file": "episodes/P001/review/states/E03.png",
+      "bytes": 2366032,
+      "sha256": "89c95217972467ff1667b079c2c762ae991d58f9ff5224437285ef06ffb0af2c"
+    },
+    {
+      "file": "episodes/P001/review/states/E04.png",
+      "bytes": 2617262,
+      "sha256": "9d8fbd052a18724d3184e35385ca841a7c6038081dad8dfcdac4355eb61083d3"
+    },
+    {
+      "file": "episodes/P001/review/states/E05.png",
+      "bytes": 1504994,
+      "sha256": "cf15b457ee3c1bc868f3008caaeae8aea46ac2f3e5be2f8807421c34caebde32"
+    },
+    {
+      "file": "episodes/P001/review/states/E06.png",
+      "bytes": 1532941,
+      "sha256": "a8cb095dd33a1206059eb46cb3cd826b191073472b652c928a49ec9f596ac738"
+    },
+    {
+      "file": "episodes/P001/review/states/E07.png",
+      "bytes": 2068836,
+      "sha256": "9434ad511cfa087124880a84730f7b8aa6a2f748807579496ee81305724bd87d"
+    },
+    {
+      "file": "episodes/P001/review/states/E08.png",
+      "bytes": 2288530,
+      "sha256": "e60bdb39ae3f264e96cf3b756b8139b4dfbba39ac29d9cc4026c5e768b6dd957"
+    },
+    {
+      "file": "episodes/P001/review/states/E09.png",
+      "bytes": 2291039,
+      "sha256": "eef377ab76877c2725e459072ff145cc2ff036354dfca29ec7aaf9188cca4090"
+    },
+    {
+      "file": "episodes/P001/review/states/E10.png",
+      "bytes": 1613702,
+      "sha256": "c85fdc09bf8e0a8ce37caa7f92f41a86df612b78bf7e49848d48bef622f3f2c8"
+    },
+    {
+      "file": "episodes/P001/review/states/E11.png",
+      "bytes": 2464558,
+      "sha256": "b553f022155808ad84c3e56b042a330025515007a74d6f096a709c33d064f2df"
+    },
+    {
+      "file": "episodes/P001/review/states/E12.png",
+      "bytes": 2559029,
+      "sha256": "22ef02e45c8cb8569f20ededfceb72746cbdae36076aebfb4cf5b7b13e4292f4"
+    },
+    {
+      "file": "episodes/P001/review/states/E13.png",
+      "bytes": 1537732,
+      "sha256": "9dc202a8046fb3bfb73d4b4f399f3962c606724bd7737df583aee0630cdf951f"
+    },
+    {
+      "file": "episodes/P001/review/states/E14.png",
+      "bytes": 2270385,
+      "sha256": "21d859b9e2a23bfb41d447a6dbb77252ec6be83403fcd490fa3920581765109d"
+    },
+    {
+      "file": "episodes/P001/review/states/E15.png",
+      "bytes": 2422409,
+      "sha256": "d1fe9d9564001e90c476656409c74ee38eb9a25a2a9d62d35c95b6451b0946be"
+    },
+    {
+      "file": "episodes/P001/review/states/E16.png",
+      "bytes": 2424480,
+      "sha256": "78259fd93739394c8d32e35c63a6734bcb78f2d19bad5598ebc31c48e05314dc"
+    },
+    {
+      "file": "episodes/P001/review/states/E17.png",
+      "bytes": 1515319,
+      "sha256": "3a2d85c7adc4de6be09720ae480ef5560f8892f7efcd08bd129fae42d2f4dd33"
+    },
+    {
+      "file": "episodes/P001/review/states/E18.png",
+      "bytes": 1545237,
+      "sha256": "fed2b51f72ba365c4088878249dc44899aebe734179470e57cf92566cb6442c9"
+    },
+    {
+      "file": "episodes/P001/review/states/E19.png",
+      "bytes": 2256255,
+      "sha256": "8105717903e258b540a8f509bf24cb09e1ef92ca51c87aae833bb483451a2cc9"
+    },
+    {
+      "file": "episodes/P001/review/states/E20.png",
+      "bytes": 2565582,
+      "sha256": "7b2af1adc79287316ee2326bae82f89bd016a2b3768a96188b31e263703a0dd0"
+    },
+    {
+      "file": "episodes/P001/review/states/E21.png",
+      "bytes": 2568772,
+      "sha256": "8069502dcf2ab508ff9efcacbbf1c173f17eaf92cf8e54377d89c4e2a1de1a69"
+    },
+    {
+      "file": "episodes/P001/review/states/E22.png",
+      "bytes": 2569783,
+      "sha256": "b3ed5c4b6c82083ff4dc677768157a18a6d61c2925e1ac60feb0c7c476582723"
+    },
+    {
+      "file": "episodes/P001/review/states/E23.png",
+      "bytes": 2541186,
+      "sha256": "c4b10e92449f1ef4cddb8671a806d590aa5bde9e7d0203fa9d8ba2c56db1a455"
+    },
+    {
+      "file": "episodes/P001/review/states/E24.png",
+      "bytes": 2548707,
+      "sha256": "05ddd51b21b30afbc1c1b800346cdc0c507c27a609d57f2a074fdfe3604f4552"
+    },
+    {
+      "file": "episodes/P001/review/states/E25.png",
+      "bytes": 2349443,
+      "sha256": "75f3a2d80dfd8fffd71a19ee2f874606da246747f221902fc1a2e2f093d50ab0"
+    },
+    {
+      "file": "episodes/P001/review/states/E26.png",
+      "bytes": 2354350,
+      "sha256": "5d9f7e5f5b1ddeb2e14acb5c94b91c7d5790cb11bc2227a38a58dd279865391c"
+    },
+    {
+      "file": "episodes/P001/review/states/E27.png",
+      "bytes": 2365152,
+      "sha256": "4cd508f5c90c5c486bcd5cfdb43b3e8e5f972588605e06d514aa8859e0fd32b7"
+    },
+    {
+      "file": "episodes/P001/review/states/E28.png",
+      "bytes": 2363801,
+      "sha256": "47f8d0ceb0a17cd9292dfd665683d439251b80a580732b4de96d5881fcb5664e"
+    },
+    {
+      "file": "episodes/P001/review/states/E29.png",
+      "bytes": 2348863,
+      "sha256": "f6c0d349677ba1d60b339127f0a388349ace18607708bc32f22dd14229978bd4"
+    },
+    {
+      "file": "episodes/P001/review/states/E30.png",
+      "bytes": 1399504,
+      "sha256": "7d5493471da280131898bc8e21a86af4cb956a821bd35fa2e328d4fe3d8d8422"
+    },
+    {
+      "file": "episodes/P001/review/states/E31.png",
+      "bytes": 2280604,
+      "sha256": "51ff86bf3a270e4f1251cb1aa9f8a81b35aea4ba01b4ab5711049c1f20e63d87"
+    },
+    {
+      "file": "episodes/P001/review/states/E32.png",
+      "bytes": 2468577,
+      "sha256": "7d83e4bcef33ca048f2a959745a3e66594a8d532c67e98fc670c7a4ad46d3685"
+    },
+    {
+      "file": "episodes/P001/review/states/E33.png",
+      "bytes": 2480415,
+      "sha256": "5a35b6c791f3967454c61c7aac06ec9f2470b2cca7ac67ce1be64c62b50320a3"
+    },
+    {
+      "file": "episodes/P001/review/states/E34.png",
+      "bytes": 2480227,
+      "sha256": "5a0ae209c3a8845700c75b9264e30c0b2aebe8a377e2a2d380b826696263867e"
+    },
+    {
+      "file": "episodes/P001/review/states/E35.png",
+      "bytes": 2485762,
+      "sha256": "d0fdae155548d2fb6046d3f903aefe18f17f6063926f3a7e46353edbd2f172c8"
+    },
+    {
+      "file": "episodes/P001/review/states/E36.png",
+      "bytes": 2487164,
+      "sha256": "7c925ffc34f09b36f60b49ebd1ad9b5945c5f9086d5363920486a367616c945f"
+    },
+    {
+      "file": "episodes/P001/review/states/E37.png",
+      "bytes": 2464393,
+      "sha256": "4b83809fd3d40328948d75f9affc24f410c7702636eea65e836899218329a43c"
+    },
+    {
+      "file": "episodes/P001/review/states/E38.png",
+      "bytes": 2465934,
+      "sha256": "24cc60512827879484271b5c626cccbec054a9422c9f7f5d0c13ae5e196d7f99"
+    },
+    {
+      "file": "episodes/P001/review/states/E39.png",
+      "bytes": 2486971,
+      "sha256": "7de85e97a1f56cc32f1728e02e7144f1ae45b289df8edf9d65384fc669712014"
+    },
+    {
+      "file": "episodes/P001/review/states/E40.png",
+      "bytes": 2489372,
+      "sha256": "f254f36d2095228bc97bf0dc9abbb74328209443dd92716a34ca281e62b0b7c7"
+    },
+    {
+      "file": "episodes/P001/review/states/E41.png",
+      "bytes": 2482468,
+      "sha256": "4f45237dbf5a1e0a08df42ede2756ab1c4f3fad676b820395537e4e0260b8ce5"
+    },
+    {
+      "file": "episodes/P001/review/states/E42.png",
+      "bytes": 2480033,
+      "sha256": "d5361d452f08b522616f86c28ea3b64c6627f5ff0bfa7026660f4a998210ce33"
+    },
+    {
+      "file": "episodes/P001/review/states/E43.png",
+      "bytes": 2484005,
+      "sha256": "feab40e61541f3adf507c0f9cf514a1106b40cced380565573dacd73af03429d"
+    },
+    {
+      "file": "episodes/P001/review/states/E44.png",
+      "bytes": 2471630,
+      "sha256": "64d09fa1bd442eae00b453b4d5be92bf7985bfa60a8a61fe1fb14d290f4664e0"
+    },
+    {
+      "file": "episodes/P001/review/states/E45.png",
+      "bytes": 2471105,
+      "sha256": "7d7faf41da5b950c7a3e60623d09cb538fc1fbf45824b5d81c931cd62a734a83"
+    },
+    {
+      "file": "episodes/P001/serve-review.mjs",
+      "bytes": 1370,
+      "sha256": "98f568420905ca0193da92d985794bbb6eae6af974fdee067f2f3047d267065a"
+    },
+    {
+      "file": "episodes/P001/verify-review.py",
+      "bytes": 6932,
+      "sha256": "b13556d19f976ac6ca318ea9c4fdfca097fb9187fd46ed5cb70e092c57c5c44b"
+    },
+    {
+      "file": "episodes/STYLE12/episode.json",
+      "bytes": 15554,
+      "sha256": "2831888542ca3b88ad5a4179ae983b02de97b8180abea7bd0475150e1cc106f9"
+    },
+    {
+      "file": "episodes/STYLE12/review/S01.png",
+      "bytes": 2339242,
+      "sha256": "6565c2974c3c032c39ab9ec4bafa37a78e25162ed624aac2eb138b3ea21ade25"
+    },
+    {
+      "file": "episodes/STYLE12/review/S02.png",
+      "bytes": 2571230,
+      "sha256": "e17bf4c6d264bc9a6071a89aa0b8abd3362fc70cd27b0daafdb651e1821353df"
+    },
+    {
+      "file": "episodes/STYLE12/review/S03.png",
+      "bytes": 2397914,
+      "sha256": "1ec2e89c40c20476a2fe857957742e1a8d0a23c5ec45bb3ba523fd915c01f7ee"
+    },
+    {
+      "file": "episodes/STYLE12/review/captions.json",
+      "bytes": 417,
+      "sha256": "a7da3fda48871f61af7c304c8c3a1e3c6ae05f1a7968461838bae02e471effb3"
+    },
+    {
+      "file": "episodes/STYLE12/review/estimated.srt",
+      "bytes": 179,
+      "sha256": "1dc3b476f20e0497769443a58191ff418bc0c5583571ec62ab30c2b29db2ad7f"
+    },
+    {
+      "file": "episodes/STYLE12/review/review.html",
+      "bytes": 5087,
+      "sha256": "d1141eaec0d0792a277214b3706466801437bd6f4fa67b3b364cf6744bbde86f"
+    },
+    {
+      "file": "episodes/STYLE12/review/review.md",
+      "bytes": 4083,
+      "sha256": "79ed3bbdf1bf10bb85802cca929fdfef89efc9ec6e2614868e3b3f8152a02aec"
+    },
+    {
+      "file": "episodes/STYLE12/review/script.txt",
+      "bytes": 83,
+      "sha256": "84c5ddea3162134f44ba5039f25f7858bb5590ce5037849428b130a0c8ff1b0b"
+    },
+    {
+      "file": "exports/DEMO/DEMO.srt",
+      "bytes": 598,
+      "sha256": "1bb4b10d13fa574743fbcbba03f35d1a2050656fa42d80d90640b1dd1423a12d"
+    },
+    {
+      "file": "exports/DEMO/DEMO_无声.mp4",
+      "bytes": 1872010,
+      "sha256": "0951cdaf2f6779b7fbc6937b2f215246c5b97a734d3a5b5a060c9e99c4c60fe2"
+    },
+    {
+      "file": "exports/DEMO/DEMO_无声_无字幕.mp4",
+      "bytes": 1798414,
+      "sha256": "91c853f835ea5d9c060c102c2c6b6d0d65a520c5cad13966afea31f7f3aec927"
+    },
+    {
+      "file": "exports/DEMO/episode.snapshot.json",
+      "bytes": 25621,
+      "sha256": "82af6172f8df23968fa4ea2e05349a025c9805f8a7c93801a1490f54bbb07cd1"
+    },
+    {
+      "file": "exports/DEMO_V3_2K/DEMO_V3_2K.srt",
+      "bytes": 598,
+      "sha256": "ea15bdbf3a618321b1a33ea75b8c90918de64d6aca33baaea5f989f76377bf77"
+    },
+    {
+      "file": "exports/DEMO_V3_2K/DEMO_V3_2K_带口播.mp4",
+      "bytes": 9236222,
+      "sha256": "c5b1435a18df3dc3461cae736c7de5a5bb25ed6122de0bd66019afa019d40819"
+    },
+    {
+      "file": "exports/DEMO_V3_2K/episode.snapshot.json",
+      "bytes": 30190,
+      "sha256": "469ab3c1154fcfbcbf8ef3d92cf61dbcd8e7306172796fc97f1cf88553fd61d2"
+    },
+    {
+      "file": "exports/DEMO_V3_2K/index.html",
+      "bytes": 2286,
+      "sha256": "1342675214b5d0fba41cf21f7fe5b136ad9b81ee9ac2335ec98443e0c733356b"
+    },
+    {
+      "file": "exports/STYLE12/STYLE12.srt",
+      "bytes": 179,
+      "sha256": "1dc3b476f20e0497769443a58191ff418bc0c5583571ec62ab30c2b29db2ad7f"
+    },
+    {
+      "file": "exports/STYLE12/STYLE12_无声_无字幕.mp4",
+      "bytes": 1878034,
+      "sha256": "a6826922d6fe738bd153389dcfc66fec80c1084628417021ac0cb607d2349cf3"
+    },
+    {
+      "file": "exports/STYLE12/episode.snapshot.json",
+      "bytes": 15554,
+      "sha256": "2831888542ca3b88ad5a4179ae983b02de97b8180abea7bd0475150e1cc106f9"
+    },
+    {
+      "file": "exports/STYLE12/index.html",
+      "bytes": 3030,
+      "sha256": "5eaa0069d92bd9f4fdcbac1f5c402a06020b7a7b9f1f46f004b0da6c5a21b308"
+    },
+    {
+      "file": "exports/index.html",
+      "bytes": 2821,
+      "sha256": "32e37d7125cd75551ecc21212daaa9d54f66c0593e1335bb93cfc9585b2aa771"
+    },
+    {
+      "file": "exports/templates/IP基准总览.png",
+      "bytes": 511018,
+      "sha256": "4650877c6ee665f95597fa9e5a3a8e740284db4f2d27c6e7c01b9a80447790ae"
+    },
+    {
+      "file": "exports/templates/猫猫_模板与表情预览.mp4",
+      "bytes": 403146,
+      "sha256": "70f368a202812807fc761396aaaec0ef9533ed97bf7bc23129dfa1f936e9fc8e"
+    },
+    {
+      "file": "local.config.example.json",
+      "bytes": 170,
+      "sha256": "a57fa9654fb3a8e5a006be2429fcea0007d97a3fdab952edfb4d24db0f3b64a1"
+    },
+    {
+      "file": "requirements.lock.txt",
+      "bytes": 438,
+      "sha256": "a4dcbc13c51d066318548a5ed9657310d82fcfceca508f366cf69e6220ce9679"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 37,
+      "sha256": "fd33917e856d6e11dc168654512d44b5e0b52e7f0e068ef422d4275f08db8202"
+    },
+    {
+      "file": "scripts/align_voice.py",
+      "bytes": 9576,
+      "sha256": "89720cc3287136a506de1c8b617e89d4d6393978e9feac0f2d34feae8ecc3d97"
+    },
+    {
+      "file": "scripts/doctor.py",
+      "bytes": 2104,
+      "sha256": "4621877a185aa44425d1cc20fb8be008e50fe8551022283426166449b64c17c7"
+    },
+    {
+      "file": "scripts/learn_reference.py",
+      "bytes": 4045,
+      "sha256": "406f4c990c9555210d8417b15d4ff08da6dc51c9cdcd7e67ac790df93fac4577"
+    },
+    {
+      "file": "scripts/package_delivery.py",
+      "bytes": 2648,
+      "sha256": "0184dbe188bf311b0cacdf6c4aeaff51ccf6211a1a01bdbfa742d410633d9e6e"
+    },
+    {
+      "file": "scripts/prepare_model.py",
+      "bytes": 928,
+      "sha256": "e31b44d0b3abfcb1ef03c51a68b486b5300d83515220ad99ff998ec8daac064d"
+    },
+    {
+      "file": "scripts/public_manifest.py",
+      "bytes": 3583,
+      "sha256": "c51a3456ab4e675a2c679808657e431721ab6cacf0c4d3c414dc39e043638066"
+    },
+    {
+      "file": "scripts/revise_style_v2.py",
+      "bytes": 5004,
+      "sha256": "6ce06dcb397ed40b3f2ca5799f51018180340284910472d64fe1ac36aa58bdcd"
+    },
+    {
+      "file": "scripts/trace_cat.py",
+      "bytes": 2766,
+      "sha256": "d6e0f4c232aab14033b4db63d25d17e7c479599dbb3f5ade38bfbc241c2633a0"
+    },
+    {
+      "file": "scripts/verify_alignment.py",
+      "bytes": 4721,
+      "sha256": "6247d9507632d67ea3df423501ddd29c2087135f6c9f34f10ed87f7d9428e8ca"
+    },
+    {
+      "file": "scripts/verify_delivery.py",
+      "bytes": 5039,
+      "sha256": "3ff030c4bdf750ef1b2bb11c61cc49730f3fd097e856816fdadf27ecce18c9a1"
+    },
+    {
+      "file": "scripts/verify_style_v2.py",
+      "bytes": 4306,
+      "sha256": "12daaf7c54e4aa76ebeb6d55c62a36c8963a5835028835ec500bd4e547e0cef5"
+    },
+    {
+      "file": "studio/package-lock.json",
+      "bytes": 142105,
+      "sha256": "6218359e95b44b79d600994da0cb2086dcb9ce080f2a46627e73dabf322ee0c4"
+    },
+    {
+      "file": "studio/package.json",
+      "bytes": 767,
+      "sha256": "27b24e3110a09f059a09809edaae40f7fefc1b78de4eae8015a06ad07de21b0d"
+    },
+    {
+      "file": "studio/public/episodes/DEMO/episode.json",
+      "bytes": 24652,
+      "sha256": "6f644969d2188e47cae57921f4d91d875d420d46942f7c57dcc7f4642f68e292"
+    },
+    {
+      "file": "studio/public/episodes/DEMO_V3_2K/episode.json",
+      "bytes": 29066,
+      "sha256": "bcd60910d228dee90278ef58ab9235f4b05c1ea1ba761c06b9936d4f2e965457"
+    },
+    {
+      "file": "studio/public/episodes/DEMO_V3_2K/voice-fc7b21e7.wav",
+      "bytes": 2374832,
+      "sha256": "fc7b21e7de3879107d3b8aa15168fd8c7a57893248a15f50eae9435f500fbe4f"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot01.png",
+      "bytes": 1724687,
+      "sha256": "1cc721f74aac2be56d387ccfa2510f66bc0a911736d26de62015afa88f154924"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot02.png",
+      "bytes": 1591931,
+      "sha256": "ed6c434afb99bb3e413753432de4fe5f2300a3b57efb7a45ebd41bf83ebcfb53"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot03.png",
+      "bytes": 1696546,
+      "sha256": "fe26e83ef888f19ecf9f2e1daa8f44173f6fd68366f20a76a63a1aa3bd7c903e"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot04.png",
+      "bytes": 1644708,
+      "sha256": "06d6bf8d86213374f8f950621431c31baec64d4b8c2d8bdfeb0c8c4ba08fa4fa"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot05.png",
+      "bytes": 1732502,
+      "sha256": "feaae2e45da303119efd04db24044cc3fc6f565c6f3e6cebf30cb597efbf5fb0"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot06.png",
+      "bytes": 1624467,
+      "sha256": "9ef352c61aeda45ae5f71da4c5e6db3b69147069456826b5ba830f28375de6b9"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot07.png",
+      "bytes": 1673704,
+      "sha256": "49160fe5372bc998ae0a33e050c2355218b9b88e990801f240f8c7738492a5af"
+    },
+    {
+      "file": "studio/public/episodes/P001/art/shot08.png",
+      "bytes": 1696426,
+      "sha256": "edc1d0e24fd29e73e6247a68a576ad16925e968b7970dcc1dd11266a843d60ae"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E01.png",
+      "bytes": 1645280,
+      "sha256": "38736c9bc20b3f6cf8ec9b7f76f8ae218172bbf36b8444383f3bc7ce819164b1"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E02.png",
+      "bytes": 1662114,
+      "sha256": "946db2a3774ca90c53a75c8bf4384ab81b8ad194a2dd733cbeea2a739a0a1cfc"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E03.png",
+      "bytes": 2366032,
+      "sha256": "89c95217972467ff1667b079c2c762ae991d58f9ff5224437285ef06ffb0af2c"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E04.png",
+      "bytes": 2617262,
+      "sha256": "9d8fbd052a18724d3184e35385ca841a7c6038081dad8dfcdac4355eb61083d3"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E05.png",
+      "bytes": 1504994,
+      "sha256": "cf15b457ee3c1bc868f3008caaeae8aea46ac2f3e5be2f8807421c34caebde32"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E06.png",
+      "bytes": 1532941,
+      "sha256": "a8cb095dd33a1206059eb46cb3cd826b191073472b652c928a49ec9f596ac738"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E07.png",
+      "bytes": 2068836,
+      "sha256": "9434ad511cfa087124880a84730f7b8aa6a2f748807579496ee81305724bd87d"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E08.png",
+      "bytes": 2288530,
+      "sha256": "e60bdb39ae3f264e96cf3b756b8139b4dfbba39ac29d9cc4026c5e768b6dd957"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E09.png",
+      "bytes": 2291039,
+      "sha256": "eef377ab76877c2725e459072ff145cc2ff036354dfca29ec7aaf9188cca4090"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E10.png",
+      "bytes": 1613702,
+      "sha256": "c85fdc09bf8e0a8ce37caa7f92f41a86df612b78bf7e49848d48bef622f3f2c8"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E11.png",
+      "bytes": 2464558,
+      "sha256": "b553f022155808ad84c3e56b042a330025515007a74d6f096a709c33d064f2df"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E12.png",
+      "bytes": 2559029,
+      "sha256": "22ef02e45c8cb8569f20ededfceb72746cbdae36076aebfb4cf5b7b13e4292f4"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E13.png",
+      "bytes": 1537732,
+      "sha256": "9dc202a8046fb3bfb73d4b4f399f3962c606724bd7737df583aee0630cdf951f"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E14.png",
+      "bytes": 2270385,
+      "sha256": "21d859b9e2a23bfb41d447a6dbb77252ec6be83403fcd490fa3920581765109d"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E15.png",
+      "bytes": 2422409,
+      "sha256": "d1fe9d9564001e90c476656409c74ee38eb9a25a2a9d62d35c95b6451b0946be"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E16.png",
+      "bytes": 2424480,
+      "sha256": "78259fd93739394c8d32e35c63a6734bcb78f2d19bad5598ebc31c48e05314dc"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E17.png",
+      "bytes": 1515319,
+      "sha256": "3a2d85c7adc4de6be09720ae480ef5560f8892f7efcd08bd129fae42d2f4dd33"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E18.png",
+      "bytes": 1545237,
+      "sha256": "fed2b51f72ba365c4088878249dc44899aebe734179470e57cf92566cb6442c9"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E19.png",
+      "bytes": 2256255,
+      "sha256": "8105717903e258b540a8f509bf24cb09e1ef92ca51c87aae833bb483451a2cc9"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E20.png",
+      "bytes": 2565582,
+      "sha256": "7b2af1adc79287316ee2326bae82f89bd016a2b3768a96188b31e263703a0dd0"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E21.png",
+      "bytes": 2568772,
+      "sha256": "8069502dcf2ab508ff9efcacbbf1c173f17eaf92cf8e54377d89c4e2a1de1a69"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E22.png",
+      "bytes": 2569783,
+      "sha256": "b3ed5c4b6c82083ff4dc677768157a18a6d61c2925e1ac60feb0c7c476582723"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E23.png",
+      "bytes": 2541186,
+      "sha256": "c4b10e92449f1ef4cddb8671a806d590aa5bde9e7d0203fa9d8ba2c56db1a455"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E24.png",
+      "bytes": 2548707,
+      "sha256": "05ddd51b21b30afbc1c1b800346cdc0c507c27a609d57f2a074fdfe3604f4552"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E25.png",
+      "bytes": 2349443,
+      "sha256": "75f3a2d80dfd8fffd71a19ee2f874606da246747f221902fc1a2e2f093d50ab0"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E26.png",
+      "bytes": 2354350,
+      "sha256": "5d9f7e5f5b1ddeb2e14acb5c94b91c7d5790cb11bc2227a38a58dd279865391c"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E27.png",
+      "bytes": 2365152,
+      "sha256": "4cd508f5c90c5c486bcd5cfdb43b3e8e5f972588605e06d514aa8859e0fd32b7"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E28.png",
+      "bytes": 2363801,
+      "sha256": "47f8d0ceb0a17cd9292dfd665683d439251b80a580732b4de96d5881fcb5664e"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E29.png",
+      "bytes": 2348863,
+      "sha256": "f6c0d349677ba1d60b339127f0a388349ace18607708bc32f22dd14229978bd4"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E30.png",
+      "bytes": 1399504,
+      "sha256": "7d5493471da280131898bc8e21a86af4cb956a821bd35fa2e328d4fe3d8d8422"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E31.png",
+      "bytes": 2280604,
+      "sha256": "51ff86bf3a270e4f1251cb1aa9f8a81b35aea4ba01b4ab5711049c1f20e63d87"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E32.png",
+      "bytes": 2468577,
+      "sha256": "7d83e4bcef33ca048f2a959745a3e66594a8d532c67e98fc670c7a4ad46d3685"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E33.png",
+      "bytes": 2480415,
+      "sha256": "5a35b6c791f3967454c61c7aac06ec9f2470b2cca7ac67ce1be64c62b50320a3"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E34.png",
+      "bytes": 2480227,
+      "sha256": "5a0ae209c3a8845700c75b9264e30c0b2aebe8a377e2a2d380b826696263867e"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E35.png",
+      "bytes": 2485762,
+      "sha256": "d0fdae155548d2fb6046d3f903aefe18f17f6063926f3a7e46353edbd2f172c8"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E36.png",
+      "bytes": 2487164,
+      "sha256": "7c925ffc34f09b36f60b49ebd1ad9b5945c5f9086d5363920486a367616c945f"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E37.png",
+      "bytes": 2464393,
+      "sha256": "4b83809fd3d40328948d75f9affc24f410c7702636eea65e836899218329a43c"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E38.png",
+      "bytes": 2465934,
+      "sha256": "24cc60512827879484271b5c626cccbec054a9422c9f7f5d0c13ae5e196d7f99"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E39.png",
+      "bytes": 2486971,
+      "sha256": "7de85e97a1f56cc32f1728e02e7144f1ae45b289df8edf9d65384fc669712014"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E40.png",
+      "bytes": 2489372,
+      "sha256": "f254f36d2095228bc97bf0dc9abbb74328209443dd92716a34ca281e62b0b7c7"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E41.png",
+      "bytes": 2482468,
+      "sha256": "4f45237dbf5a1e0a08df42ede2756ab1c4f3fad676b820395537e4e0260b8ce5"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E42.png",
+      "bytes": 2480033,
+      "sha256": "d5361d452f08b522616f86c28ea3b64c6627f5ff0bfa7026660f4a998210ce33"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E43.png",
+      "bytes": 2484005,
+      "sha256": "feab40e61541f3adf507c0f9cf514a1106b40cced380565573dacd73af03429d"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E44.png",
+      "bytes": 2471630,
+      "sha256": "64d09fa1bd442eae00b453b4d5be92bf7985bfa60a8a61fe1fb14d290f4664e0"
+    },
+    {
+      "file": "studio/public/episodes/P001/boards/E45.png",
+      "bytes": 2471105,
+      "sha256": "7d7faf41da5b950c7a3e60623d09cb538fc1fbf45824b5d81c931cd62a734a83"
+    },
+    {
+      "file": "studio/public/episodes/P001/episode.json",
+      "bytes": 50492,
+      "sha256": "8d94cefe44c77ad058e8dcdb69e0f5d0fad2d7d47db0056d92b121339cb977b9"
+    },
+    {
+      "file": "studio/public/episodes/STYLE12/episode.json",
+      "bytes": 15553,
+      "sha256": "5b57b17c00ef37244a97e760e3baa5f2606bfe26e0a177dbcc9b46d976eaae4f"
+    },
+    {
+      "file": "studio/public/ip/cat-front-neutral.png",
+      "bytes": 872181,
+      "sha256": "9ea77261367296ea595bc152d2df4581b5c51a9c9cca3b1006e1ef6bb3b99372"
+    },
+    {
+      "file": "studio/public/ip/cat-groom-proud.png",
+      "bytes": 891153,
+      "sha256": "e5becc4f15eb83b912a3b357c5d166727ac5fd3eb1b44c94269795fa58045c7d"
+    },
+    {
+      "file": "studio/public/ip/cat-groom-surprised.png",
+      "bytes": 880102,
+      "sha256": "0a0fa501999c18afbaa19ce1bdb4b185141f381c3faf604b8b12e34192ea04b1"
+    },
+    {
+      "file": "studio/public/ip/cat-groom.png",
+      "bytes": 883961,
+      "sha256": "8b5a09b829f99ab6bf06dc19b3aeb2e9f72c08c5626738a35bd622de50784be9"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-neutral.png",
+      "bytes": 713281,
+      "sha256": "040fb18c2036e402bbf6f790ee29fabebc12d7c8709d828af81c32a2e6623496"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-proud.png",
+      "bytes": 745222,
+      "sha256": "4628d7f32a38252e5eaef29934c08c86a1133ad082d20417cb6a35128d3cf0d0"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-surprised.png",
+      "bytes": 755917,
+      "sha256": "c952f145973b00ec3db5ee499f3bfd2fc862724c17e44a8764bb334a740d950b"
+    },
+    {
+      "file": "studio/public/ip/cat-walk-back.png",
+      "bytes": 967616,
+      "sha256": "9665eae4af83c72c294b01fd876443b42d3271abd919bb4f82a493334cb34073"
+    },
+    {
+      "file": "studio/public/props/comb.svg",
+      "bytes": 659,
+      "sha256": "19f898fc72c9c09582253e9b8372bcd29be7c5a245d70b7ffe7d60a900b7ce01"
+    },
+    {
+      "file": "studio/public/props/construction.svg",
+      "bytes": 879,
+      "sha256": "6d176c49e24626e2da3de5bf63a759e32ed0502913b6e207b50672c54bf33b2c"
+    },
+    {
+      "file": "studio/public/props/door.svg",
+      "bytes": 572,
+      "sha256": "951ee13d2b98a53e46aaa4a9d2c27d3aa45442d882527ed2012bd29f48f08532"
+    },
+    {
+      "file": "studio/public/props/mirror.svg",
+      "bytes": 612,
+      "sha256": "c05e091b7e4697dcc46e16449f14d42612abbfead61999644f44e76bcef3ff9f"
+    },
+    {
+      "file": "studio/public/props/sink.svg",
+      "bytes": 557,
+      "sha256": "b66209aecab985cc99c63dd37c0ecec7ad2bf6e85c10b27a7645a5adf7fb83c8"
+    },
+    {
+      "file": "studio/public/props/style-v2/comb.svg",
+      "bytes": 1193,
+      "sha256": "a443d3955c10d41c538b4724647d42bb3dff60191bef27b44fb52dfbe8f3e68c"
+    },
+    {
+      "file": "studio/public/props/style-v2/construction.png",
+      "bytes": 1493007,
+      "sha256": "59efe58d7ac944a3f1e1cdd3fb3ea50c0c68926d0aea55aacbedfa16d9d26c9e"
+    },
+    {
+      "file": "studio/public/props/style-v2/entry.png",
+      "bytes": 1407494,
+      "sha256": "7f8354965364820684516f4b08dd4213a923f259d5494811ededb100e14eb603"
+    },
+    {
+      "file": "studio/public/props/style-v2/vanity.png",
+      "bytes": 1182818,
+      "sha256": "589051138207a2b5ed705c929d6a903a596fffddeb8f010c5bbd11e4c817da55"
+    },
+    {
+      "file": "studio/public/props/style-v3/bathroom-clean.png",
+      "bytes": 1424496,
+      "sha256": "2ee57968892e0abb175ca62577489486367e64e803a760bf39cda0bdcaf7ac43"
+    },
+    {
+      "file": "studio/public/props/style-v3/demo-entry.png",
+      "bytes": 1348322,
+      "sha256": "8cfe3ee0441f99eef1ed337c8dee19db4982c321102da8ca54ae91f9331a3a52"
+    },
+    {
+      "file": "studio/public/props/style-v3/demo-extra-atlas.png",
+      "bytes": 627743,
+      "sha256": "4c32a60db70baf1dd1c1a2f99c288a0432c2c3585a75253567a9781cecbbfdb0"
+    },
+    {
+      "file": "studio/public/props/style-v3/prop-atlas.png",
+      "bytes": 838143,
+      "sha256": "8a422b69ac1528468b8974e1c7d631800c32407a96baff0017eb0ddcf0aa54b9"
+    },
+    {
+      "file": "studio/remotion.config.ts",
+      "bytes": 139,
+      "sha256": "71ce025093fb90b4a118ee8866ab79ae3e5495ab713191894c1d090c97952144"
+    },
+    {
+      "file": "studio/scripts/episode.mjs",
+      "bytes": 15151,
+      "sha256": "691e44ebb554a4ed76b8b94339df10f2f17d7c23ec699621eed39ed419b6d934"
+    },
+    {
+      "file": "studio/scripts/mux-voice.mjs",
+      "bytes": 2188,
+      "sha256": "d684ae28b9b8917063b25001f4b2d08fb945bf300a44f5d6fce8f48c468b2c08"
+    },
+    {
+      "file": "studio/scripts/prepare-browser.mjs",
+      "bytes": 1017,
+      "sha256": "7a8ac214b9a49a5422c5b9921dc279e06a3c41ee9e33e72cb8cd9d49a0cb9d19"
+    },
+    {
+      "file": "studio/scripts/prepare-preview.mjs",
+      "bytes": 725,
+      "sha256": "989c4fb705c342256edf3550a4ae315849e7034b00b29c16f014dcbbc252cf4a"
+    },
+    {
+      "file": "studio/scripts/preview-export.mjs",
+      "bytes": 2050,
+      "sha256": "6d31409e200ddb5f137086c4305369434121133f843cce323ba6dc59867b8cbc"
+    },
+    {
+      "file": "studio/scripts/render.mjs",
+      "bytes": 5261,
+      "sha256": "966c5931cf20dbc529f897e787178a0cf1adcd67360e576d757fddc9e775a687"
+    },
+    {
+      "file": "studio/scripts/serve-board.mjs",
+      "bytes": 1853,
+      "sha256": "8a37ce4727d2dc800ab2137dba447bc4b4d95857794f11d051be4bd1972bb961"
+    },
+    {
+      "file": "studio/scripts/smoke-render.mjs",
+      "bytes": 2900,
+      "sha256": "937d21bbc8d1e8c06316a7d60d5f1955fd7433cd5fac2e3aca3f77652e8b33c1"
+    },
+    {
+      "file": "studio/scripts/verify-guards.mjs",
+      "bytes": 2327,
+      "sha256": "23487cd9df7d95e85162c7f75ad4f3e76adbddcb2efbe7a4b9921f5102808960"
+    },
+    {
+      "file": "studio/src/ArtDirection.tsx",
+      "bytes": 9296,
+      "sha256": "14dd3c40c90e2ca7a7b4dd07bb64967ba5befbf318c4b3ee2511a604fcce9068"
+    },
+    {
+      "file": "studio/src/Cat.tsx",
+      "bytes": 6701,
+      "sha256": "006680089746057d7721acd64d84e7e3ffbc00298adc5dec3198862c42a745a4"
+    },
+    {
+      "file": "studio/src/Episode.tsx",
+      "bytes": 7967,
+      "sha256": "df5b762a35a253bb1fe3c2cb8d37e4917b5cc4cf3307519718e2193ff979c591"
+    },
+    {
+      "file": "studio/src/EpisodeLoader.tsx",
+      "bytes": 1180,
+      "sha256": "878737fda468056ec66f4c1604096e127a7dd882ca970963dfc2cb9ce6f530aa"
+    },
+    {
+      "file": "studio/src/Root.tsx",
+      "bytes": 1688,
+      "sha256": "6a55be57203d867b9d981d865842786767bd6e9812c32727b209b01712867711"
+    },
+    {
+      "file": "studio/src/Templates.tsx",
+      "bytes": 2486,
+      "sha256": "df6f819b2c922b7a92916da9f97d5cf1c9bb9464fd07f66c2be4217fa274d382"
+    },
+    {
+      "file": "studio/src/WalkingCat.tsx",
+      "bytes": 3166,
+      "sha256": "aa602a18256d63ab61e16242a10f42c5a16bbd04cab54b73d425910a73c05383"
+    },
+    {
+      "file": "studio/src/cat-geometry.json",
+      "bytes": 2017,
+      "sha256": "a12525b461c37f784ffc564793b8a64b2c35d67e140e7d5f76c5244d3ac0e9e2"
+    },
+    {
+      "file": "studio/src/index.ts",
+      "bytes": 88,
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6"
+    },
+    {
+      "file": "studio/src/types.ts",
+      "bytes": 2705,
+      "sha256": "c142aa074b3d73769fc317adfbebd3200543ae2990f77035d38e3ef78363ebae"
+    },
+    {
+      "file": "studio/tsconfig.json",
+      "bytes": 313,
+      "sha256": "06bcf8985a214146b288ea08dc3490ee0a8509f2ebc235dcf007bb6e86d0f2c6"
+    },
+    {
+      "file": "使用说明.txt",
+      "bytes": 677,
+      "sha256": "bc3490a35fdc0a9bf47bd346fbf79ebeb29bc01f52a09af928982c5141815ce0"
+    },
+    {
+      "file": "粉猫动画_生产总提示词_V1.md",
+      "bytes": 13892,
+      "sha256": "1a76557276bd2682dee5b96add2cfecd9787e04d7186bb1924d40685c61235aa"
+    },
+    {
+      "file": "粉猫动画_轻量制作方案_V2.md",
+      "bytes": 8877,
+      "sha256": "2be1a69173cecbcb016496f37fd98fd46a6eaee437c72fd9e229746492dfc362"
+    },
+    {
+      "file": "花小烙_四视频学习记录_V1.md",
+      "bytes": 27705,
+      "sha256": "e8f71741494437c109621ff73e42d746ecedeb23436540a8d5f6734470ee9856"
+    }
+  ]
+}

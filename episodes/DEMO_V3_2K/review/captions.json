@@ -1,0 +1,58 @@
+[
+  {
+    "text": "我只是想出门前，收拾一下。",
+    "startMs": 180,
+    "endMs": 2544,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "结果一照镜子，脑子里开了八个项目。",
+    "startMs": 2880,
+    "endMs": 6080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "头发、黑眼圈、穿搭，连人生都想重做。",
+    "startMs": 6340,
+    "endMs": 10740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "等一下，这是洗手台，不是施工现场。",
+    "startMs": 10964,
+    "endMs": 14144,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "今天先选一件：把头发整理好。",
+    "startMs": 14364,
+    "endMs": 16914,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "剩下的事，回来再说。",
+    "startMs": 17204,
+    "endMs": 19384,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "看，我没变成另一只猫。",
+    "startMs": 19804,
+    "endMs": 21924,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "只是终于肯出门啦。",
+    "startMs": 22324,
+    "endMs": 23936,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

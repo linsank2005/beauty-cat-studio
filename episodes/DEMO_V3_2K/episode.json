@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "id": "DEMO_V3_2K",
+  "title": "出门前，脑子里开了八个项目",
+  "scriptVersion": "1.1-user-voice",
+  "visualVersion": "3.3-expressions-walk",
+  "status": "approved",
+  "timing": "estimated",
+  "fps": 30,
+  "width": 2560,
+  "height": 1440,
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "duration": 32,
+  "burnCaptions": true,
+  "silenceDemo": false,
+  "audioNote": "用户提供两段连续口播 1小猫Luo → 2小猫Luo。预计主表保留原32秒分段；实际时间根据录音另存，尾部留0.65秒。使用用户声音，不另加配乐或音效。",
+  "approvalNote": "2026-10-02 用户明确授权：根据新口播重排并制作样片，沿用已满意的成人漫画风格，修顺衔接，交付16:9 2K。 用户随后授权增加表情变化，并将结尾重做为参考自有IP姿态的扭胯走出门。",
+  "scriptNote": "N01—N07保留原DEMO口播；新版本N08句尾按用户录音口语记作「啦」。原DEMO稿与预计时间保持原文件。",
+  "sources": [],
+  "narration": [
+    {
+      "id": "N01",
+      "text": "我只是想出门前，收拾一下。",
+      "estimated": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "id": "N02",
+      "text": "结果一照镜子，脑子里开了八个项目。",
+      "estimated": {
+        "start": 6,
+        "end": 9.5
+      }
+    },
+    {
+      "id": "N03",
+      "text": "头发、黑眼圈、穿搭，连人生都想重做。",
+      "estimated": {
+        "start": 9.5,
+        "end": 14
+      }
+    },
+    {
+      "id": "N04",
+      "text": "等一下，这是洗手台，不是施工现场。",
+      "estimated": {
+        "start": 14,
+        "end": 18
+      }
+    },
+    {
+      "id": "N05",
+      "text": "今天先选一件：把头发整理好。",
+      "estimated": {
+        "start": 18,
+        "end": 22.5
+      }
+    },
+    {
+      "id": "N06",
+      "text": "剩下的事，回来再说。",
+      "estimated": {
+        "start": 22.5,
+        "end": 25
+      }
+    },
+    {
+      "id": "N07",
+      "text": "看，我没变成另一只猫。",
+      "estimated": {
+        "start": 25,
+        "end": 28.5
+      }
+    },
+    {
+      "id": "N08",
+      "text": "只是终于肯出门啦。",
+      "estimated": {
+        "start": 28.5,
+        "end": 32
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "镜前的脑内工程与一件小事",
+      "narrationIds": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06"
+      ],
+      "estimated": {
+        "start": 0,
+        "end": 25
+      },
+      "background": "#f4ead9",
+      "initialState": "同一浴室、同一台面关系；猫逐步绘出，脑内项目依次累积；施工道具有明确退出，梳子围绕爪子动作，不突然换近景。",
+      "beats": [
+        {
+          "id": "E01",
+          "narrationId": "N01",
+          "at": 0,
+          "anchor": "我",
+          "action": "同一猫母版逐步绘出",
+          "meaning": "用已认可的墨线出场建立人物",
+          "method": "direct"
+        },
+        {
+          "id": "E02",
+          "narrationId": "N01",
+          "at": 2.4,
+          "anchor": "收拾",
+          "action": "梳子和备用卷发器在台面显出",
+          "meaning": "出门前的实际任务很小",
+          "method": "direct"
+        },
+        {
+          "id": "E03",
+          "narrationId": "N02",
+          "at": 6,
+          "anchor": "结果",
+          "action": "同尺寸抬爪姿态接住照镜子的反应",
+          "meaning": "不换构图，用表演开始脑内戏",
+          "method": "reaction"
+        },
+        {
+          "id": "E04",
+          "narrationId": "N02",
+          "at": 7.2,
+          "anchor": "脑子",
+          "action": "一份过大的蓝图铺到台面",
+          "meaning": "过度规划开始挤占日常空间",
+          "method": "metaphor"
+        },
+        {
+          "id": "E05",
+          "narrationId": "N02",
+          "at": 8.4,
+          "anchor": "八个",
+          "action": "吊车臂由画面右侧进入",
+          "meaning": "脑内项目升级成工程",
+          "method": "metaphor"
+        },
+        {
+          "id": "E06",
+          "narrationId": "N03",
+          "at": 9.7,
+          "anchor": "头发",
+          "action": "挂着备用卷发器的吊钩下放",
+          "meaning": "把头发修饰夸张成吊装",
+          "method": "metaphor"
+        },
+        {
+          "id": "E07",
+          "narrationId": "N03",
+          "at": 10.6,
+          "anchor": "黑眼圈",
+          "action": "吊钩停稳；放大镜对着眼下显出",
+          "meaning": "挑剔不断放大细节",
+          "method": "metaphor"
+        },
+        {
+          "id": "E08",
+          "narrationId": "N03",
+          "at": 11.4,
+          "anchor": "穿搭",
+          "action": "镜边挂出成人西装外套",
+          "meaning": "增加穿搭这个新项目",
+          "method": "direct"
+        },
+        {
+          "id": "E09",
+          "narrationId": "N03",
+          "at": 12.3,
+          "anchor": "人生",
+          "action": "印章落向蓝图",
+          "meaning": "连人生也被当成可重做工程",
+          "method": "metaphor"
+        },
+        {
+          "id": "E10",
+          "narrationId": "N03",
+          "at": 13.3,
+          "anchor": "重做",
+          "action": "蓝图上印出重做字样",
+          "meaning": "让夸张规划落到一个明确结果",
+          "method": "metaphor"
+        },
+        {
+          "id": "E11",
+          "narrationId": "N04",
+          "at": 14,
+          "anchor": "等一下",
+          "action": "猫挑眉，吊装动作停住",
+          "meaning": "用冷面反应叫停",
+          "method": "reaction"
+        },
+        {
+          "id": "E12",
+          "narrationId": "N04",
+          "at": 15.2,
+          "anchor": "洗手台",
+          "action": "短墨线指向真实水龙头",
+          "meaning": "把注意力拉回眼前的日常",
+          "method": "contrast"
+        },
+        {
+          "id": "E13",
+          "narrationId": "N04",
+          "at": 16,
+          "anchor": "不是",
+          "action": "吊钩向上，吊车退出；外套与放大镜收起",
+          "meaning": "撤销多余工程，各道具有来有回",
+          "method": "callback"
+        },
+        {
+          "id": "E14",
+          "narrationId": "N04",
+          "at": 17,
+          "anchor": "现场",
+          "action": "蓝图退开，台面只留下卷起的计划",
+          "meaning": "先结束施工再进入梳头，避免突然切近景",
+          "method": "callback"
+        },
+        {
+          "id": "E15",
+          "narrationId": "N05",
+          "at": 18,
+          "anchor": "今天",
+          "action": "视线逐渐聚向猫与梳子",
+          "meaning": "把注意力收束到一个可完成动作",
+          "method": "reaction"
+        },
+        {
+          "id": "E16",
+          "narrationId": "N05",
+          "at": 19,
+          "anchor": "一件",
+          "action": "梳子离开台面向爪子移动",
+          "meaning": "从大计划回到一个工具",
+          "method": "direct"
+        },
+        {
+          "id": "E17",
+          "narrationId": "N05",
+          "at": 20,
+          "anchor": "头发",
+          "action": "梳柄抵到抬起的爪子，梳齿朝卷发",
+          "meaning": "建立爪子与工具的接触关系",
+          "method": "direct"
+        },
+        {
+          "id": "E18",
+          "narrationId": "N05",
+          "at": 21.2,
+          "anchor": "整理",
+          "action": "梳子绕爪子旋转，掠过卷发前缘",
+          "meaning": "一个小而具体的梳头动作",
+          "method": "direct"
+        },
+        {
+          "id": "E19",
+          "narrationId": "N05",
+          "at": 22,
+          "anchor": "好",
+          "action": "梳子回到起始角度，动作完成",
+          "meaning": "不用成功图标也能读懂完成",
+          "method": "reaction"
+        },
+        {
+          "id": "E20",
+          "narrationId": "N06",
+          "at": 22.5,
+          "anchor": "剩下的事",
+          "action": "完成后短暂停住，准备放回工具",
+          "meaning": "给决定留下呼吸",
+          "method": "reaction"
+        },
+        {
+          "id": "E21",
+          "narrationId": "N06",
+          "at": 23.7,
+          "anchor": "回来",
+          "action": "梳子回到原来台面位置",
+          "meaning": "把工具和现场收好",
+          "method": "callback"
+        },
+        {
+          "id": "E22",
+          "narrationId": "N06",
+          "at": 24.5,
+          "anchor": "再说",
+          "action": "猫放下爪子，回到原来的坐姿",
+          "meaning": "保留原本的自己，准备出门",
+          "method": "callback"
+        }
+      ],
+      "layers": [
+        {
+          "id": "bathroom-plate",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E01",
+          "reveal": "fade",
+          "revealSeconds": 0.45
+        },
+        {
+          "id": "cat-ink-arrival",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "showAt": "E01",
+          "reveal": "draw",
+          "revealSeconds": 2.15,
+          "hideAt": "E03"
+        },
+        {
+          "id": "cat-groom-working",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "showAt": "E03",
+          "view": "groom",
+          "reactions": [
+            {
+              "at": "E04",
+              "expression": "surprised"
+            },
+            {
+              "at": "E06",
+              "expression": "neutral"
+            },
+            {
+              "at": "E08",
+              "expression": "proud"
+            },
+            {
+              "at": "E09",
+              "expression": "surprised"
+            },
+            {
+              "at": "E11",
+              "expression": "neutral"
+            },
+            {
+              "at": "E19",
+              "expression": "proud"
+            }
+          ],
+          "hideAt": "E22"
+        },
+        {
+          "id": "cat-calm-reset",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "showAt": "E22",
+          "expression": "proud",
+          "reveal": "fade",
+          "revealSeconds": 0.16
+        },
+        {
+          "id": "crane-jib",
+          "kind": "image",
+          "x": 1930,
+          "y": -75,
+          "width": 510,
+          "height": 631,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 140,
+            "y": 19,
+            "width": 404,
+            "height": 500,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E05",
+          "hideAt": "E14",
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E06",
+              "x": 1410,
+              "y": -75
+            },
+            {
+              "at": "E12",
+              "x": 1410,
+              "y": -75
+            },
+            {
+              "at": "E13",
+              "x": 1410,
+              "y": -75
+            },
+            {
+              "at": "E14",
+              "x": 1950,
+              "y": -75
+            }
+          ]
+        },
+        {
+          "id": "hanging-roller",
+          "kind": "image",
+          "x": 1393,
+          "y": -540,
+          "width": 156,
+          "height": 495,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 893,
+            "y": 32,
+            "width": 156,
+            "height": 495,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E06",
+          "hideAt": "E14",
+          "transformOrigin": "50% 0%",
+          "motionEasing": "smooth",
+          "rotation": 3,
+          "motion": [
+            {
+              "at": "E07",
+              "x": 1393,
+              "y": -130,
+              "rotation": -1.5
+            },
+            {
+              "at": "E08",
+              "x": 1393,
+              "y": -130,
+              "rotation": 0
+            },
+            {
+              "at": "E12",
+              "x": 1393,
+              "y": -130,
+              "rotation": 0
+            },
+            {
+              "at": "E13",
+              "x": 1393,
+              "y": -130,
+              "rotation": 0
+            },
+            {
+              "at": "E14",
+              "x": 1393,
+              "y": -610,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "id": "eye-inspection",
+          "kind": "image",
+          "x": 845,
+          "y": 502,
+          "width": 170,
+          "height": 277,
+          "src": "props/style-v3/demo-extra-atlas.png",
+          "sourceRect": {
+            "x": 27,
+            "y": 391,
+            "width": 345,
+            "height": 562,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E07",
+          "hideAt": "E14",
+          "reveal": "wipe",
+          "revealSeconds": 0.28,
+          "clipPath": "polygon(0% 0%,100% 0%,100% 62%,70% 62%,60% 100%,10% 100%,10% 62%,0% 62%)",
+          "fadeOutSeconds": 0.35
+        },
+        {
+          "id": "jacket-project",
+          "kind": "image",
+          "x": 1545,
+          "y": 390,
+          "width": 250,
+          "height": 293,
+          "src": "props/style-v3/demo-extra-atlas.png",
+          "sourceRect": {
+            "x": 348,
+            "y": 299,
+            "width": 562,
+            "height": 659,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E08",
+          "hideAt": "E14",
+          "reveal": "wipe",
+          "revealSeconds": 0.35,
+          "clipPath": "polygon(6% 0%,100% 0%,100% 100%,0% 100%,0% 74%,6% 74%)",
+          "fadeOutSeconds": 0.35
+        },
+        {
+          "id": "foreground-counter",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E01",
+          "clipPath": "polygon(0% 87.3%,69.8% 72.5%,78.8% 76%,100% 88%,100% 100%,0% 100%)"
+        },
+        {
+          "id": "spare-roller",
+          "kind": "image",
+          "x": 595,
+          "y": 890,
+          "width": 168,
+          "height": 129,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 835,
+            "y": 1011,
+            "width": 248,
+            "height": 190,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E02",
+          "reveal": "fade",
+          "revealSeconds": 0.25
+        },
+        {
+          "id": "large-open-blueprint",
+          "kind": "image",
+          "x": 40,
+          "y": 749,
+          "width": 1210,
+          "height": 359,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 36,
+            "y": 601,
+            "width": 633,
+            "height": 334,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E04",
+          "hideAt": "E14",
+          "reveal": "wipe",
+          "revealSeconds": 0.45,
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E13",
+              "x": 40,
+              "y": 749
+            },
+            {
+              "at": "E14",
+              "x": -1260,
+              "y": 850
+            }
+          ]
+        },
+        {
+          "id": "redo-imprint",
+          "kind": "text",
+          "x": 505,
+          "y": 846,
+          "width": 430,
+          "rotation": -8,
+          "fontSize": 67,
+          "fontWeight": 900,
+          "color": "#2d302e",
+          "text": "人生重做",
+          "showAt": "E10",
+          "hideAt": "E13",
+          "reveal": "fade",
+          "revealSeconds": 0.12,
+          "fadeOutSeconds": 0.15
+        },
+        {
+          "id": "redo-stamp",
+          "kind": "image",
+          "x": 905,
+          "y": 615,
+          "width": 140,
+          "height": 194,
+          "src": "props/style-v3/demo-extra-atlas.png",
+          "sourceRect": {
+            "x": 938,
+            "y": 554,
+            "width": 292,
+            "height": 405,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E09",
+          "hideAt": "E13",
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E10",
+              "x": 905,
+              "y": 762
+            },
+            {
+              "at": "E11",
+              "x": 905,
+              "y": 708
+            },
+            {
+              "at": "E12",
+              "x": 905,
+              "y": 708
+            }
+          ],
+          "fadeOutSeconds": 0.28
+        },
+        {
+          "id": "rolled-plan",
+          "kind": "image",
+          "x": 48,
+          "y": 835,
+          "width": 910,
+          "height": 268,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 720,
+            "y": 659,
+            "width": 502,
+            "height": 263,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E14",
+          "reveal": "fade",
+          "revealSeconds": 0.22
+        },
+        {
+          "id": "working-comb",
+          "kind": "image",
+          "x": 175,
+          "y": 930,
+          "width": 350,
+          "height": 115,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 151,
+            "y": 1040,
+            "width": 406,
+            "height": 133,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E02",
+          "reveal": "wipe",
+          "revealSeconds": 0.3,
+          "transformOrigin": "8% 45%",
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E16",
+              "x": 175,
+              "y": 930,
+              "rotation": 0
+            },
+            {
+              "at": "E17",
+              "x": 992,
+              "y": 679,
+              "rotation": -86
+            },
+            {
+              "at": "E18",
+              "x": 992,
+              "y": 679,
+              "rotation": -119
+            },
+            {
+              "at": "E19",
+              "x": 992,
+              "y": 679,
+              "rotation": -90
+            },
+            {
+              "at": "E20",
+              "x": 992,
+              "y": 679,
+              "rotation": -90
+            },
+            {
+              "at": "E21",
+              "x": 175,
+              "y": 930,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "id": "paw-gripping-comb",
+          "kind": "image",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "height": 1440,
+          "src": "ip/cat-groom.png",
+          "showAt": "E17",
+          "hideAt": "E20",
+          "clipPath": "ellipse(2.2% 2.2% at 63.5% 61.4%)"
+        },
+        {
+          "id": "dry-eyebrow",
+          "kind": "path",
+          "x": 1170,
+          "y": 408,
+          "width": 90,
+          "height": 36,
+          "path": "M12 24 Q48 30 78 10",
+          "color": "#191919",
+          "strokeWidth": 7,
+          "showAt": "E11",
+          "hideAt": "E15",
+          "reveal": "draw",
+          "revealSeconds": 0.25,
+          "fadeOutSeconds": 0.15
+        },
+        {
+          "id": "back-to-tap",
+          "kind": "path",
+          "x": 75,
+          "y": 700,
+          "width": 245,
+          "height": 125,
+          "path": "M205 14 Q168 9 136 36 Q98 57 71 87 M68 71 L71 88 L90 80",
+          "color": "#1e2229",
+          "strokeWidth": 6,
+          "showAt": "E12",
+          "hideAt": "E14",
+          "reveal": "draw",
+          "revealSeconds": 0.4,
+          "fadeOutSeconds": 0.25
+        }
+      ],
+      "camera": [
+        {
+          "at": "E01",
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        {
+          "at": "E15",
+          "x": 0,
+          "y": 0,
+          "scale": 1
+        },
+        {
+          "at": "E19",
+          "x": -65,
+          "y": -32,
+          "scale": 1.07
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "还是那只猫，终于出门",
+      "narrationIds": [
+        "N07",
+        "N08"
+      ],
+      "estimated": {
+        "start": 25,
+        "end": 32
+      },
+      "background": "#f4ead9",
+      "initialState": "奶油墙、墨蓝门框的真实门口，猫头的初始屏幕位置延续浴室，短转场后退开显出身体与出口；不换IP，不画成功打勾。",
+      "transitionInSeconds": 0.26666666666666666,
+      "beats": [
+        {
+          "id": "E23",
+          "narrationId": "N07",
+          "at": 25,
+          "anchor": "看",
+          "action": "猫的位置延续到门口，短淡入场景",
+          "meaning": "用匹配构图完成故事地点变化",
+          "method": "callback"
+        },
+        {
+          "id": "E24",
+          "narrationId": "N07",
+          "at": 26.4,
+          "anchor": "我没变成",
+          "action": "镜头缓慢退开，脸与卷发器保持原样",
+          "meaning": "没有换成一个新人物",
+          "method": "reaction"
+        },
+        {
+          "id": "E25",
+          "narrationId": "N07",
+          "at": 28,
+          "anchor": "另一只",
+          "action": "完整猫身与门口关系显出",
+          "meaning": "把人物与出口放到同一空间",
+          "method": "direct"
+        },
+        {
+          "id": "E26",
+          "narrationId": "N08",
+          "at": 28.5,
+          "anchor": "只是",
+          "action": "回头站起，左右脚交替，开始扭胯朝门口走",
+          "meaning": "还是原来的自己，但开始行动",
+          "method": "reaction"
+        },
+        {
+          "id": "E27",
+          "narrationId": "N08",
+          "at": 30,
+          "anchor": "出门",
+          "action": "保持步点扭胯，沿地面透视向门洞移动",
+          "meaning": "终于迈出门",
+          "method": "callback"
+        },
+        {
+          "id": "E28",
+          "narrationId": "N08",
+          "at": 31,
+          "anchor": "啦",
+          "action": "迈入门洞，被门扇逐步遮住，保留出门后的短停顿",
+          "meaning": "完成实际的出门动作",
+          "method": "callback"
+        }
+      ],
+      "camera": [
+        {
+          "at": "E23",
+          "x": -65,
+          "y": -32,
+          "scale": 1.07
+        },
+        {
+          "at": "E25",
+          "x": 100,
+          "y": -17,
+          "scale": 0.94
+        }
+      ],
+      "layers": [
+        {
+          "id": "entry-plate",
+          "kind": "image",
+          "x": -150,
+          "y": -30,
+          "width": 2200,
+          "height": 1238,
+          "src": "props/style-v3/demo-entry.png",
+          "showAt": "E23"
+        },
+        {
+          "id": "floor-contact",
+          "kind": "shape",
+          "shape": "ellipse",
+          "x": 278,
+          "y": 1090,
+          "width": 630,
+          "height": 26,
+          "fill": "#2a3137",
+          "color": "#2a3137",
+          "strokeWidth": 0,
+          "showAt": "E23",
+          "hideAt": "E26"
+        },
+        {
+          "id": "cat-at-door",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "showAt": "E23",
+          "expression": "proud",
+          "reactions": [
+            {
+              "at": "E24",
+              "expression": "neutral"
+            }
+          ],
+          "hideAt": "E26"
+        },
+        {
+          "id": "exit-direction-line",
+          "kind": "path",
+          "x": 1210,
+          "y": 755,
+          "width": 465,
+          "height": 145,
+          "path": "M12 91 C96 119 183 112 258 94 Q345 70 422 25 M385 28 L424 23 L407 59",
+          "strokeWidth": 9,
+          "color": "#292c2d",
+          "showAt": "E26",
+          "reveal": "draw",
+          "revealSeconds": 0.5
+        },
+        {
+          "id": "cat-waddle-exit",
+          "kind": "cat",
+          "x": 107,
+          "y": -19,
+          "width": 1210,
+          "showAt": "E26",
+          "view": "walk",
+          "walk": {
+            "durationSeconds": 2.2,
+            "distanceX": 1080,
+            "distanceY": -245,
+            "endScale": 0.38,
+            "cycles": 5
+          }
+        },
+        {
+          "id": "door-leaf-foreground",
+          "kind": "image",
+          "x": -150,
+          "y": -30,
+          "width": 2200,
+          "height": 1238,
+          "src": "props/style-v3/demo-entry.png",
+          "showAt": "E26",
+          "clipPath": "polygon(82.9% 0%, 100% 0%, 100% 85.8%, 82.9% 77.6%)"
+        }
+      ]
+    }
+  ]
+}

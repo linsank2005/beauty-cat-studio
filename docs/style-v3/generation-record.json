@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-02",
+  "episode": "STYLE12",
+  "approval": "用户确认2026-10-02三张范例画风，并要求约12秒小样。",
+  "referenceFrames": [
+    "approved/01-mirror.png",
+    "approved/02-construction.png",
+    "approved/03-reaction.png"
+  ],
+  "assets": [
+    {
+      "file": "studio/public/props/style-v3/bathroom-clean.png",
+      "source": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-2164a855-c384-4a5a-aec2-8ad9c83edb04.png",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Use case: precise-object-edit.\nAsset type: animation clean background plate for the approved adult daily-life comic frame.\nInput Image 1 is the exact approved bathroom frame and edit target. Preserve the existing 16:9 framing, every bathroom object's position, ink contours, color palette, tile joints, rectangular mirror, blue towel, ink-blue diagonal counter, basin, ochre faucet and soap bottle. Do not restyle or shift them.\nEdit ONLY: remove the entire cat (including hair, all rollers, cream body and face) and inpaint its former area with the same off-white bathroom wall tiles, preserving the existing perspective and tile spacing. Also remove ONLY the loose comb and loose pink roller from the countertop, along with their cast shadows, filling their areas with the same ink-blue counter surface. Leave the rest of the bathroom unchanged.\nThe result is an empty bathroom stage ready for the original canonical cat and independent props to be placed back as animation layers. Flat graphic handmade ink, limited cel shadow, sparse existing texture, same crisp contour thickness as the target. Do not make a new room. No people, animals, additional objects, titles, captions, words, logos, border, watermark or transparency. Full-bleed horizontal 16:9 clean plate at the same aspect ratio as the input.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/01-mirror.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "file": "studio/public/props/style-v3/prop-atlas.png",
+      "source": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-458b8ba7-fda9-4500-aa2e-110d16189341.png",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Use case: compositing.\nAsset type: transparent animation prop atlas, SIX independent props arranged in a strict TWO-COLUMN by THREE-ROW square grid.\nInputs: Images 1, 2 and 3 are approved frames from the same owned cat comic. Extract/redraw ONLY their props in the exact coherent graphic ink language, without including any cat or bathroom wall. Match the existing near-black imperfect contours, simple ochre, ink blue, cream and hot pink fills and minimal cel shadow. The props are for the SAME approved adult-women daily-life comic, not a new style.\n\nSIX ITEMS, one item per separated cell, in this exact order:\nTOP LEFT: the ochre construction jib from Image 2, a slim vertical truss mast at right with its diagonal boom extending up-left to a cable axle. Include no hanging cable, hook, block, roller or base scenery. Complete compact tall structure, deliberately economical readable truss braces.\nTOP RIGHT: a long straight dark suspension cable leading down to one yellow/black pulley block, a black hook, two short sling straps and ONE hot-pink hollow roller. All these parts visibly connected as ONE hanging assembly, vertically aligned. Clear strong silhouette. The roller is the same spare roller used in Image 2. No crane boom in this cell.\nMIDDLE LEFT: the large unrolled cream engineering blueprint from Image 2 in its shallow oblique countertop perspective, with curved paper edges, a few simple ink drawings of hollow rollers and measurement lines. One compact yellow/black measuring tape rests at the left edge. No readable words. Preserve broad paper shape, low detail density and large black roller diagrams.\nMIDDLE RIGHT: the same cream blueprint firmly rolled closed as in Image 3, oblique horizontal roll with visible hollow paper end and a simple dusty pink/brown retaining strap; one compact yellow/black measuring tape just beside it. Same perspective family and angle as the unrolled paper, so this can serve as its closed state.\nBOTTOM LEFT: the ordinary salmon/pink comb from Image 1, long simple flat spine and separated teeth, horizontal, strong black outline, no fingers, no paws or cast floor shadow.\nBOTTOM RIGHT: ONE loose hot-pink hollow hair roller from Image 1, lying sideways with its dark circular opening visible, strong black outline, readable curved stripes, no other rollers.\n\nOutput: ONE square RGBA PNG with a genuinely transparent alpha background, outside AND between all objects. Two equal columns and three equal rows, objects centered in their own cells with generous completely empty transparent margins, do not overlap or touch any cell boundary. No cell outlines, grid lines, checkerboard pattern, text, captions, numbering, labels, logo, watermark, characters, surrounding countertop, scenery or decorative strokes. Exactly six disconnected prop groups. Props must preserve the approved handmade graphic look; no 3D, photorealism, glossy gradient, pastel children's storybook style or elaborate material hatching. Do not generate a full scene or video.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/01-mirror.png",
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/02-construction.png",
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/exports/style-tests/2026-10-02/03-reaction.png"
+        ],
+        "transparent_background": true
+      },
+      "atlas": "docs/style-v3/atlas.json",
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "alphaZeroPercent": 75.58
+      }
+    }
+  ],
+  "ip": {
+    "master": "studio/public/ip/cat-sit-neutral.png",
+    "pose": "studio/public/ip/cat-groom.png",
+    "drawing": "原母版与原Cat.tsx遮罩不变，仅场景中缩放摆放；抬爪姿态直接切换。"
+  }
+}

@@ -1,0 +1,37 @@
+name: Check project and storyboard
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: studio/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install locked Node dependencies
+        run: npm ci --no-audit --no-fund
+        working-directory: studio
+      - name: Check TypeScript
+        run: npm run check
+        working-directory: studio
+      - name: Validate all authored episode tables and assets
+        shell: pwsh
+        run: |
+          Get-ChildItem episodes -Recurse -File | Where-Object { $_.Name -in @('episode.json','episode.aligned.json') } | ForEach-Object {
+            node studio/scripts/episode.mjs validate $_.FullName
+            if ($LASTEXITCODE -ne 0) { throw "Invalid episode: $($_.FullName)" }
+          }
+      - name: Check P001 storyboard and original assets
+        run: |
+          python -m pip install Pillow==11.3.0 --disable-pip-version-check
+          python episodes/P001/verify-review.py

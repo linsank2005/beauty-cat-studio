@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "id": "DEMO",
+  "title": "出门前，脑子里开了八个项目",
+  "scriptVersion": "1.0",
+  "status": "approved",
+  "timing": "estimated",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 32,
+  "burnCaptions": true,
+  "silenceDemo": true,
+  "audioNote": "原创视觉样片，未录音，时间均为预计；配音、配乐和音效由用户制作。真实录音对齐另用项目参考音频做技术测试。",
+  "sources": [],
+  "narration": [
+    {
+      "id": "N01",
+      "text": "我只是想出门前，收拾一下。",
+      "estimated": {
+        "start": 0,
+        "end": 6
+      }
+    },
+    {
+      "id": "N02",
+      "text": "结果一照镜子，脑子里开了八个项目。",
+      "estimated": {
+        "start": 6,
+        "end": 9.5
+      }
+    },
+    {
+      "id": "N03",
+      "text": "头发、黑眼圈、穿搭，连人生都想重做。",
+      "estimated": {
+        "start": 9.5,
+        "end": 14
+      }
+    },
+    {
+      "id": "N04",
+      "text": "等一下，这是洗手台，不是施工现场。",
+      "estimated": {
+        "start": 14,
+        "end": 18
+      }
+    },
+    {
+      "id": "N05",
+      "text": "今天先选一件：把头发整理好。",
+      "estimated": {
+        "start": 18,
+        "end": 22.5
+      }
+    },
+    {
+      "id": "N06",
+      "text": "剩下的事，回来再说。",
+      "estimated": {
+        "start": 22.5,
+        "end": 25
+      }
+    },
+    {
+      "id": "N07",
+      "text": "看，我没变成另一只猫。",
+      "estimated": {
+        "start": 25,
+        "end": 28.5
+      }
+    },
+    {
+      "id": "N08",
+      "text": "只是终于肯出门了。",
+      "estimated": {
+        "start": 28.5,
+        "end": 32
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "只是收拾一下",
+      "narrationIds": [
+        "N01"
+      ],
+      "estimated": {
+        "start": 0,
+        "end": 6
+      },
+      "background": "#fff8f1",
+      "initialState": "前2.4秒沿用猫的原绘出；其后纸感画框、窗光、地面、镜柜与洗手台共同建立梳妆角。",
+      "beats": [
+        {
+          "id": "E01",
+          "narrationId": "N01",
+          "at": 0,
+          "action": "同一猫母版逐步绘出",
+          "meaning": "建立角色和情境",
+          "method": "direct"
+        },
+        {
+          "id": "E02",
+          "narrationId": "N01",
+          "at": 2.4,
+          "anchor": "收拾",
+          "action": "手绘镜柜、洗手台与房间基底一起出现",
+          "meaning": "明确本段发生在出门准备时",
+          "method": "direct"
+        },
+        {
+          "id": "E03",
+          "narrationId": "N01",
+          "at": 4.2,
+          "action": "一个问号出现",
+          "meaning": "角色开始挑剔镜中自己",
+          "method": "reaction"
+        }
+      ],
+      "layers": [
+        {
+          "id": "cat-start",
+          "kind": "cat",
+          "x": 150,
+          "y": 140,
+          "width": 840,
+          "showAt": "E01",
+          "reveal": "draw",
+          "revealSeconds": 2.4
+        },
+        {
+          "id": "vanity-setup",
+          "kind": "image",
+          "x": 1010,
+          "y": 117,
+          "width": 800,
+          "height": 800,
+          "src": "props/style-v2/vanity.png",
+          "showAt": "E02",
+          "reveal": "wipe",
+          "revealSeconds": 0.85
+        },
+        {
+          "id": "question",
+          "kind": "text",
+          "x": 815,
+          "y": 140,
+          "width": 170,
+          "text": "？",
+          "fontSize": 112,
+          "showAt": "E03",
+          "reveal": "pop",
+          "color": "#a36176",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "letterSpacing": 2
+        }
+      ],
+      "art": {
+        "variant": "vanity",
+        "appearAt": "E02",
+        "fadeSeconds": 0.85
+      }
+    },
+    {
+      "id": "S02",
+      "title": "八个项目排队",
+      "narrationIds": [
+        "N02",
+        "N03"
+      ],
+      "estimated": {
+        "start": 6,
+        "end": 14
+      },
+      "background": "#fff8f1",
+      "initialState": "猫仍在左侧；右侧柔和的脑内云团里，手绘清单纸签按原事件逐项累积，纸色和小图标统一。",
+      "beats": [
+        {
+          "id": "E04",
+          "narrationId": "N02",
+          "at": 6,
+          "anchor": "结果",
+          "action": "保持猫，第一张待办纸出现",
+          "meaning": "把想法实体化",
+          "method": "metaphor"
+        },
+        {
+          "id": "E05",
+          "narrationId": "N02",
+          "at": 7,
+          "action": "第二张待办加入",
+          "meaning": "任务开始堆积",
+          "method": "metaphor"
+        },
+        {
+          "id": "E06",
+          "narrationId": "N02",
+          "at": 8,
+          "anchor": "八个项目",
+          "action": "第三张待办加入，八个项目标签出现",
+          "meaning": "点出夸张数量",
+          "method": "metaphor"
+        },
+        {
+          "id": "E07",
+          "narrationId": "N02",
+          "at": 9,
+          "action": "第四张待办加入",
+          "meaning": "维持积累而非换图",
+          "method": "metaphor"
+        },
+        {
+          "id": "E08",
+          "narrationId": "N03",
+          "at": 9.8,
+          "anchor": "头发",
+          "action": "第五张待办加入，猫改为惊讶",
+          "meaning": "量变变成压力",
+          "method": "reaction"
+        },
+        {
+          "id": "E09",
+          "narrationId": "N03",
+          "at": 10.6,
+          "anchor": "黑眼圈",
+          "action": "第六张待办加入",
+          "meaning": "任务越列越多",
+          "method": "metaphor"
+        },
+        {
+          "id": "E10",
+          "narrationId": "N03",
+          "at": 11.4,
+          "anchor": "穿搭",
+          "action": "第七张待办加入",
+          "meaning": "准备范围继续扩大",
+          "method": "metaphor"
+        },
+        {
+          "id": "E11",
+          "narrationId": "N03",
+          "at": 12.3,
+          "anchor": "人生",
+          "action": "第八张人生重做待办压轴出现",
+          "meaning": "把普通整理升级到荒诞尺度",
+          "method": "contrast"
+        }
+      ],
+      "layers": [
+        {
+          "id": "cat-tasks",
+          "kind": "cat",
+          "x": 50,
+          "y": 200,
+          "width": 750,
+          "showAt": "E04",
+          "reveal": "none",
+          "reactions": [
+            {
+              "at": "E08",
+              "expression": "surprised"
+            }
+          ]
+        },
+        {
+          "id": "project-count",
+          "kind": "text",
+          "x": 855,
+          "y": 80,
+          "width": 910,
+          "text": "脑内待办：8 项",
+          "fontSize": 74,
+          "showAt": "E06",
+          "reveal": "pop",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task-title-rule",
+          "kind": "path",
+          "x": 902,
+          "y": 166,
+          "width": 850,
+          "height": 40,
+          "path": "M10 23 Q243 8 805 23",
+          "color": "#b98b8d",
+          "strokeWidth": 4,
+          "showAt": "E06",
+          "reveal": "draw",
+          "revealSeconds": 0.45
+        },
+        {
+          "id": "task1",
+          "kind": "shape",
+          "x": 855,
+          "y": 227,
+          "width": 366,
+          "height": 120,
+          "showAt": "E04",
+          "shape": "note",
+          "fill": "#f9f2df",
+          "rotation": -4,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "roller",
+          "noteIndex": 1
+        },
+        {
+          "id": "task1-label",
+          "kind": "text",
+          "x": 954,
+          "y": 255,
+          "width": 231,
+          "text": "头发",
+          "fontSize": 53,
+          "showAt": "E04",
+          "rotation": -4,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task2",
+          "kind": "shape",
+          "x": 1310,
+          "y": 230,
+          "width": 377,
+          "height": 125,
+          "showAt": "E05",
+          "shape": "note",
+          "fill": "#f4e9e6",
+          "rotation": 3,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "moon",
+          "noteIndex": 2
+        },
+        {
+          "id": "task2-label",
+          "kind": "text",
+          "x": 1409,
+          "y": 260.5,
+          "width": 242,
+          "text": "黑眼圈",
+          "fontSize": 53,
+          "showAt": "E05",
+          "rotation": 3,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task3",
+          "kind": "shape",
+          "x": 865,
+          "y": 378,
+          "width": 375,
+          "height": 123,
+          "showAt": "E06",
+          "shape": "note",
+          "fill": "#ebefdf",
+          "rotation": 2,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "shirt",
+          "noteIndex": 3
+        },
+        {
+          "id": "task3-label",
+          "kind": "text",
+          "x": 964,
+          "y": 407.5,
+          "width": 240,
+          "text": "穿搭",
+          "fontSize": 53,
+          "showAt": "E06",
+          "rotation": 2,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task4",
+          "kind": "shape",
+          "x": 1300,
+          "y": 384,
+          "width": 372,
+          "height": 124,
+          "showAt": "E07",
+          "shape": "note",
+          "fill": "#f9f2df",
+          "rotation": -3,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "nail",
+          "noteIndex": 4
+        },
+        {
+          "id": "task4-label",
+          "kind": "text",
+          "x": 1399,
+          "y": 414,
+          "width": 237,
+          "text": "指甲",
+          "fontSize": 53,
+          "showAt": "E07",
+          "rotation": -3,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task5",
+          "kind": "shape",
+          "x": 853,
+          "y": 527,
+          "width": 378,
+          "height": 123,
+          "showAt": "E08",
+          "shape": "note",
+          "fill": "#f4e9e6",
+          "rotation": -2,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "brow",
+          "noteIndex": 5
+        },
+        {
+          "id": "task5-label",
+          "kind": "text",
+          "x": 952,
+          "y": 556.5,
+          "width": 243,
+          "text": "眉毛",
+          "fontSize": 53,
+          "showAt": "E08",
+          "rotation": -2,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task6",
+          "kind": "shape",
+          "x": 1314,
+          "y": 536,
+          "width": 388,
+          "height": 124,
+          "showAt": "E09",
+          "shape": "note",
+          "fill": "#f9f2df",
+          "rotation": 3,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "shoe",
+          "noteIndex": 6
+        },
+        {
+          "id": "task6-label",
+          "kind": "text",
+          "x": 1413,
+          "y": 566,
+          "width": 253,
+          "text": "鞋子",
+          "fontSize": 53,
+          "showAt": "E09",
+          "rotation": 3,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task7",
+          "kind": "shape",
+          "x": 863,
+          "y": 677,
+          "width": 380,
+          "height": 121,
+          "showAt": "E10",
+          "shape": "note",
+          "fill": "#ebefdf",
+          "rotation": 3,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "bag",
+          "noteIndex": 7
+        },
+        {
+          "id": "task7-label",
+          "kind": "text",
+          "x": 962,
+          "y": 705.5,
+          "width": 245,
+          "text": "包包",
+          "fontSize": 53,
+          "showAt": "E10",
+          "rotation": 3,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "task8",
+          "kind": "shape",
+          "x": 1297,
+          "y": 686,
+          "width": 410,
+          "height": 140,
+          "showAt": "E11",
+          "shape": "note",
+          "fill": "#e4b5c1",
+          "rotation": -3,
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 3.5,
+          "doodle": "redo",
+          "noteIndex": 8
+        },
+        {
+          "id": "task8-label",
+          "kind": "text",
+          "x": 1396,
+          "y": 724,
+          "width": 275,
+          "text": "人生重做",
+          "fontSize": 50,
+          "showAt": "E11",
+          "rotation": -3,
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        }
+      ],
+      "art": {
+        "variant": "thoughts"
+      }
+    },
+    {
+      "id": "S03",
+      "title": "不是施工现场",
+      "narrationIds": [
+        "N04"
+      ],
+      "estimated": {
+        "start": 14,
+        "end": 18
+      },
+      "background": "#fff8f1",
+      "initialState": "同一纸面中用鼠尾草与暖玫瑰两块淡色区比较洗手台和工地；素材均用统一的手绘墨线与填色。",
+      "beats": [
+        {
+          "id": "E12",
+          "narrationId": "N04",
+          "at": 14,
+          "anchor": "等一下",
+          "action": "切正面猫和两种场景",
+          "meaning": "打断无限扩大的任务",
+          "method": "reaction"
+        },
+        {
+          "id": "E13",
+          "narrationId": "N04",
+          "at": 15.2,
+          "anchor": "洗手台",
+          "action": "洗手台标签出现",
+          "meaning": "交代现实尺度",
+          "method": "direct"
+        },
+        {
+          "id": "E14",
+          "narrationId": "N04",
+          "at": 16.2,
+          "anchor": "施工现场",
+          "action": "施工现场打叉",
+          "meaning": "画面揭示荒诞反差",
+          "method": "contrast"
+        }
+      ],
+      "layers": [
+        {
+          "id": "cat-interrupt",
+          "kind": "cat",
+          "x": 610,
+          "y": 285,
+          "width": 650,
+          "view": "front",
+          "showAt": "E12"
+        },
+        {
+          "id": "sink-compare",
+          "kind": "image",
+          "x": 90,
+          "y": 285,
+          "width": 550,
+          "height": 550,
+          "src": "props/style-v2/vanity.png",
+          "showAt": "E12",
+          "reveal": "wipe",
+          "revealSeconds": 0.7
+        },
+        {
+          "id": "crane",
+          "kind": "image",
+          "x": 1248,
+          "y": 258,
+          "width": 600,
+          "height": 600,
+          "src": "props/style-v2/construction.png",
+          "showAt": "E12",
+          "reveal": "wipe",
+          "revealSeconds": 0.7
+        },
+        {
+          "id": "sink-label",
+          "kind": "text",
+          "x": 100,
+          "y": 112,
+          "width": 530,
+          "text": "洗手台",
+          "fontSize": 72,
+          "showAt": "E13",
+          "reveal": "pop",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "crane-label",
+          "kind": "text",
+          "x": 1260,
+          "y": 112,
+          "width": 540,
+          "text": "施工现场",
+          "fontSize": 72,
+          "showAt": "E14",
+          "color": "#a46376",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "letterSpacing": 2
+        },
+        {
+          "id": "cross",
+          "kind": "path",
+          "x": 1340,
+          "y": 283,
+          "width": 430,
+          "height": 470,
+          "path": "M30 20 L389 435 M388 25 L28 428",
+          "strokeWidth": 18,
+          "color": "#b46776",
+          "showAt": "E14",
+          "reveal": "draw",
+          "revealSeconds": 0.5
+        }
+      ],
+      "art": {
+        "variant": "compare"
+      }
+    },
+    {
+      "id": "S04",
+      "title": "先做好一件",
+      "narrationIds": [
+        "N05",
+        "N06"
+      ],
+      "estimated": {
+        "start": 18,
+        "end": 25
+      },
+      "background": "#fff8f1",
+      "initialState": "玫瑰粉笔刷色块围住猫的近景，鼠尾草色块托住单张折角清单；保持已有抬爪姿态和梳子轨迹。",
+      "beats": [
+        {
+          "id": "E15",
+          "narrationId": "N05",
+          "at": 18,
+          "anchor": "今天",
+          "action": "真实抬爪姿态和一条任务",
+          "meaning": "收束注意力",
+          "method": "direct"
+        },
+        {
+          "id": "E16",
+          "narrationId": "N05",
+          "at": 19.4,
+          "anchor": "头发",
+          "action": "梳子进入角色手边",
+          "meaning": "让整理成为具体动作",
+          "method": "direct"
+        },
+        {
+          "id": "E17",
+          "narrationId": "N05",
+          "at": 21,
+          "anchor": "整理好",
+          "action": "梳子经过卷发，完成勾画",
+          "meaning": "一件事情有明确完成状态",
+          "method": "direct"
+        },
+        {
+          "id": "E18",
+          "narrationId": "N06",
+          "at": 22.5,
+          "anchor": "剩下的事",
+          "action": "其他待办收起标签",
+          "meaning": "为没处理的事情留下位置",
+          "method": "callback"
+        },
+        {
+          "id": "E19",
+          "narrationId": "N06",
+          "at": 24,
+          "action": "梳子移开，保留完成状态",
+          "meaning": "给结果留阅读与反应时间",
+          "method": "reaction"
+        }
+      ],
+      "layers": [
+        {
+          "id": "cat-groom",
+          "kind": "cat",
+          "x": 130,
+          "y": 135,
+          "width": 810,
+          "view": "groom",
+          "showAt": "E15"
+        },
+        {
+          "id": "one-task",
+          "kind": "shape",
+          "x": 1020,
+          "y": 290,
+          "width": 680,
+          "height": 195,
+          "showAt": "E15",
+          "shape": "note",
+          "fill": "#fff8e9",
+          "reveal": "pop",
+          "color": "#493d38",
+          "strokeWidth": 4,
+          "doodle": "roller"
+        },
+        {
+          "id": "one-label",
+          "kind": "text",
+          "x": 1138,
+          "y": 343,
+          "width": 470,
+          "text": "先整理头发",
+          "fontSize": 64,
+          "showAt": "E15",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "comb",
+          "kind": "image",
+          "x": 630,
+          "y": 590,
+          "width": 230,
+          "height": 100,
+          "rotation": -25,
+          "src": "props/style-v2/comb.svg",
+          "showAt": "E16",
+          "reveal": "pop",
+          "motion": [
+            {
+              "at": "E17",
+              "x": 520,
+              "y": 245,
+              "rotation": 25
+            },
+            {
+              "at": "E19",
+              "x": 870,
+              "y": 660,
+              "rotation": -12
+            }
+          ]
+        },
+        {
+          "id": "checkmark",
+          "kind": "path",
+          "x": 1535,
+          "y": 293,
+          "width": 170,
+          "height": 160,
+          "path": "M16 86 L61 131 L157 25",
+          "strokeWidth": 13,
+          "color": "#758a69",
+          "showAt": "E17",
+          "reveal": "draw",
+          "revealSeconds": 0.55
+        },
+        {
+          "id": "later-label",
+          "kind": "text",
+          "x": 1040,
+          "y": 620,
+          "width": 700,
+          "text": "其余项目：回来再说",
+          "fontSize": 53,
+          "showAt": "E18",
+          "reveal": "fade",
+          "color": "#93766f",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "letterSpacing": 2
+        }
+      ],
+      "art": {
+        "variant": "focus"
+      }
+    },
+    {
+      "id": "S05",
+      "title": "还是我，但肯出门了",
+      "narrationIds": [
+        "N07",
+        "N08"
+      ],
+      "estimated": {
+        "start": 25,
+        "end": 32
+      },
+      "background": "#fff8f1",
+      "initialState": "同一纸感房间和柔和窗光，猫保持原坐姿得意表情；新手绘门口、挂包围巾与地垫完成出门处境。",
+      "beats": [
+        {
+          "id": "E20",
+          "narrationId": "N07",
+          "at": 25,
+          "anchor": "看",
+          "action": "原坐姿母版，得意表情",
+          "meaning": "回扣原来的猫，而非换人",
+          "method": "callback"
+        },
+        {
+          "id": "E21",
+          "narrationId": "N07",
+          "at": 27,
+          "anchor": "另一只猫",
+          "action": "还是我标签出现",
+          "meaning": "强调身份保持一致",
+          "method": "direct"
+        },
+        {
+          "id": "E22",
+          "narrationId": "N08",
+          "at": 28.5,
+          "anchor": "出门",
+          "action": "朝门方向画出箭头",
+          "meaning": "把最后一句落到行动",
+          "method": "direct"
+        },
+        {
+          "id": "E23",
+          "narrationId": "N08",
+          "at": 30,
+          "action": "出门啦字样出现",
+          "meaning": "保留结束停留",
+          "method": "reaction"
+        }
+      ],
+      "layers": [
+        {
+          "id": "cat-end",
+          "kind": "cat",
+          "x": 180,
+          "y": 155,
+          "width": 820,
+          "expression": "proud",
+          "showAt": "E20"
+        },
+        {
+          "id": "door",
+          "kind": "image",
+          "x": 1070,
+          "y": 184,
+          "width": 730,
+          "height": 730,
+          "src": "props/style-v2/entry.png",
+          "showAt": "E20",
+          "reveal": "wipe",
+          "revealSeconds": 0.85
+        },
+        {
+          "id": "still-me",
+          "kind": "text",
+          "x": 190,
+          "y": 106,
+          "width": 600,
+          "text": "还是这只猫。",
+          "fontSize": 70,
+          "showAt": "E21",
+          "reveal": "pop",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "color": "#493d38",
+          "letterSpacing": 2
+        },
+        {
+          "id": "direction",
+          "kind": "path",
+          "x": 930,
+          "y": 585,
+          "width": 470,
+          "height": 200,
+          "path": "M10 115 Q175 158 365 93 M332 65 L389 85 L359 134",
+          "strokeWidth": 8,
+          "showAt": "E22",
+          "reveal": "draw",
+          "revealSeconds": 0.7,
+          "color": "#75685a"
+        },
+        {
+          "id": "done",
+          "kind": "text",
+          "x": 1100,
+          "y": 87,
+          "width": 650,
+          "text": "出门啦！",
+          "fontSize": 75,
+          "showAt": "E23",
+          "reveal": "pop",
+          "color": "#a16178",
+          "fontFamily": "KaiTi, STKaiti, Microsoft YaHei, sans-serif",
+          "fontWeight": 700,
+          "letterSpacing": 2
+        }
+      ],
+      "art": {
+        "variant": "exit"
+      }
+    }
+  ],
+  "visualVersion": "2.0"
+}

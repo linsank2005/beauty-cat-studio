@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "python": "3.12.14",
+  "checks": {
+    "node": {
+      "path": "E:\\Soft\\nodejs\\node.exe",
+      "exists": true
+    },
+    "ffmpeg": {
+      "path": "E:\\AI-Tools\\ffmpeg\\bin\\ffmpeg.exe",
+      "exists": true
+    },
+    "ffprobe": {
+      "path": "E:\\AI-Tools\\ffmpeg\\bin\\ffprobe.exe",
+      "exists": true
+    },
+    "chrome": {
+      "path": "E:\\AI-Tools\\projects\\Video-shorts\\Beauty-Cat\\studio\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe",
+      "exists": true
+    },
+    "whisperModel": {
+      "path": "E:\\AI-Tools\\models\\faster-whisper\\small",
+      "exists": true
+    },
+    "node_modules": {
+      "exists": true
+    },
+    "faster_whisper": {
+      "exists": true
+    },
+    "Pillow": {
+      "exists": true
+    },
+    "cat_assets": {
+      "exists": true,
+      "count": 5
+    }
+  }
+}

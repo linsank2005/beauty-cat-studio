@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-02",
+  "file": "exports/DEMO/DEMO_无声.mp4",
+  "sha256": "0951cdaf2f6779b7fbc6937b2f215246c5b97a734d3a5b5a060c9e99c4c60fe2",
+  "surface": "Codex in-app browser, local exported-video player",
+  "observations": [
+    {"currentTime": 0.279357, "paused": false, "ended": false},
+    {"currentTime": 32, "duration": 32, "paused": true, "ended": true, "readyState": 4},
+    {"afterSeek": 6, "currentTime": 6.279659, "paused": false},
+    {"currentTime": 32, "paused": true, "ended": true}
+  ],
+  "media_error": null,
+  "studio": {"composition": "Demo", "checkedFrame": 150, "current_error_overlay": null},
+  "visual_review": {"scene_keys": ["S01", "S02", "S03", "S04", "S05"], "motion_state_frames": [60, 78, 96, 555, 660]},
+  "limits": "Export was played and states were visually inspected. This does not establish audio synchronization; the demo is silent."
+}

@@ -1,0 +1,46 @@
+{
+  "episode": "DEMO_V3_2K",
+  "visualVersion": "3.2-expressions",
+  "created": "2026-10-02",
+  "requests": [
+    {
+      "key": "groom-surprised",
+      "args": {
+        "prompt": "Edit the FIRST reference image only. It is the exact canonical Beauty-Cat lifted-paw pose on a transparent 1254x1254 canvas. Preserve the EXACT first image framing, scale, tilted head angle, outer facial outline and jaw, body, lifted paw, dark rough ink hair and all six pink hair rollers. No recomposition, no zoom, no labels, no scene, no props. Change ONLY the eyes, eyebrows and mouth within the face to match the SECOND reference image's surprised expression: wide round eyes with small black pupils, gently raised brows, small open O mouth. Keep the nose and cheeks in their first-image positions. Keep adult dry comic personality and textured cream skin, rough dark brush lines. This is a production facial expression variant of ONE identical existing character, not a redesign. Single character, same placement and same silhouette as first reference, full square canvas. Transparent background.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-groom.png",
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-surprised.png"
+        ],
+        "transparent_background": true
+      },
+      "output": "studio/public/ip/cat-groom-surprised.png",
+      "originalGeneratedSource": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-5a82c771-cdff-4f39-9e41-d7a83ac246cd.png"
+    },
+    {
+      "key": "groom-proud",
+      "args": {
+        "prompt": "Edit the FIRST reference image only. It is the exact canonical Beauty-Cat lifted-paw pose on a transparent 1254x1254 canvas. Preserve the EXACT first image framing, scale, tilted head angle, outer facial outline and jaw, body, lifted paw, dark rough ink hair and all six pink hair rollers. No recomposition, no zoom, no labels, no scene, no props. Change ONLY the eyes, eyebrows and mouth within the face to match the SECOND reference image's proud expression: half-lidded eyes, asymmetric curved eyebrows, restrained small confident smile. Keep the nose and cheeks in their first-image positions. Keep adult dry comic personality and textured cream skin, rough dark brush lines. This is a production facial expression variant of ONE identical existing character, not a redesign. Single character, same placement and same silhouette as first reference, full square canvas. Transparent background.",
+        "referenced_image_paths": [
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-groom.png",
+          "E:/AI-Tools/projects/Video-shorts/Beauty-Cat/studio/public/ip/cat-sit-proud.png"
+        ],
+        "transparent_background": true
+      },
+      "output": "studio/public/ip/cat-groom-proud.png",
+      "originalGeneratedSource": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-44f04761-07dd-47f0-99cb-86dd4308091c.png"
+    }
+  ],
+  "compositing": "Only the interior face is replaced in Cat.tsx; outside-face pixels come from the original pose bitmap. Original IP files are preserved.",
+  "inspection": {
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaZeroFraction": {
+      "surprised": 0.631447,
+      "proud": 0.630889
+    },
+    "observed": "Rendered groom surprise/proud facial states inspected; original hair, rollers, paw and jaw remain present."
+  }
+}

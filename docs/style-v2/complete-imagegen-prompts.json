@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-02",
+  "tool": "built-in imagegen",
+  "assets": [
+    {
+      "id": "vanity",
+      "referenceImages": [
+        "studio/public/ip/cat-sit-neutral.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: transparent illustrated prop vignette for a Chinese 2D narrated animation. Input image 1 is ONLY the visual language reference: match its confident irregular charcoal-black ink, warm cream shading and sketchy brush finish; DO NOT include any cat, character or face. Create a beautiful, simple domestic washstand vignette: a real ceramic basin and gently curved brass tap on a muted dusty-rose two-door wooden cabinet, with a slim arched blush mirror above, a folded striped cream towel draped at one side, one small sage green soap pump and one little cream cup with two toothbrushes. A tiny loose pink hair roller on the counter ties this room to the reference cat. Cabinet feet and counter feel grounded. Slight three-quarter perspective with the front clearly readable, eye-level view, complete objects shown. Refined contemporary hand-inked illustration, matte gouache/color-pencil patches, delicate sparse hatching on shaded edges, hand-drawn lines varying in thickness. Clear large shapes with small selective material details. Palette only warm ivory, dusty rose, pale sage, muted brass and dark charcoal; mirror reflection a subtle cool grey-cream wash. Simple and elegant, not photorealistic, not 3D, not glossy, not a flat vector icon, no heavy comic outlines dominating the fill. All objects form ONE coherent room vignette. No surrounding wall, floor or room background; no text, words, logos or watermark; no extra characters. Square canvas, full vignette contained within central 84% of canvas with generous truly transparent padding. True alpha transparent background.",
+      "transparent_background": true,
+      "originalOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-02edce72-7418-49f8-af90-87fb43529e29.png",
+      "projectAsset": "studio/public/props/style-v2/vanity.png"
+    },
+    {
+      "id": "entry",
+      "referenceImages": [
+        "studio/public/ip/cat-sit-neutral.png",
+        "studio/public/props/style-v2/vanity.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE transparent illustrated entry-door vignette for a Chinese short animated story. Image 1 is the cat's line/palette reference ONLY. Image 2 is the newly approved washstand asset and the primary art-direction reference: exactly match its confident charcoal-black imperfect ink, matte dusty-rose/cream gouache, sparse colored-pencil hatching and selective highlights. Do NOT include any cat, character or face. Create a simple, refined apartment entrance: a warm dusty-rose wooden door standing slightly ajar inside a slim cream arched doorway, a brass knob, a small loosely striped ivory-and-sage doormat at the base; a modest wall hook at the left holds one cream cloth shoulder bag and a pale sage scarf. Through the ajar door a small warm ivory patch suggests outside morning light. Slight three-quarter view, full frame, large clean shapes, illustrative and charming rather than realistic. Limited palette dusty rose, warm ivory, pale sage, muted brass, warm charcoal. Hand-inked editorial story illustration with gently uneven strokes and sparse dry-brush/pencil material texture, coherent with Image 2; no flat icon styling, no shiny digital gradients, no photorealism or 3D, no busy room. Square canvas, true transparent alpha outside the complete doorway vignette and small doormat; surrounding walls/floor must not fill the canvas. Object inside central 84% with all corners and mat shown, generous transparency around. No text, labels, logos or watermark.",
+      "transparent_background": true,
+      "originalOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-c57f745d-e56b-4dc6-9577-288b34199587.png",
+      "projectAsset": "studio/public/props/style-v2/entry.png"
+    },
+    {
+      "id": "construction",
+      "referenceImages": [
+        "studio/public/ip/cat-sit-neutral.png",
+        "studio/public/props/style-v2/vanity.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: one transparent illustrated miniature construction-site vignette for a humorous Chinese 2D short. Image 1 is the cat line/palette reference only; image 2 is the washstand art-direction reference. Match image 2's confident uneven charcoal ink, matte gouache fills, dry-brush/pencil hatching and refined simple material detail. Do not include any cat, person, faces, text or signage. Subject: a small unfinished dusty-rose brick wall and wooden scaffold, a modest warm-ochre tower crane with a single hanging hook overhead, and only one wooden toolbox, a small sage paint bucket and one muted striped traffic cone on the ground. Simple coherent three-quarter-view construction scene, all in a compact tall square vignette. A few real structural braces and brick lines make it feel drawn with care, not like a generic icon. Palette limited to warm ivory, dusty rose, pale sage, ochre and charcoal; clear larger silhouettes with selective little imperfections, no high saturation yellow. Whimsical editorial illustrated story art with the same visual family as image 2. No realism, no 3D, no glossy digital vector art, no elaborate detailed city. True alpha transparent background, no rectangle of ground/wall outside this isolated small scene. Complete crane/scaffold and all small props inside the central 84% of a square canvas, padding on every edge. No words, logos or watermark.",
+      "transparent_background": true,
+      "originalOutput": "E:/Soft/Codex/generated_images/01a0f772-2b9e-7d72-97d3-bddc418ca0a0/exec-8f586721-79bf-44af-8670-c80abe5d79e3.png",
+      "projectAsset": "studio/public/props/style-v2/construction.png"
+    }
+  ]
+}

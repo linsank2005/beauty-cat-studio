@@ -1,0 +1,385 @@
+{
+  "date": "2026-10-01",
+  "media": [
+    {
+      "file": "exports/DEMO/DEMO_无声.mp4",
+      "bytes": 1210544,
+      "sha256": "c485ff9e47655bf4b5f23d0e7de7ba702759579b5d68e2d5817af5f125f8a69c",
+      "full_decode": "PASS",
+      "duration": 32.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "duration": "32.000000",
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler"
+          }
+        }
+      ]
+    },
+    {
+      "file": "exports/DEMO/DEMO_无声_无字幕.mp4",
+      "bytes": 1136584,
+      "sha256": "8e7b9fa50be8b3a36351dd81a75c8d6a5504fb60b2db1a456ed6b84c85fe5063",
+      "full_decode": "PASS",
+      "duration": 32.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "duration": "32.000000",
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler"
+          }
+        }
+      ]
+    },
+    {
+      "file": "exports/templates/猫猫_模板与表情预览.mp4",
+      "bytes": 403146,
+      "sha256": "70f368a202812807fc761396aaaec0ef9533ed97bf7bc23129dfa1f936e9fc8e",
+      "full_decode": "PASS",
+      "duration": 10.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "duration": "10.000000",
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler"
+          }
+        }
+      ]
+    },
+    {
+      "file": "exports/templates/cat-reveal-alpha.webm",
+      "bytes": 544600,
+      "sha256": "aa1d1c67b055770325f10b00185e75c4a5d93b00fcb3a5133cd9a4935dbbff82",
+      "full_decode": "PASS",
+      "duration": 3.2,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp9",
+          "width": 1080,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "tags": {
+            "alpha_mode": "1",
+            "ENCODER": "Lavc61.19.100 libvpx-vp9",
+            "DURATION": "00:00:03.200000000"
+          }
+        }
+      ],
+      "alpha_sample": {
+        "corner_alpha": 0,
+        "max_alpha": 255,
+        "transparent_fraction": 0.6979
+      }
+    },
+    {
+      "file": "exports/templates/cat-reveal-alpha.mov",
+      "bytes": 50920347,
+      "sha256": "00cce64f240e539274cdf03a56989a7d034c5f99d228964016e5699eba7742a0",
+      "full_decode": "PASS",
+      "duration": 3.2,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "prores",
+          "width": 1080,
+          "height": 1080,
+          "pix_fmt": "yuva444p12le",
+          "avg_frame_rate": "30/1",
+          "duration": "3.200000",
+          "tags": {
+            "handler_name": "VideoHandler",
+            "vendor_id": "FFMP",
+            "encoder": "Lavc61.19.100 prores_ks"
+          }
+        }
+      ],
+      "alpha_sample": {
+        "corner_alpha": 0,
+        "max_alpha": 255,
+        "transparent_fraction": 0.699
+      }
+    },
+    {
+      "file": "exports/qa/QA-TIMING_带口播.mp4",
+      "bytes": 946606,
+      "sha256": "ce680b4a6ae4d45a5956ed02ba1149672c44ca7abadb56e87c10dbe29c26fd6b",
+      "full_decode": "PASS",
+      "duration": 13.056,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "duration": "13.000000",
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler"
+          }
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "duration": "13.056000",
+          "sample_rate": "48000",
+          "channels": 2,
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "use": "internal supplied-reference audio test, excluded from production archive"
+    }
+  ],
+  "pngs": [
+    {
+      "file": "studio/public/ip/cat-front-neutral.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        221,
+        165,
+        1043,
+        1133
+      ],
+      "transparent_fraction": 0.6429,
+      "sha256": "9ea77261367296ea595bc152d2df4581b5c51a9c9cca3b1006e1ef6bb3b99372"
+    },
+    {
+      "file": "studio/public/ip/cat-groom.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        146,
+        180,
+        1153,
+        1158
+      ],
+      "transparent_fraction": 0.6309,
+      "sha256": "8b5a09b829f99ab6bf06dc19b3aeb2e9f72c08c5626738a35bd622de50784be9"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-neutral.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        159,
+        203,
+        1114,
+        1108
+      ],
+      "transparent_fraction": 0.6994,
+      "sha256": "040fb18c2036e402bbf6f790ee29fabebc12d7c8709d828af81c32a2e6623496"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-proud.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        159,
+        203,
+        1116,
+        1109
+      ],
+      "transparent_fraction": 0.6979,
+      "sha256": "4628d7f32a38252e5eaef29934c08c86a1133ad082d20417cb6a35128d3cf0d0"
+    },
+    {
+      "file": "studio/public/ip/cat-sit-surprised.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        160,
+        203,
+        1116,
+        1108
+      ],
+      "transparent_fraction": 0.6982,
+      "sha256": "c952f145973b00ec3db5ee499f3bfd2fc862724c17e44a8764bb334a740d950b"
+    },
+    {
+      "file": "exports/templates/01-outline.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.8949,
+      "sha256": "9b9c58bfba89baf74e0facd5a9c4719c7a399edfa0469eac9e402c61f3660911"
+    },
+    {
+      "file": "exports/templates/02-features.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.7928,
+      "sha256": "67bb3b441d6e0614d923ba4f0f3051b9ffdbb7830a9eaf7c5624ff420ea41a82"
+    },
+    {
+      "file": "exports/templates/03-body.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.7382,
+      "sha256": "481f786112414271f0951e23e5bbd0276bc687dff01f14ed3e1a1f40034199c8"
+    },
+    {
+      "file": "exports/templates/04-hair.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        960,
+        955
+      ],
+      "transparent_fraction": 0.7067,
+      "sha256": "423438f597aae371be2838c4e29d7692ece0f1418ef56a1d9bada0b928988f6e"
+    },
+    {
+      "file": "exports/templates/05-rollers.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        960,
+        955
+      ],
+      "transparent_fraction": 0.699,
+      "sha256": "8b93509c4f351dc0e88a7b3dc46b45d641bbeeac989e1357b96a845fca0576c1"
+    },
+    {
+      "file": "exports/templates/06-complete.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.699,
+      "sha256": "037a82c70f36ae501876d7134370531f373b10123172607ab7eaab519141ba59"
+    },
+    {
+      "file": "exports/templates/07-surprised.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.6989,
+      "sha256": "9e6fadca4e17f4a93cf0ad7b76d3232801a861fcf4c8e2a15a5ffe1238364e10"
+    },
+    {
+      "file": "exports/templates/08-proud.png",
+      "size": [
+        1080,
+        1080
+      ],
+      "mode": "RGBA",
+      "visible_bounds_alpha_gt_8": [
+        137,
+        175,
+        959,
+        955
+      ],
+      "transparent_fraction": 0.6989,
+      "sha256": "f8b6941991fb9ae9b8f9affb569ed6fadf6c3e7920edac72e7ebe7019cfb0caa"
+    }
+  ],
+  "expression_stability": [
+    {
+      "file": "07-surprised.png",
+      "changed_pixels": 68636,
+      "changed_pixels_outside_face_bounds": 0
+    },
+    {
+      "file": "08-proud.png",
+      "changed_pixels": 68676,
+      "changed_pixels_outside_face_bounds": 0
+    }
+  ],
+  "demo_subtitle_cues": 8,
+  "limits": "Full decoding is a technical integrity check. Key frames and playback were reviewed separately; original demo uses estimated time and has no user recording."
+}

@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "id": "STYLE12",
+  "title": "收拾一下，脑内先开工",
+  "scriptVersion": "1.0",
+  "visualVersion": "3.0",
+  "status": "approved",
+  "timing": "estimated",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 12,
+  "burnCaptions": false,
+  "silenceDemo": true,
+  "audioNote": "用户已确认成人日常漫画画风，并在本轮明确要求制作12秒小样；本例无声，全部时间为预计。口播仅作动作语义与后续录音参考。",
+  "approvalNote": "2026-10-02 用户：这可以，这个画面我很满意。按这套做大概12秒的小样。此授权仅覆盖本次小样。",
+  "sources": [],
+  "narration": [
+    {
+      "id": "N01",
+      "text": "我只是想收拾一下。",
+      "estimated": {
+        "start": 0,
+        "end": 3.2
+      }
+    },
+    {
+      "id": "N02",
+      "text": "脑子里却开始施工了。",
+      "estimated": {
+        "start": 3.2,
+        "end": 8.4
+      }
+    },
+    {
+      "id": "N03",
+      "text": "算了，先梳头。",
+      "estimated": {
+        "start": 8.4,
+        "end": 12
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "镜前挑剔",
+      "narrationIds": [
+        "N01"
+      ],
+      "estimated": {
+        "start": 0,
+        "end": 3.2
+      },
+      "background": "#f4ead9",
+      "initialState": "已审定画风的浴室；同一猫母版在台面后逐步绘出，前景遮挡下半身；梳子和备用卷发器随后加入。",
+      "beats": [
+        {
+          "id": "E01",
+          "narrationId": "N01",
+          "at": 0,
+          "action": "同一猫母版开始逐步绘出",
+          "meaning": "保持已确认IP与出场机制",
+          "method": "direct"
+        },
+        {
+          "id": "E02",
+          "narrationId": "N01",
+          "at": 0.65,
+          "action": "浴室基底显出完整墨线与色面",
+          "meaning": "建立镜柜、猫与台面的空间关系",
+          "method": "direct"
+        },
+        {
+          "id": "E03",
+          "narrationId": "N01",
+          "at": 2.3,
+          "action": "梳子和一个备用卷发器出现",
+          "meaning": "建立简单的实际任务",
+          "method": "direct"
+        }
+      ],
+      "layers": [
+        {
+          "id": "room-opening",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E01",
+          "reveal": "fade",
+          "revealSeconds": 0.65
+        },
+        {
+          "id": "cat-opening",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "showAt": "E01",
+          "reveal": "draw",
+          "revealSeconds": 2.2
+        },
+        {
+          "id": "counter-opening",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E01",
+          "clipPath": "polygon(0% 87.3%, 69.8% 72.5%, 78.8% 76%, 100% 88%, 100% 100%, 0% 100%)"
+        },
+        {
+          "id": "comb-on-counter",
+          "kind": "image",
+          "x": 175,
+          "y": 941,
+          "width": 300,
+          "height": 98,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 151,
+            "y": 1040,
+            "width": 406,
+            "height": 133,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E03",
+          "reveal": "wipe",
+          "revealSeconds": 0.35
+        },
+        {
+          "id": "spare-on-counter",
+          "kind": "image",
+          "x": 595,
+          "y": 890,
+          "width": 168,
+          "height": 129,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 835,
+            "y": 1011,
+            "width": 248,
+            "height": 190,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E03",
+          "reveal": "fade",
+          "revealSeconds": 0.25
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "脑内施工",
+      "narrationIds": [
+        "N02"
+      ],
+      "estimated": {
+        "start": 3.2,
+        "end": 8.4
+      },
+      "background": "#f4ead9",
+      "initialState": "保持浴室，猫切抬爪思考姿态；一份过大的计划侵入台面，吊车与带备用卷发器的吊钩逐步介入，猫用克制反应叫停。",
+      "beats": [
+        {
+          "id": "E04",
+          "narrationId": "N02",
+          "at": 3.2,
+          "action": "切换到抬爪思考的同一猫",
+          "meaning": "把普通梳妆升级为脑内规划",
+          "method": "reaction"
+        },
+        {
+          "id": "E05",
+          "narrationId": "N02",
+          "at": 3.55,
+          "action": "过大的工程蓝图铺到台面上",
+          "meaning": "过度规划开始挤占实际任务",
+          "method": "metaphor"
+        },
+        {
+          "id": "E06",
+          "narrationId": "N02",
+          "at": 4.1,
+          "action": "吊车臂从右上逐步进入",
+          "meaning": "把修饰头发夸张成工程施工",
+          "method": "metaphor"
+        },
+        {
+          "id": "E07",
+          "narrationId": "N02",
+          "at": 4.65,
+          "action": "吊钩和备用卷发器下降",
+          "meaning": "道具对头发产生具体关系",
+          "method": "contrast"
+        },
+        {
+          "id": "E08",
+          "narrationId": "N02",
+          "at": 5.25,
+          "action": "吊钩到达卷发旁，产生一次惯性摆动",
+          "meaning": "给机械运动一个明确结果",
+          "method": "reaction"
+        },
+        {
+          "id": "E09",
+          "narrationId": "N02",
+          "at": 5.8,
+          "action": "摆动减弱，猫仍保持半眯眼",
+          "meaning": "用冷面反应承接荒诞处境",
+          "method": "reaction"
+        },
+        {
+          "id": "E10",
+          "narrationId": "N02",
+          "at": 6.4,
+          "action": "吊钩停稳，挑眉强调质疑",
+          "meaning": "不给过度规划一个热闹赞许",
+          "method": "reaction"
+        },
+        {
+          "id": "E11",
+          "narrationId": "N02",
+          "at": 7.45,
+          "action": "猫叫停，蓝图收起",
+          "meaning": "结束没有必要的工程化",
+          "method": "reaction"
+        },
+        {
+          "id": "E12",
+          "narrationId": "N02",
+          "at": 8.1,
+          "action": "吊钩升回，保留普通梳妆场景",
+          "meaning": "为回到小动作作准备",
+          "method": "callback"
+        }
+      ],
+      "layers": [
+        {
+          "id": "room-worksite",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E04"
+        },
+        {
+          "id": "cat-thinking",
+          "kind": "cat",
+          "x": 110,
+          "y": -158,
+          "width": 1440,
+          "view": "groom",
+          "showAt": "E04"
+        },
+        {
+          "id": "crane-jib",
+          "kind": "image",
+          "x": 1410,
+          "y": -75,
+          "width": 510,
+          "height": 631,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 140,
+            "y": 19,
+            "width": 404,
+            "height": 500,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E06",
+          "reveal": "wipe",
+          "revealSeconds": 0.55
+        },
+        {
+          "id": "counter-worksite",
+          "kind": "image",
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E04",
+          "clipPath": "polygon(0% 87.3%, 69.8% 72.5%, 78.8% 76%, 100% 88%, 100% 100%, 0% 100%)"
+        },
+        {
+          "id": "comb-under-plan",
+          "kind": "image",
+          "x": 175,
+          "y": 941,
+          "width": 300,
+          "height": 98,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 151,
+            "y": 1040,
+            "width": 406,
+            "height": 133,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E04"
+        },
+        {
+          "id": "plan-open",
+          "kind": "image",
+          "x": 40,
+          "y": 749,
+          "width": 1210,
+          "height": 359,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 36,
+            "y": 601,
+            "width": 633,
+            "height": 334,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E05",
+          "reveal": "wipe",
+          "revealSeconds": 0.65,
+          "hideAt": "E11",
+          "fadeOutSeconds": 0.2
+        },
+        {
+          "id": "plan-closed-medium",
+          "kind": "image",
+          "x": 48,
+          "y": 835,
+          "width": 910,
+          "height": 268,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 720,
+            "y": 659,
+            "width": 502,
+            "height": 263,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E11",
+          "reveal": "wipe",
+          "revealSeconds": 0.3
+        },
+        {
+          "id": "hanging-roller",
+          "kind": "image",
+          "x": 1399,
+          "y": -540,
+          "width": 156,
+          "height": 495,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 893,
+            "y": 32,
+            "width": 156,
+            "height": 495,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E07",
+          "transformOrigin": "50% 0%",
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E08",
+              "x": 1393,
+              "y": -130,
+              "rotation": 3
+            },
+            {
+              "at": "E09",
+              "x": 1391,
+              "y": -130,
+              "rotation": -1.5
+            },
+            {
+              "at": "E10",
+              "x": 1393,
+              "y": -130,
+              "rotation": 0
+            },
+            {
+              "at": "E11",
+              "x": 1393,
+              "y": -130,
+              "rotation": 0
+            },
+            {
+              "at": "E12",
+              "x": 1393,
+              "y": -530,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "id": "skeptical-brow-medium",
+          "kind": "path",
+          "x": 1170,
+          "y": 408,
+          "width": 90,
+          "height": 36,
+          "showAt": "E10",
+          "path": "M12 24 Q48 30 78 10",
+          "color": "#151516",
+          "strokeWidth": 7,
+          "reveal": "draw",
+          "revealSeconds": 0.22
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "无语收工",
+      "narrationIds": [
+        "N03"
+      ],
+      "estimated": {
+        "start": 8.4,
+        "end": 12
+      },
+      "background": "#f4ead9",
+      "initialState": "切到同一猫的情绪近景，保持六个卷发器；蓝图已卷起，梳子从台面来到抬起的爪子附近，最后用一个小挑眉与停顿收尾。",
+      "beats": [
+        {
+          "id": "E13",
+          "narrationId": "N03",
+          "at": 8.4,
+          "action": "切近景，保留原抬爪姿态",
+          "meaning": "让角色态度成为焦点",
+          "method": "reaction"
+        },
+        {
+          "id": "E14",
+          "narrationId": "N03",
+          "at": 8.65,
+          "action": "卷起的蓝图落在前景",
+          "meaning": "回扣被收起的过度规划",
+          "method": "callback"
+        },
+        {
+          "id": "E15",
+          "narrationId": "N03",
+          "at": 8.85,
+          "action": "普通小梳子从台面进入动作",
+          "meaning": "回到能完成的具体小事",
+          "method": "direct"
+        },
+        {
+          "id": "E16",
+          "narrationId": "N03",
+          "at": 9.55,
+          "action": "梳子到达猫爪接触位置",
+          "meaning": "不是悬空飘过，落到角色手上",
+          "method": "direct"
+        },
+        {
+          "id": "E17",
+          "narrationId": "N03",
+          "at": 10.3,
+          "action": "挑眉，保留持梳子的近景停顿",
+          "meaning": "让观众读到无语与自嘲",
+          "method": "reaction"
+        }
+      ],
+      "layers": [
+        {
+          "id": "room-close",
+          "kind": "image",
+          "x": 0,
+          "y": -110,
+          "width": 2220,
+          "height": 1249,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E13"
+        },
+        {
+          "id": "cat-close",
+          "kind": "cat",
+          "x": 435,
+          "y": -180,
+          "width": 1580,
+          "view": "groom",
+          "showAt": "E13"
+        },
+        {
+          "id": "counter-close",
+          "kind": "image",
+          "x": 0,
+          "y": -110,
+          "width": 2220,
+          "height": 1249,
+          "src": "props/style-v3/bathroom-clean.png",
+          "showAt": "E13",
+          "clipPath": "polygon(0% 87.3%, 69.8% 72.5%, 78.8% 76%, 100% 88%, 100% 100%, 0% 100%)"
+        },
+        {
+          "id": "plan-closed-close",
+          "kind": "image",
+          "x": 18,
+          "y": 818,
+          "width": 900,
+          "height": 263,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 720,
+            "y": 659,
+            "width": 502,
+            "height": 263,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E14",
+          "reveal": "wipe",
+          "revealSeconds": 0.25
+        },
+        {
+          "id": "comb-to-paw",
+          "kind": "image",
+          "x": 485,
+          "y": 868,
+          "width": 265,
+          "height": 86,
+          "src": "props/style-v3/prop-atlas.png",
+          "sourceRect": {
+            "x": 151,
+            "y": 1040,
+            "width": 406,
+            "height": 133,
+            "sourceWidth": 1254,
+            "sourceHeight": 1254
+          },
+          "showAt": "E15",
+          "rotation": -6,
+          "motionEasing": "smooth",
+          "motion": [
+            {
+              "at": "E16",
+              "x": 1310,
+              "y": 615,
+              "rotation": -86
+            }
+          ]
+        },
+        {
+          "id": "paw-over-comb",
+          "kind": "image",
+          "x": 435,
+          "y": -180,
+          "width": 1580,
+          "height": 1580,
+          "src": "ip/cat-groom.png",
+          "showAt": "E16",
+          "clipPath": "ellipse(1.8% 1.8% at 64.3% 61.1%)"
+        },
+        {
+          "id": "skeptical-brow-close",
+          "kind": "path",
+          "x": 1600,
+          "y": 445,
+          "width": 105,
+          "height": 42,
+          "showAt": "E17",
+          "path": "M12 26 Q58 34 92 10",
+          "color": "#151516",
+          "strokeWidth": 8,
+          "reveal": "draw",
+          "revealSeconds": 0.25
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-02",
+  "visual_version": "2.0",
+  "story_and_event_times": "unchanged",
+  "event_count": 23,
+  "cat_component_and_master_hashes": {
+    "studio/src/Cat.tsx": "662baed08f525bffb035fcbcf2676b7655771b409ed82cd20401a9cdd6b05fdf",
+    "studio/public/ip/cat-sit-neutral.png": "040fb18c2036e402bbf6f790ee29fabebc12d7c8709d828af81c32a2e6623496"
+  },
+  "opening_sample_comparisons": [
+    {
+      "frame": 15,
+      "seconds": 0.5,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 45,
+      "seconds": 1.5,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 60,
+      "seconds": 2.0,
+      "changed_pixels": 0
+    }
+  ],
+  "transparent_assets": [
+    {
+      "file": "studio/public/props/style-v2/construction.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bounds": [
+        161,
+        75,
+        1144,
+        1161
+      ],
+      "transparent_fraction": 0.6238,
+      "sha256": "59efe58d7ac944a3f1e1cdd3fb3ea50c0c68926d0aea55aacbedfa16d9d26c9e"
+    },
+    {
+      "file": "studio/public/props/style-v2/entry.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bounds": [
+        176,
+        57,
+        968,
+        1201
+      ],
+      "transparent_fraction": 0.5649,
+      "sha256": "7f8354965364820684516f4b08dd4213a923f259d5494811ededb100e14eb603"
+    },
+    {
+      "file": "studio/public/props/style-v2/vanity.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_bounds": [
+        233,
+        63,
+        1081,
+        1203
+      ],
+      "transparent_fraction": 0.6197,
+      "sha256": "589051138207a2b5ed705c929d6a903a596fffddeb8f010c5bbd11e4c817da55"
+    }
+  ],
+  "rendered_media": [
+    {
+      "file": "exports/DEMO/DEMO_无声.mp4",
+      "sha256": "0951cdaf2f6779b7fbc6937b2f215246c5b97a734d3a5b5a060c9e99c4c60fe2",
+      "bytes": 1872010,
+      "duration": 32.0,
+      "frames": 960,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_streams": 0,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "exports/DEMO/DEMO_无声_无字幕.mp4",
+      "sha256": "91c853f835ea5d9c060c102c2c6b6d0d65a520c5cad13966afea31f7f3aec927",
+      "bytes": 1798414,
+      "duration": 32.0,
+      "frames": 960,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_streams": 0,
+      "full_decode": "PASS"
+    }
+  ],
+  "srt": "identical to baseline",
+  "source_and_preview_snapshot": "matches author table",
+  "limits": "Opening comparisons are native rendered samples at 0.5, 1.5, and 2 seconds. Technical checks do not measure subjective style quality. Playback and key states are reviewed separately. Demo is silent with estimated timing."
+}

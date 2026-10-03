@@ -1,0 +1,685 @@
+{
+  "date": "2026-10-02",
+  "scope": "P001 opening 60-second static storyboard; no video",
+  "ok": true,
+  "checks": {
+    "original_script_hash": true,
+    "exact_script_prefix": true,
+    "draft_estimated_60s_no_voice": true,
+    "approval_pending": true,
+    "narration_continuous": true,
+    "scene_continuous": true,
+    "narration_scene_coverage": true,
+    "45_unique_events_and_layers": true,
+    "chronological_events": true,
+    "E01_references": true,
+    "E01_anchor": true,
+    "E02_references": true,
+    "E02_anchor": true,
+    "E03_references": true,
+    "E03_anchor": true,
+    "E04_references": true,
+    "E04_anchor": true,
+    "E05_references": true,
+    "E05_anchor": true,
+    "E06_references": true,
+    "E06_anchor": true,
+    "E07_references": true,
+    "E07_anchor": true,
+    "E08_references": true,
+    "E08_anchor": true,
+    "E09_references": true,
+    "E09_anchor": true,
+    "E10_references": true,
+    "E10_anchor": true,
+    "E11_references": true,
+    "E11_anchor": true,
+    "E12_references": true,
+    "E12_anchor": true,
+    "E13_references": true,
+    "E13_anchor": true,
+    "E14_references": true,
+    "E14_anchor": true,
+    "E15_references": true,
+    "E15_anchor": true,
+    "E16_references": true,
+    "E16_anchor": true,
+    "E17_references": true,
+    "E17_anchor": true,
+    "E18_references": true,
+    "E18_anchor": true,
+    "E19_references": true,
+    "E19_anchor": true,
+    "E20_references": true,
+    "E20_anchor": true,
+    "E21_references": true,
+    "E21_anchor": true,
+    "E22_references": true,
+    "E22_anchor": true,
+    "E23_references": true,
+    "E23_anchor": true,
+    "E24_references": true,
+    "E24_anchor": true,
+    "E25_references": true,
+    "E25_anchor": true,
+    "E26_references": true,
+    "E26_anchor": true,
+    "E27_references": true,
+    "E27_anchor": true,
+    "E28_references": true,
+    "E28_anchor": true,
+    "E29_references": true,
+    "E29_anchor": true,
+    "E30_references": true,
+    "E30_anchor": true,
+    "E31_references": true,
+    "E31_anchor": true,
+    "E32_references": true,
+    "E32_anchor": true,
+    "E33_references": true,
+    "E33_anchor": true,
+    "E34_references": true,
+    "E34_anchor": true,
+    "E35_references": true,
+    "E35_anchor": true,
+    "E36_references": true,
+    "E36_anchor": true,
+    "E37_references": true,
+    "E37_anchor": true,
+    "E38_references": true,
+    "E38_anchor": true,
+    "E39_references": true,
+    "E39_anchor": true,
+    "E40_references": true,
+    "E40_anchor": true,
+    "E41_references": true,
+    "E41_anchor": true,
+    "E42_references": true,
+    "E42_anchor": true,
+    "E43_references": true,
+    "E43_anchor": true,
+    "E44_references": true,
+    "E44_anchor": true,
+    "E45_references": true,
+    "E45_anchor": true,
+    "manifest_current_author_table": true,
+    "manifest_event_coverage": true,
+    "native_author_copy": true,
+    "E01_manifest": true,
+    "E01_native_copy": true,
+    "E01_2K_decodes_not_blank": true,
+    "E02_manifest": true,
+    "E02_native_copy": true,
+    "E02_2K_decodes_not_blank": true,
+    "E03_manifest": true,
+    "E03_native_copy": true,
+    "E03_2K_decodes_not_blank": true,
+    "E04_manifest": true,
+    "E04_native_copy": true,
+    "E04_2K_decodes_not_blank": true,
+    "E05_manifest": true,
+    "E05_native_copy": true,
+    "E05_2K_decodes_not_blank": true,
+    "E06_manifest": true,
+    "E06_native_copy": true,
+    "E06_2K_decodes_not_blank": true,
+    "E07_manifest": true,
+    "E07_native_copy": true,
+    "E07_2K_decodes_not_blank": true,
+    "E08_manifest": true,
+    "E08_native_copy": true,
+    "E08_2K_decodes_not_blank": true,
+    "E09_manifest": true,
+    "E09_native_copy": true,
+    "E09_2K_decodes_not_blank": true,
+    "E10_manifest": true,
+    "E10_native_copy": true,
+    "E10_2K_decodes_not_blank": true,
+    "E11_manifest": true,
+    "E11_native_copy": true,
+    "E11_2K_decodes_not_blank": true,
+    "E12_manifest": true,
+    "E12_native_copy": true,
+    "E12_2K_decodes_not_blank": true,
+    "E13_manifest": true,
+    "E13_native_copy": true,
+    "E13_2K_decodes_not_blank": true,
+    "E14_manifest": true,
+    "E14_native_copy": true,
+    "E14_2K_decodes_not_blank": true,
+    "E15_manifest": true,
+    "E15_native_copy": true,
+    "E15_2K_decodes_not_blank": true,
+    "E16_manifest": true,
+    "E16_native_copy": true,
+    "E16_2K_decodes_not_blank": true,
+    "E17_manifest": true,
+    "E17_native_copy": true,
+    "E17_2K_decodes_not_blank": true,
+    "E18_manifest": true,
+    "E18_native_copy": true,
+    "E18_2K_decodes_not_blank": true,
+    "E19_manifest": true,
+    "E19_native_copy": true,
+    "E19_2K_decodes_not_blank": true,
+    "E20_manifest": true,
+    "E20_native_copy": true,
+    "E20_2K_decodes_not_blank": true,
+    "E21_manifest": true,
+    "E21_native_copy": true,
+    "E21_2K_decodes_not_blank": true,
+    "E22_manifest": true,
+    "E22_native_copy": true,
+    "E22_2K_decodes_not_blank": true,
+    "E23_manifest": true,
+    "E23_native_copy": true,
+    "E23_2K_decodes_not_blank": true,
+    "E24_manifest": true,
+    "E24_native_copy": true,
+    "E24_2K_decodes_not_blank": true,
+    "E25_manifest": true,
+    "E25_native_copy": true,
+    "E25_2K_decodes_not_blank": true,
+    "E26_manifest": true,
+    "E26_native_copy": true,
+    "E26_2K_decodes_not_blank": true,
+    "E27_manifest": true,
+    "E27_native_copy": true,
+    "E27_2K_decodes_not_blank": true,
+    "E28_manifest": true,
+    "E28_native_copy": true,
+    "E28_2K_decodes_not_blank": true,
+    "E29_manifest": true,
+    "E29_native_copy": true,
+    "E29_2K_decodes_not_blank": true,
+    "E30_manifest": true,
+    "E30_native_copy": true,
+    "E30_2K_decodes_not_blank": true,
+    "E31_manifest": true,
+    "E31_native_copy": true,
+    "E31_2K_decodes_not_blank": true,
+    "E32_manifest": true,
+    "E32_native_copy": true,
+    "E32_2K_decodes_not_blank": true,
+    "E33_manifest": true,
+    "E33_native_copy": true,
+    "E33_2K_decodes_not_blank": true,
+    "E34_manifest": true,
+    "E34_native_copy": true,
+    "E34_2K_decodes_not_blank": true,
+    "E35_manifest": true,
+    "E35_native_copy": true,
+    "E35_2K_decodes_not_blank": true,
+    "E36_manifest": true,
+    "E36_native_copy": true,
+    "E36_2K_decodes_not_blank": true,
+    "E37_manifest": true,
+    "E37_native_copy": true,
+    "E37_2K_decodes_not_blank": true,
+    "E38_manifest": true,
+    "E38_native_copy": true,
+    "E38_2K_decodes_not_blank": true,
+    "E39_manifest": true,
+    "E39_native_copy": true,
+    "E39_2K_decodes_not_blank": true,
+    "E40_manifest": true,
+    "E40_native_copy": true,
+    "E40_2K_decodes_not_blank": true,
+    "E41_manifest": true,
+    "E41_native_copy": true,
+    "E41_2K_decodes_not_blank": true,
+    "E42_manifest": true,
+    "E42_native_copy": true,
+    "E42_2K_decodes_not_blank": true,
+    "E43_manifest": true,
+    "E43_native_copy": true,
+    "E43_2K_decodes_not_blank": true,
+    "E44_manifest": true,
+    "E44_native_copy": true,
+    "E44_2K_decodes_not_blank": true,
+    "E45_manifest": true,
+    "E45_native_copy": true,
+    "E45_2K_decodes_not_blank": true,
+    "45_distinct_visual_states": true,
+    "shot01.png_master_and_copy": true,
+    "shot02.png_master_and_copy": true,
+    "shot03.png_master_and_copy": true,
+    "shot04.png_master_and_copy": true,
+    "shot05.png_master_and_copy": true,
+    "shot06.png_master_and_copy": true,
+    "shot07.png_master_and_copy": true,
+    "shot08.png_master_and_copy": true,
+    "prior_44_protected_files_unchanged": true,
+    "16_estimated_captions": true,
+    "srt_end_time": true,
+    "no_video_audio_elements": true,
+    "review_link_states/E01.png": true,
+    "review_link_overview.png": true,
+    "review_link_states/E02.png": true,
+    "review_link_states/E03.png": true,
+    "review_link_states/E04.png": true,
+    "review_link_states/E05.png": true,
+    "review_link_states/E06.png": true,
+    "review_link_states/E07.png": true,
+    "review_link_states/E08.png": true,
+    "review_link_states/E09.png": true,
+    "review_link_states/E10.png": true,
+    "review_link_states/E11.png": true,
+    "review_link_states/E12.png": true,
+    "review_link_states/E13.png": true,
+    "review_link_states/E14.png": true,
+    "review_link_states/E15.png": true,
+    "review_link_states/E16.png": true,
+    "review_link_states/E17.png": true,
+    "review_link_states/E18.png": true,
+    "review_link_states/E19.png": true,
+    "review_link_states/E20.png": true,
+    "review_link_states/E21.png": true,
+    "review_link_states/E22.png": true,
+    "review_link_states/E23.png": true,
+    "review_link_states/E24.png": true,
+    "review_link_states/E25.png": true,
+    "review_link_states/E26.png": true,
+    "review_link_states/E27.png": true,
+    "review_link_states/E28.png": true,
+    "review_link_states/E29.png": true,
+    "review_link_states/E30.png": true,
+    "review_link_states/E31.png": true,
+    "review_link_states/E32.png": true,
+    "review_link_states/E33.png": true,
+    "review_link_states/E34.png": true,
+    "review_link_states/E35.png": true,
+    "review_link_states/E36.png": true,
+    "review_link_states/E37.png": true,
+    "review_link_states/E38.png": true,
+    "review_link_states/E39.png": true,
+    "review_link_states/E40.png": true,
+    "review_link_states/E41.png": true,
+    "review_link_states/E42.png": true,
+    "review_link_states/E43.png": true,
+    "review_link_states/E44.png": true,
+    "review_link_states/E45.png": true,
+    "review_link_../episode.json": true,
+    "review_link_review.md": true,
+    "review_link_script.txt": true,
+    "review_link_estimated.srt": true,
+    "review_link_evidence/generation-record.json": true,
+    "no_video_output_in_episode": true
+  },
+  "counts": {
+    "narration": 16,
+    "scenes": 8,
+    "events": 45,
+    "characters": 215,
+    "protectedFiles": 44
+  },
+  "sourceSha256": "7968e67b09cc2806e3987d18f5ae22e29773034920538ddf5b2ef4baf4d5ee07",
+  "episodeSha256": "8d94cefe44c77ad058e8dcdb69e0f5d0fad2d7d47db0056d92b121339cb977b9",
+  "imageChecks": [
+    {
+      "event": "E01",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 23.99
+    },
+    {
+      "event": "E02",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 24.06
+    },
+    {
+      "event": "E03",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 86.11
+    },
+    {
+      "event": "E04",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 76.0
+    },
+    {
+      "event": "E05",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 22.67
+    },
+    {
+      "event": "E06",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 22.84
+    },
+    {
+      "event": "E07",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 76.11
+    },
+    {
+      "event": "E08",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 71.05
+    },
+    {
+      "event": "E09",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 71.08
+    },
+    {
+      "event": "E10",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 23.92
+    },
+    {
+      "event": "E11",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 91.96
+    },
+    {
+      "event": "E12",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 77.4
+    },
+    {
+      "event": "E13",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 24.29
+    },
+    {
+      "event": "E14",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 91.74
+    },
+    {
+      "event": "E15",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 74.84
+    },
+    {
+      "event": "E16",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 74.86
+    },
+    {
+      "event": "E17",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 24.16
+    },
+    {
+      "event": "E18",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 24.36
+    },
+    {
+      "event": "E19",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 83.92
+    },
+    {
+      "event": "E20",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 70.28
+    },
+    {
+      "event": "E21",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 70.25
+    },
+    {
+      "event": "E22",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 70.45
+    },
+    {
+      "event": "E23",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 70.1
+    },
+    {
+      "event": "E24",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 70.06
+    },
+    {
+      "event": "E25",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 78.01
+    },
+    {
+      "event": "E26",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 78.08
+    },
+    {
+      "event": "E27",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 78.17
+    },
+    {
+      "event": "E28",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 78.2
+    },
+    {
+      "event": "E29",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 78.08
+    },
+    {
+      "event": "E30",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 23.3
+    },
+    {
+      "event": "E31",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 86.39
+    },
+    {
+      "event": "E32",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.75
+    },
+    {
+      "event": "E33",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.47
+    },
+    {
+      "event": "E34",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.23
+    },
+    {
+      "event": "E35",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.17
+    },
+    {
+      "event": "E36",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.16
+    },
+    {
+      "event": "E37",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 84.01
+    },
+    {
+      "event": "E38",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 83.18
+    },
+    {
+      "event": "E39",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 83.07
+    },
+    {
+      "event": "E40",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 83.05
+    },
+    {
+      "event": "E41",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 82.86
+    },
+    {
+      "event": "E42",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 82.6
+    },
+    {
+      "event": "E43",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 81.87
+    },
+    {
+      "event": "E44",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 81.53
+    },
+    {
+      "event": "E45",
+      "size": [
+        2560,
+        1440
+      ],
+      "lumaStddev": 80.84
+    }
+  ],
+  "limits": [
+    "Still states verify composition, phase differences and references only.",
+    "Continuous animation, voice timing and audio have not been produced or verified."
+  ],
+  "uiVerificationFile": "ui-verification.json"
+}

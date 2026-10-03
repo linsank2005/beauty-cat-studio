@@ -2,18 +2,18 @@ Beauty Cat 粉猫工作室
 
 换电脑：先安装 Node.js 24 LTS、Python 3.12 x64 与 FFmpeg/ffprobe，并加入 PATH。
 在项目目录执行：
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Start-Cat.ps1 -Action setup
+.\Start-Cat.cmd -Action setup
 
 看 P001 一分钟分镜：
-.\Start-Cat.ps1 -Action board -Episode P001
+.\Start-Cat.cmd -Action board -Episode P001
 打开终端显示的本地地址；结束用 Ctrl+C。
 
 看已导出样片：打开 exports/index.html。
 打开动画工作台：
-.\Start-Cat.ps1 -Action preview -Episode STYLE12
+.\Start-Cat.cmd -Action preview -Episode STYLE12
 
 需要对齐新旁白才执行：
-.\Start-Cat.ps1 -Action setup -InstallModel
+.\Start-Cat.cmd -Action setup -InstallModel
 
 完整说明和每日制作流程见 README.md。
 公开仓库：https://github.com/linsank2005/beauty-cat-studio

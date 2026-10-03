@@ -2,9 +2,9 @@
   "date": "2026-10-03",
   "kind": "public runnable source and authored assets",
   "hashScope": "source bytes before Git text newline normalization; authored episode tables and the P001 source script preserve exact bytes",
-  "fileCount": 316,
-  "bytes": 312996038,
-  "uniqueBlobBytes": 195233142,
+  "fileCount": 317,
+  "bytes": 312996317,
+  "uniqueBlobBytes": 195233421,
   "credentialsDetected": false,
   "excluded": [
     "machine settings and secrets",
@@ -31,8 +31,8 @@
     },
     {
       "file": ".gitattributes",
-      "bytes": 420,
-      "sha256": "04783fe9e58da37cb792c3a72936bab0219df0f04fa0aa1d1a6bbb2711a83e2f"
+      "bytes": 440,
+      "sha256": "d696281ca3cfb38a1e2fe21c8924e0f6899f27c96bb3069bfeedbb0b99d218e9"
     },
     {
       "file": ".github/workflows/check.yml",
@@ -116,8 +116,13 @@
     },
     {
       "file": "README.md",
-      "bytes": 6086,
-      "sha256": "c964e295c4281d6349c1123fb3c0aab5ca83f68da8eb52eb1bb0e369d19b4461"
+      "bytes": 6149,
+      "sha256": "82fc0881ae3e1bd199bce5c6e351f75a227bda6b3392793c2b739ebd958ed247"
+    },
+    {
+      "file": "Start-Cat.cmd",
+      "bytes": 119,
+      "sha256": "ac828d422d71a89552c9032f037489cca5fe9f14c57370ce36db5182d7700001"
     },
     {
       "file": "Start-Cat.ps1",
@@ -316,8 +321,8 @@
     },
     {
       "file": "docs/verification/migration-20261003.md",
-      "bytes": 1710,
-      "sha256": "5d710ea66e49511df868f705f67a21d55ea03e7fe4b6a67290ec1bdc14c589fb"
+      "bytes": 1839,
+      "sha256": "9a92ba63d5a525ebdc4c1c8c4a0a18a4cbbac59b12d0deebd577503242cf6b1e"
     },
     {
       "file": "docs/verification/交付验证.md",
@@ -512,7 +517,7 @@
     {
       "file": "episodes/P001/README.md",
       "bytes": 1193,
-      "sha256": "b4ed20d15c3f1a100429b1e324415f43986424b2da384fa517497126f56901e6"
+      "sha256": "524572491d7248c147bd6a3fa1734c390d1658d9026dac89f70816abea003fae"
     },
     {
       "file": "episodes/P001/build-review.mjs",
@@ -1576,8 +1581,8 @@
     },
     {
       "file": "使用说明.txt",
-      "bytes": 677,
-      "sha256": "bc3490a35fdc0a9bf47bd346fbf79ebeb29bc01f52a09af928982c5141815ce0"
+      "bytes": 625,
+      "sha256": "c61530b35da79ab563998fdfe36ea402caa3329de05f560862f23dd24e4f5934"
     },
     {
       "file": "粉猫动画_生产总提示词_V1.md",

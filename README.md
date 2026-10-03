@@ -17,20 +17,20 @@
 ```powershell
 git clone https://github.com/linsank2005/beauty-cat-studio.git
 cd beauty-cat-studio
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Start-Cat.ps1 -Action setup
+.\Start-Cat.cmd -Action setup
 ```
 
-首次 `setup` 自动识别工具、生成不入库的 `local.config.json`，安装锁定的 Python / Node 依赖，下载渲染浏览器，并准备预览副本。已有配置不覆盖。首次安装需要联网；依赖安装在项目内。
+首次 `setup` 自动识别工具、生成不入库的 `local.config.json`，安装锁定的 Python / Node 依赖，下载渲染浏览器，并准备预览副本。已有配置不覆盖。首次安装需要联网；依赖安装在项目内。`Start-Cat.cmd` 调用统一的 PowerShell 入口，仅在当前进程允许执行，不修改系统执行策略。
 
 随后选择入口：
 
 ```powershell
 # 看当前 P001 的一分钟分镜，打开终端显示的地址
-.\Start-Cat.ps1 -Action board -Episode P001
+.\Start-Cat.cmd -Action board -Episode P001
 
 # 检查工程并打开动画工作台
-.\Start-Cat.ps1 -Action check -Episode P001
-.\Start-Cat.ps1 -Action preview -Episode STYLE12
+.\Start-Cat.cmd -Action check -Episode P001
+.\Start-Cat.cmd -Action preview -Episode STYLE12
 ```
 
 分镜页也能直接打开 [episodes/P001/review/index.html](episodes/P001/review/index.html)；已导出样片可直接打开 [exports/index.html](exports/index.html)。`board` 默认端口 3370，占用时加 `-Port 3371`；终端用 Ctrl+C 停止。
@@ -38,8 +38,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Start-Cat.ps1 -Action setu
 **需要对齐新旁白时，再安装识别模型：**
 
 ```powershell
-.\Start-Cat.ps1 -Action setup -InstallModel
-.\Start-Cat.ps1 -Action doctor -RequireModel
+.\Start-Cat.cmd -Action setup -InstallModel
+.\Start-Cat.cmd -Action doctor -RequireModel
 ```
 
 模型下载到本机 `.cache/models/faster-whisper-small/`；不需要 GPU，不上传 GitHub。已有配置指向完整模型时直接复用。没有模型时仍可看分镜、预览动画、导出已编排的视频。工具不在 PATH 时，可按 [配置示例](local.config.example.json)填写本机绝对路径后运行 `setup`。
@@ -65,9 +65,9 @@ P001 的线稿与填色属于分镜示意；逐笔路径、透明分层和连续
 唯一作者主表是 `episodes/<期号>/episode.json`；实际时间另存 `episode.aligned.json`，预览副本与审阅稿均由主表派生。示例：
 
 ```powershell
-.\Start-Cat.ps1 -Action align -Episode P001 -Audio 'D:\录音\P001.wav'
-.\Start-Cat.ps1 -Action check -Episode P001 -Actual
-.\Start-Cat.ps1 -Action render -Episode P001 -Actual
+.\Start-Cat.cmd -Action align -Episode P001 -Audio 'D:\录音\P001.wav'
+.\Start-Cat.cmd -Action check -Episode P001 -Actual
+.\Start-Cat.cmd -Action render -Episode P001 -Actual
 ```
 
 `draft` 不可直接导出视频；口播／分镜先设为已审核，录音对齐后仍须复核实际编排。`-Silent` 出纯画面，`-Clean` 去烧录字幕，独立 SRT 保留；修订已有输出加 `-Overwrite`。输出统一在 `exports/<期号>/`。

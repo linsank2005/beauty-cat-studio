@@ -5,6 +5,7 @@
 | 检查 | 结果 |
 |---|---|
 | Windows PowerShell 5.1 执行 `Start-Cat.ps1 -Action setup` | 通过：识别 PATH 工具，生成本机配置，安装锁定依赖并下载渲染浏览器 |
+| `Start-Cat.cmd` 启动包装 | 在执行策略为 Restricted 的父 PowerShell 中调用成功，系统执行策略未修改 |
 | TypeScript 与 P001／DEMO_V3_2K 实际主表检查 | 通过 |
 | `episodes/P001/verify-review.py` | 302 项检查通过；原稿、分镜关系、2K 状态图和 23 项固定 IP／画风素材通过 |
 | 新目录分镜页 | 正常打开；“下一步”从 E01 切到 E02，当前 2K 图和可见缩略图加载正常 |

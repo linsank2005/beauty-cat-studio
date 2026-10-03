@@ -12,8 +12,8 @@
 
 ```powershell
 node episodes\P001\build-review.mjs
-.\Start-Cat.ps1 -Action check -Episode P001
-.\Start-Cat.ps1 -Action board -Episode P001
+.\Start-Cat.cmd -Action check -Episode P001
+.\Start-Cat.cmd -Action board -Episode P001
 ```
 
 浏览器地址以终端显示为准，默认 <http://127.0.0.1:3370/review/index.html>。本页仍停在分镜验收阶段。
